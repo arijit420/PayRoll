@@ -23,7 +23,7 @@
                 Me.Hide()
                 Form2.Show()
             Else
-                MsgBox("Please check your Userid & Password", vbCritical, "Login Error")
+                MsgBox("Please check your Userid & Password", vbCritical, "Login Error!")
             End If
         ElseIf (RadioButton2.checked = True) Then
         Else
