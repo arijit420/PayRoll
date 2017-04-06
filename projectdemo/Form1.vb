@@ -27,7 +27,7 @@
             End If
         ElseIf (RadioButton2.checked = True) Then
         Else
-            MsgBox("please choose the user type", vbInformation, "Login error")
+            MsgBox("Please choose the user type!", vbInformation, "Login error")
         End If
         TextBox1.Text = ""
         TextBox2.Text = ""
