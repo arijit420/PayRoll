@@ -22,7 +22,6 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.EmployeeID = New System.Windows.Forms.TextBox()
         Me.EmployeeName = New System.Windows.Forms.TextBox()
         Me.MblNo = New System.Windows.Forms.TextBox()
         Me.WorkingDay = New System.Windows.Forms.TextBox()
@@ -62,21 +61,15 @@ Partial Class Form4
         Me.netpaymentt = New System.Windows.Forms.Label()
         Me.paymentt = New System.Windows.Forms.Label()
         Me.NETPAYMENT = New System.Windows.Forms.TextBox()
-        Me.Designation = New System.Windows.Forms.ComboBox()
         Me.ADD = New System.Windows.Forms.Button()
         Me.SAVE = New System.Windows.Forms.Button()
         Me.CLEAR = New System.Windows.Forms.Button()
         Me.EXITT = New System.Windows.Forms.Button()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.payementdatee = New System.Windows.Forms.Label()
+        Me.Designation = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
-        '
-        'EmployeeID
-        '
-        Me.EmployeeID.Location = New System.Drawing.Point(132, 84)
-        Me.EmployeeID.Name = "EmployeeID"
-        Me.EmployeeID.Size = New System.Drawing.Size(100, 20)
-        Me.EmployeeID.TabIndex = 0
         '
         'EmployeeName
         '
@@ -406,14 +399,6 @@ Partial Class Form4
         Me.NETPAYMENT.Size = New System.Drawing.Size(134, 20)
         Me.NETPAYMENT.TabIndex = 40
         '
-        'Designation
-        '
-        Me.Designation.FormattingEnabled = True
-        Me.Designation.Location = New System.Drawing.Point(132, 196)
-        Me.Designation.Name = "Designation"
-        Me.Designation.Size = New System.Drawing.Size(121, 21)
-        Me.Designation.TabIndex = 41
-        '
         'ADD
         '
         Me.ADD.BackColor = System.Drawing.Color.Teal
@@ -470,19 +455,35 @@ Partial Class Form4
         Me.payementdatee.TabIndex = 47
         Me.payementdatee.Text = "Payment Date"
         '
+        'Designation
+        '
+        Me.Designation.Location = New System.Drawing.Point(132, 199)
+        Me.Designation.Name = "Designation"
+        Me.Designation.Size = New System.Drawing.Size(100, 20)
+        Me.Designation.TabIndex = 48
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(132, 84)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(128, 21)
+        Me.ComboBox1.TabIndex = 49
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(747, 523)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.Designation)
         Me.Controls.Add(Me.payementdatee)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.EXITT)
         Me.Controls.Add(Me.CLEAR)
         Me.Controls.Add(Me.SAVE)
         Me.Controls.Add(Me.ADD)
-        Me.Controls.Add(Me.Designation)
         Me.Controls.Add(Me.NETPAYMENT)
         Me.Controls.Add(Me.paymentt)
         Me.Controls.Add(Me.netpaymentt)
@@ -522,15 +523,12 @@ Partial Class Form4
         Me.Controls.Add(Me.WorkingDay)
         Me.Controls.Add(Me.MblNo)
         Me.Controls.Add(Me.EmployeeName)
-        Me.Controls.Add(Me.EmployeeID)
         Me.Name = "Form4"
         Me.Text = "Form4"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents EmployeeID As TextBox
     Friend WithEvents EmployeeName As TextBox
     Friend WithEvents MblNo As TextBox
     Friend WithEvents WorkingDay As TextBox
@@ -570,11 +568,12 @@ Partial Class Form4
     Friend WithEvents netpaymentt As Label
     Friend WithEvents paymentt As Label
     Friend WithEvents NETPAYMENT As TextBox
-    Friend WithEvents Designation As ComboBox
     Friend WithEvents ADD As Button
     Friend WithEvents SAVE As Button
     Friend WithEvents CLEAR As Button
     Friend WithEvents EXITT As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents payementdatee As Label
+    Friend WithEvents Designation As TextBox
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
