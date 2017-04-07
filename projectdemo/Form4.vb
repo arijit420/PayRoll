@@ -1,5 +1,5 @@
 ﻿Public Class Form4
-    Dim d As Integer
+
 
     Private Sub ADD_Click(sender As Object, e As EventArgs) Handles ADD.Click
         Basicamt.Text = Val(Salary.Text) * (40 / 100)
@@ -10,9 +10,12 @@
         MEDICAL.Text = (Val(Salary.Text) + Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (30 / 100)
         LTA.Text = (Val(Salary.Text) + Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (35 / 100)
         GROSS.Text = Val(Basicamt.Text) + Val(DA.Text) + Val(HRA.Text) + Val(ESI.Text) + Val(PF.Text) + Val(MEDICAL.Text)
-        DeductSalary.Text = If(d < 26) Then
-                              DeductSalary.Text = Val(Salary.Text) * (10 / 100)
-        NETPAYMENT.Text = (Val(GROSS.Text) + Val(DeductSalary.Text) + Val(LOANAdj.Text))
+        If (Val(WorkingDay.Text < 26)) Then
+            DeductSalary.Text = Val(Salary.Text) * (10 / 100)
+        Else
+            DeductSalary.Text = 0
+        End If
+        NETPAYMENT.Text = (Val(GROSS.Text) - Val(DeductSalary.Text) - Val(LOANAdj.Text))
 
 
     End Sub
@@ -47,5 +50,9 @@
 
     Private Sub GROSS_TextChanged(sender As Object, e As EventArgs) Handles GROSS.TextChanged
 
+    End Sub
+
+    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.WindowState = FormWindowState.Maximized
     End Sub
 End Class

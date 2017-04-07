@@ -26,6 +26,12 @@
                 MsgBox("Please check your Userid & Password", vbCritical, "Login Error!")
             End If
         ElseIf (RadioButton2.checked = True) Then
+            If (TextBox1.Text = "operator" AndAlso TextBox2.Text = "1234") Then
+                Me.Hide()
+                Form4.Show()
+            Else
+                MsgBox("Please check your Userid & Password", vbCritical, "Login Error!")
+            End If
         Else
             MsgBox("Please choose the user type!", vbInformation, "Login error")
         End If
