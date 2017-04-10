@@ -67,55 +67,57 @@ Partial Class Form4
         Me.EXITT = New System.Windows.Forms.Button()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.payementdatee = New System.Windows.Forms.Label()
-        Me.Designation = New System.Windows.Forms.TextBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.branch = New System.Windows.Forms.Label()
+        Me.branh = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'EmployeeName
         '
-        Me.EmployeeName.Location = New System.Drawing.Point(132, 125)
+        Me.EmployeeName.Location = New System.Drawing.Point(132, 156)
         Me.EmployeeName.Name = "EmployeeName"
         Me.EmployeeName.Size = New System.Drawing.Size(150, 20)
         Me.EmployeeName.TabIndex = 1
         '
         'MblNo
         '
-        Me.MblNo.Location = New System.Drawing.Point(132, 158)
+        Me.MblNo.Location = New System.Drawing.Point(132, 189)
         Me.MblNo.Name = "MblNo"
         Me.MblNo.Size = New System.Drawing.Size(128, 20)
         Me.MblNo.TabIndex = 2
         '
         'WorkingDay
         '
-        Me.WorkingDay.Location = New System.Drawing.Point(132, 239)
+        Me.WorkingDay.Location = New System.Drawing.Point(132, 270)
         Me.WorkingDay.Name = "WorkingDay"
         Me.WorkingDay.Size = New System.Drawing.Size(100, 20)
         Me.WorkingDay.TabIndex = 4
         '
         'OverTime
         '
-        Me.OverTime.Location = New System.Drawing.Point(132, 280)
+        Me.OverTime.Location = New System.Drawing.Point(132, 311)
         Me.OverTime.Name = "OverTime"
         Me.OverTime.Size = New System.Drawing.Size(100, 20)
         Me.OverTime.TabIndex = 5
         '
         'OverTimeRate
         '
-        Me.OverTimeRate.Location = New System.Drawing.Point(132, 321)
+        Me.OverTimeRate.Location = New System.Drawing.Point(132, 352)
         Me.OverTimeRate.Name = "OverTimeRate"
         Me.OverTimeRate.Size = New System.Drawing.Size(100, 20)
         Me.OverTimeRate.TabIndex = 6
         '
         'Salary
         '
-        Me.Salary.Location = New System.Drawing.Point(132, 359)
+        Me.Salary.Location = New System.Drawing.Point(132, 390)
         Me.Salary.Name = "Salary"
         Me.Salary.Size = New System.Drawing.Size(100, 20)
         Me.Salary.TabIndex = 7
         '
         'LOANamt
         '
-        Me.LOANamt.Location = New System.Drawing.Point(132, 400)
+        Me.LOANamt.Location = New System.Drawing.Point(132, 431)
         Me.LOANamt.Name = "LOANamt"
         Me.LOANamt.Size = New System.Drawing.Size(100, 20)
         Me.LOANamt.TabIndex = 8
@@ -212,7 +214,7 @@ Partial Class Form4
         'employeenamee
         '
         Me.employeenamee.AutoSize = True
-        Me.employeenamee.Location = New System.Drawing.Point(33, 132)
+        Me.employeenamee.Location = New System.Drawing.Point(33, 163)
         Me.employeenamee.Name = "employeenamee"
         Me.employeenamee.Size = New System.Drawing.Size(84, 13)
         Me.employeenamee.TabIndex = 20
@@ -221,7 +223,7 @@ Partial Class Form4
         'mblnoo
         '
         Me.mblnoo.AutoSize = True
-        Me.mblnoo.Location = New System.Drawing.Point(39, 169)
+        Me.mblnoo.Location = New System.Drawing.Point(39, 200)
         Me.mblnoo.Name = "mblnoo"
         Me.mblnoo.Size = New System.Drawing.Size(41, 13)
         Me.mblnoo.TabIndex = 21
@@ -230,7 +232,7 @@ Partial Class Form4
         'designationn
         '
         Me.designationn.AutoSize = True
-        Me.designationn.Location = New System.Drawing.Point(39, 199)
+        Me.designationn.Location = New System.Drawing.Point(39, 230)
         Me.designationn.Name = "designationn"
         Me.designationn.Size = New System.Drawing.Size(57, 13)
         Me.designationn.TabIndex = 22
@@ -239,7 +241,7 @@ Partial Class Form4
         'workingdayy
         '
         Me.workingdayy.AutoSize = True
-        Me.workingdayy.Location = New System.Drawing.Point(39, 242)
+        Me.workingdayy.Location = New System.Drawing.Point(39, 273)
         Me.workingdayy.Name = "workingdayy"
         Me.workingdayy.Size = New System.Drawing.Size(69, 13)
         Me.workingdayy.TabIndex = 23
@@ -248,7 +250,7 @@ Partial Class Form4
         'overtimee
         '
         Me.overtimee.AutoSize = True
-        Me.overtimee.Location = New System.Drawing.Point(33, 287)
+        Me.overtimee.Location = New System.Drawing.Point(33, 318)
         Me.overtimee.Name = "overtimee"
         Me.overtimee.Size = New System.Drawing.Size(84, 13)
         Me.overtimee.TabIndex = 24
@@ -257,7 +259,7 @@ Partial Class Form4
         'overtimeratee
         '
         Me.overtimeratee.AutoSize = True
-        Me.overtimeratee.Location = New System.Drawing.Point(16, 324)
+        Me.overtimeratee.Location = New System.Drawing.Point(16, 355)
         Me.overtimeratee.Name = "overtimeratee"
         Me.overtimeratee.Size = New System.Drawing.Size(110, 13)
         Me.overtimeratee.TabIndex = 25
@@ -266,7 +268,7 @@ Partial Class Form4
         'salaryy
         '
         Me.salaryy.AutoSize = True
-        Me.salaryy.Location = New System.Drawing.Point(44, 366)
+        Me.salaryy.Location = New System.Drawing.Point(44, 397)
         Me.salaryy.Name = "salaryy"
         Me.salaryy.Size = New System.Drawing.Size(36, 13)
         Me.salaryy.TabIndex = 26
@@ -275,7 +277,7 @@ Partial Class Form4
         'loanamtt
         '
         Me.loanamtt.AutoSize = True
-        Me.loanamtt.Location = New System.Drawing.Point(30, 403)
+        Me.loanamtt.Location = New System.Drawing.Point(30, 434)
         Me.loanamtt.Name = "loanamtt"
         Me.loanamtt.Size = New System.Drawing.Size(78, 13)
         Me.loanamtt.TabIndex = 27
@@ -365,7 +367,7 @@ Partial Class Form4
         'loanadjj
         '
         Me.loanadjj.AutoSize = True
-        Me.loanadjj.Location = New System.Drawing.Point(280, 429)
+        Me.loanadjj.Location = New System.Drawing.Point(280, 430)
         Me.loanadjj.Name = "loanadjj"
         Me.loanadjj.Size = New System.Drawing.Size(91, 13)
         Me.loanadjj.TabIndex = 37
@@ -455,13 +457,6 @@ Partial Class Form4
         Me.payementdatee.TabIndex = 47
         Me.payementdatee.Text = "Payment Date"
         '
-        'Designation
-        '
-        Me.Designation.Location = New System.Drawing.Point(132, 199)
-        Me.Designation.Name = "Designation"
-        Me.Designation.Size = New System.Drawing.Size(100, 20)
-        Me.Designation.TabIndex = 48
-        '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
@@ -470,14 +465,42 @@ Partial Class Form4
         Me.ComboBox1.Size = New System.Drawing.Size(128, 21)
         Me.ComboBox1.TabIndex = 49
         '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Manager", "Distributor"})
+        Me.ComboBox2.Location = New System.Drawing.Point(132, 230)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.TabIndex = 50
+        '
+        'branch
+        '
+        Me.branch.AutoSize = True
+        Me.branch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.branch.Location = New System.Drawing.Point(38, 125)
+        Me.branch.Name = "branch"
+        Me.branch.Size = New System.Drawing.Size(46, 15)
+        Me.branch.TabIndex = 51
+        Me.branch.Text = "Branch"
+        '
+        'branh
+        '
+        Me.branh.Location = New System.Drawing.Point(132, 119)
+        Me.branh.Name = "branh"
+        Me.branh.Size = New System.Drawing.Size(128, 20)
+        Me.branh.TabIndex = 52
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(747, 523)
+        Me.Controls.Add(Me.branh)
+        Me.Controls.Add(Me.branch)
+        Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Designation)
         Me.Controls.Add(Me.payementdatee)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.EXITT)
@@ -574,6 +597,8 @@ Partial Class Form4
     Friend WithEvents EXITT As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents payementdatee As Label
-    Friend WithEvents Designation As TextBox
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents branch As Label
+    Friend WithEvents branh As TextBox
 End Class
