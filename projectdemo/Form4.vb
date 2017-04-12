@@ -26,7 +26,7 @@ Public Class Form4
     End Sub
 
     Private Sub CLEAR_Click(sender As Object, e As EventArgs) Handles CLEAR.Click
-        ComboBox1.Text =
+        ComboBox1.Text = " "
         EmployeeName.Text = " "
         ComboBox2.Text = " "
         WorkingDay.Text = " "
