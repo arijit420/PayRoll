@@ -61,7 +61,7 @@ Partial Class Form4
         Me.netpaymentt = New System.Windows.Forms.Label()
         Me.paymentt = New System.Windows.Forms.Label()
         Me.NETPAYMENT = New System.Windows.Forms.TextBox()
-        Me.ADD = New System.Windows.Forms.Button()
+        Me.btnADD = New System.Windows.Forms.Button()
         Me.SAVE = New System.Windows.Forms.Button()
         Me.CLEAR = New System.Windows.Forms.Button()
         Me.EXITT = New System.Windows.Forms.Button()
@@ -401,15 +401,15 @@ Partial Class Form4
         Me.NETPAYMENT.Size = New System.Drawing.Size(134, 20)
         Me.NETPAYMENT.TabIndex = 40
         '
-        'ADD
+        'btnADD
         '
-        Me.ADD.BackColor = System.Drawing.Color.Teal
-        Me.ADD.Location = New System.Drawing.Point(525, 339)
-        Me.ADD.Name = "ADD"
-        Me.ADD.Size = New System.Drawing.Size(75, 50)
-        Me.ADD.TabIndex = 42
-        Me.ADD.Text = "ADD"
-        Me.ADD.UseVisualStyleBackColor = False
+        Me.btnADD.BackColor = System.Drawing.Color.Teal
+        Me.btnADD.Location = New System.Drawing.Point(525, 339)
+        Me.btnADD.Name = "btnADD"
+        Me.btnADD.Size = New System.Drawing.Size(75, 50)
+        Me.btnADD.TabIndex = 42
+        Me.btnADD.Text = "ADD"
+        Me.btnADD.UseVisualStyleBackColor = False
         '
         'SAVE
         '
@@ -506,7 +506,7 @@ Partial Class Form4
         Me.Controls.Add(Me.EXITT)
         Me.Controls.Add(Me.CLEAR)
         Me.Controls.Add(Me.SAVE)
-        Me.Controls.Add(Me.ADD)
+        Me.Controls.Add(Me.btnADD)
         Me.Controls.Add(Me.NETPAYMENT)
         Me.Controls.Add(Me.paymentt)
         Me.Controls.Add(Me.netpaymentt)
@@ -591,7 +591,7 @@ Partial Class Form4
     Friend WithEvents netpaymentt As Label
     Friend WithEvents paymentt As Label
     Friend WithEvents NETPAYMENT As TextBox
-    Friend WithEvents ADD As Button
+    Friend WithEvents btnADD As Button
     Friend WithEvents SAVE As Button
     Friend WithEvents CLEAR As Button
     Friend WithEvents EXITT As Button
