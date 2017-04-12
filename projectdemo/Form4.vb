@@ -18,7 +18,7 @@
     End Sub
 
     Private Sub CLEAR_Click(sender As Object, e As EventArgs) Handles CLEAR.Click
-        EmployeeID.Text =
+        EmployeeID.Text = " "
         EmployeeName.Text = " "
         Designation.Text = " "
         WorkingDay.Text = " "
