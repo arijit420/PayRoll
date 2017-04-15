@@ -1,4 +1,6 @@
 ﻿Imports System.Data.OleDb
+Imports System.Globalization
+Imports System.Text.RegularExpressions
 
 Public Class Form3
     Dim provider As String
@@ -99,4 +101,44 @@ Public Class Form3
             MsgBox(ex.Message)
         End Try
     End Sub
+    Private Sub TextBox7_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles TextBox7.Validating
+        Dim temp As String
+        temp = TextBox7.Text
+        Dim conditon As Boolean
+        emailaddresscheck(temp)
+        If emailaddresscheck(conditon) = False Then
+            MsgBox("@ is not present in your email id", vbInformation, "Incorrect Email Entry")
+            TextBox7.Text = ""
+        Else
+            TextBox7.BackColor = Color.White
+        End If
+
+    End Sub
+
+
+    Private Function emailaddresscheck(ByVal emailaddress As String) As Boolean
+        Dim pattern As String = "^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"
+        Dim emailAddressMatch As Match = Regex.Match(emailaddress, pattern)
+        If emailAddressMatch.Success Then
+            emailaddresscheck = True
+        Else
+            emailaddresscheck = False
+        End If
+    End Function
+
+    Private Sub TextBox7_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox7.TextChanged
+        TextBox7.BackColor = Color.White
+        Dim temp As String
+        temp = TextBox7.Text
+        Dim conditon As Boolean
+        emailaddresscheck(temp)
+        If emailaddresscheck(conditon) = True Then
+            MessageBox.Show("Please enter your email address correctly", "Incorrect Email Entry")
+            TextBox7.Text = ""
+
+        Else
+            TextBox7.BackColor = Color.White
+        End If
+    End Sub
+
 End Class
