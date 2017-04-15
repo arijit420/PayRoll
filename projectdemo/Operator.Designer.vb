@@ -42,7 +42,7 @@ Partial Class Form3
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnUpdate = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
@@ -224,14 +224,14 @@ Partial Class Form3
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnUpdate
         '
-        Me.Button2.Location = New System.Drawing.Point(122, 535)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 22
-        Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnUpdate.Location = New System.Drawing.Point(122, 535)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.btnUpdate.TabIndex = 22
+        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -283,12 +283,13 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(1072, 570)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.Label10)
@@ -337,7 +338,7 @@ Partial Class Form3
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnUpdate As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label11 As Label
     Friend WithEvents OpenFileDialog1 As OpenFileDialog

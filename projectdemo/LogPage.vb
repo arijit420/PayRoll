@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class LogPage
     Private Sub reset_Click(sender As Object, e As EventArgs) Handles reset.Click
         TextBox1.Text = ""
         TextBox2.Text = ""
@@ -21,11 +21,11 @@
         If (RadioButton1.Checked = True) Then
             If (TextBox1.Text = "admin" AndAlso TextBox2.Text = "1234") Then
                 Me.Hide()
-                Form2.Show()
+                AdminPage.Show()
             Else
                 MsgBox("Please check your Userid & Password", vbCritical, "Login Error!")
             End If
-        ElseIf (RadioButton2.checked = True) Then
+        ElseIf (RadioButton2.Checked = True) Then
             If (ComboBox1.SelectedIndex = 0 AndAlso TextBox1.Text = "k_operator" AndAlso TextBox2.Text = "1234") Then
                 Me.Hide()
                 Form4.Show()
