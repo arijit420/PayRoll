@@ -21,7 +21,7 @@
         If (RadioButton1.Checked = True) Then
             If (TextBox1.Text = "admin" AndAlso TextBox2.Text = "1234") Then
                 Me.Hide()
-                AdminPage.Show()
+                H_R.Show()
             Else
                 MsgBox("Please check your Userid & Password", vbCritical, "Login Error!")
             End If

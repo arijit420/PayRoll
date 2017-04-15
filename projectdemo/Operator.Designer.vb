@@ -118,9 +118,9 @@ Partial Class Form3
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(16, 189)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(63, 13)
+        Me.Label5.Size = New System.Drawing.Size(65, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "qualification"
+        Me.Label5.Text = "Qualification"
         '
         'ComboBox2
         '
@@ -283,7 +283,7 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackColor = System.Drawing.Color.PaleTurquoise
         Me.ClientSize = New System.Drawing.Size(1072, 570)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.Button3)

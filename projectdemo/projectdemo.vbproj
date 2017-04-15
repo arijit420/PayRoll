@@ -79,10 +79,10 @@
       <DependentUpon>LogPage.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminPage.Designer.vb">
-      <DependentUpon>AdminPage.vb</DependentUpon>
+    <Compile Include="H_R.Designer.vb">
+      <DependentUpon>H_R.vb</DependentUpon>
     </Compile>
-    <Compile Include="AdminPage.vb">
+    <Compile Include="H_R.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Operator.Designer.vb">
@@ -122,8 +122,8 @@
     <EmbeddedResource Include="LogPage.resx">
       <DependentUpon>LogPage.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminPage.resx">
-      <DependentUpon>AdminPage.vb</DependentUpon>
+    <EmbeddedResource Include="H_R.resx">
+      <DependentUpon>H_R.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Operator.resx">
       <DependentUpon>Operator.vb</DependentUpon>

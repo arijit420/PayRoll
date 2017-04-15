@@ -1,4 +1,4 @@
-﻿Public Class AdminPage
+﻿Public Class H_R
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
     End Sub
@@ -12,4 +12,6 @@
         Me.Hide()
         Form3.Show()
     End Sub
+
+
 End Class

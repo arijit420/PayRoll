@@ -85,10 +85,10 @@ Partial Class LogPage
         Me.RadioButton1.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton1.Location = New System.Drawing.Point(282, 318)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(118, 35)
+        Me.RadioButton1.Size = New System.Drawing.Size(78, 35)
         Me.RadioButton1.TabIndex = 5
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Admin"
+        Me.RadioButton1.Text = "HR"
         Me.RadioButton1.UseVisualStyleBackColor = False
         '
         'RadioButton2
@@ -155,7 +155,7 @@ Partial Class LogPage
         Me.ComboBox1.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox1.TabIndex = 11
         '
-        'Form1
+        'LogPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -176,7 +176,7 @@ Partial Class LogPage
         Me.Controls.Add(Me.Label2)
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Name = "Form1"
+        Me.Name = "LogPage"
         Me.Text = "Welcome"
         Me.ResumeLayout(False)
         Me.PerformLayout()
