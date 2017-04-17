@@ -107,7 +107,7 @@ Public Class Form3
         Dim conditon As Boolean
         emailaddresscheck(temp)
         If emailaddresscheck(conditon) = False Then
-            MsgBox("@ is not present in your email id", vbInformation, "Incorrect Email Entry")
+            MsgBox("@ is not present in your email id!", vbInformation, "Incorrect Email Entry")
             TextBox7.Text = ""
         Else
             TextBox7.BackColor = Color.White
