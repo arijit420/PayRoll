@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,22 +20,21 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.NXT = New System.Windows.Forms.Button()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ADDEmp = New System.Windows.Forms.Button()
+        Me.Panelsky = New System.Windows.Forms.Panel()
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SplitContainer1.Panel1.SuspendLayout()
+        Me.SplitContainer1.Panel2.SuspendLayout()
+        Me.SplitContainer1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -48,141 +47,122 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Operator"
         '
-        'Button1
+        'NXT
         '
-        Me.Button1.Location = New System.Drawing.Point(64, 64)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 35)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "ADD Employee"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.NXT.Location = New System.Drawing.Point(64, 166)
+        Me.NXT.Name = "NXT"
+        Me.NXT.Size = New System.Drawing.Size(94, 98)
+        Me.NXT.TabIndex = 1
+        Me.NXT.Text = "NEXT"
+        Me.NXT.UseVisualStyleBackColor = True
         '
-        'Button2
+        'SplitContainer1
         '
-        Me.Button2.Location = New System.Drawing.Point(199, 114)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 36)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "EDIT Employee"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer1.Name = "SplitContainer1"
         '
-        'Button3
+        'SplitContainer1.Panel1
         '
-        Me.Button3.Location = New System.Drawing.Point(199, 223)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(113, 33)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "DELETE Employee"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.SplitContainer1.Panel1.BackColor = System.Drawing.Color.Blue
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Button5)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Button4)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Button3)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Button2)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.ADDEmp)
         '
-        'Button4
+        'SplitContainer1.Panel2
         '
-        Me.Button4.Location = New System.Drawing.Point(64, 303)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(113, 31)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "PAYMENTS"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Controls.Add(Me.Button7)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel1.Location = New System.Drawing.Point(397, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(447, 456)
-        Me.Panel1.TabIndex = 5
+        Me.SplitContainer1.Panel2.BackColor = System.Drawing.Color.LightGreen
+        Me.SplitContainer1.Panel2.Controls.Add(Me.Panelsky)
+        Me.SplitContainer1.Size = New System.Drawing.Size(844, 456)
+        Me.SplitContainer1.SplitterDistance = 447
+        Me.SplitContainer1.TabIndex = 3
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(23, 430)
+        Me.Button5.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.Button5.Location = New System.Drawing.Point(3, 308)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "back"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "Button5"
+        Me.Button5.UseVisualStyleBackColor = False
         '
-        'Button6
+        'Button4
         '
-        Me.Button6.Location = New System.Drawing.Point(173, 433)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "reset"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Button4.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.Button4.Location = New System.Drawing.Point(22, 210)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "Button4"
+        Me.Button4.UseVisualStyleBackColor = False
         '
-        'Button7
+        'Button3
         '
-        Me.Button7.Location = New System.Drawing.Point(347, 433)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 23)
-        Me.Button7.TabIndex = 8
-        Me.Button7.Text = "exit"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button3.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.Button3.Location = New System.Drawing.Point(88, 158)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button8
+        'Button2
         '
-        Me.Button8.Location = New System.Drawing.Point(62, 202)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 23)
-        Me.Button8.TabIndex = 6
-        Me.Button8.Text = "next"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button2.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.Button2.Location = New System.Drawing.Point(88, 106)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'Panel2
+        'ADDEmp
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.Button9)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(447, 456)
-        Me.Panel2.TabIndex = 9
+        Me.ADDEmp.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.ADDEmp.Location = New System.Drawing.Point(22, 59)
+        Me.ADDEmp.Name = "ADDEmp"
+        Me.ADDEmp.Size = New System.Drawing.Size(75, 23)
+        Me.ADDEmp.TabIndex = 0
+        Me.ADDEmp.Text = "ADD Employee"
+        Me.ADDEmp.UseVisualStyleBackColor = False
         '
-        'Button9
+        'Panelsky
         '
-        Me.Button9.Location = New System.Drawing.Point(131, 64)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 23)
-        Me.Button9.TabIndex = 0
-        Me.Button9.Text = "Button9"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Panelsky.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panelsky.Location = New System.Drawing.Point(109, 59)
+        Me.Panelsky.Name = "Panelsky"
+        Me.Panelsky.Size = New System.Drawing.Size(200, 287)
+        Me.Panelsky.TabIndex = 0
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(844, 456)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.SplitContainer1)
+        Me.Controls.Add(Me.NXT)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
+        Me.SplitContainer1.Panel1.ResumeLayout(False)
+        Me.SplitContainer1.Panel2.ResumeLayout(False)
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.SplitContainer1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents NXT As Button
+    Friend WithEvents SplitContainer1 As SplitContainer
     Friend WithEvents Button5 As Button
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents ADDEmp As Button
+    Friend WithEvents Panelsky As Panel
 End Class
