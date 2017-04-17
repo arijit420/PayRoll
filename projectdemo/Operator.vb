@@ -55,7 +55,7 @@ Public Class Form3
         cmd.Parameters.Add(New OleDbParameter("city", CType(TextBox4.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("phone ", CType(TextBox6.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("email", CType(TextBox7.Text, String)))
-        MsgBox("record added")
+        MsgBox("Record added", vbInformation, "Operator Added")
         Refresh()
         Try
             cmd.ExecuteNonQuery()
@@ -107,7 +107,7 @@ Public Class Form3
         Dim conditon As Boolean
         emailaddresscheck(temp)
         If emailaddresscheck(conditon) = False Then
-            MsgBox("@ is not present in your email id", vbInformation, "Incorrect Email Entry")
+            MsgBox("@ is not present in your email id!", vbInformation, "Incorrect Email Entry")
             TextBox7.Text = ""
         Else
             TextBox7.BackColor = Color.White

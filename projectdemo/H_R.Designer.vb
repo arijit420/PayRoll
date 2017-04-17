@@ -166,6 +166,7 @@ Partial Class H_R
         '
         'PictureBox7
         '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(128, 261)
         Me.PictureBox7.Name = "PictureBox7"
@@ -190,7 +191,7 @@ Partial Class H_R
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1223, 741)
+        Me.ClientSize = New System.Drawing.Size(1223, 733)
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
