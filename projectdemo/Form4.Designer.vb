@@ -206,6 +206,7 @@ Partial Class Form4
         'employeeidd
         '
         Me.employeeidd.AutoSize = True
+        Me.employeeidd.BackColor = System.Drawing.Color.Transparent
         Me.employeeidd.Location = New System.Drawing.Point(33, 91)
         Me.employeeidd.Name = "employeeidd"
         Me.employeeidd.Size = New System.Drawing.Size(67, 13)
@@ -215,6 +216,7 @@ Partial Class Form4
         'employeenamee
         '
         Me.employeenamee.AutoSize = True
+        Me.employeenamee.BackColor = System.Drawing.Color.Transparent
         Me.employeenamee.Location = New System.Drawing.Point(33, 163)
         Me.employeenamee.Name = "employeenamee"
         Me.employeenamee.Size = New System.Drawing.Size(84, 13)
@@ -224,6 +226,7 @@ Partial Class Form4
         'mblnoo
         '
         Me.mblnoo.AutoSize = True
+        Me.mblnoo.BackColor = System.Drawing.Color.Transparent
         Me.mblnoo.Location = New System.Drawing.Point(39, 200)
         Me.mblnoo.Name = "mblnoo"
         Me.mblnoo.Size = New System.Drawing.Size(41, 13)
@@ -233,6 +236,7 @@ Partial Class Form4
         'designationn
         '
         Me.designationn.AutoSize = True
+        Me.designationn.BackColor = System.Drawing.Color.Transparent
         Me.designationn.Location = New System.Drawing.Point(39, 230)
         Me.designationn.Name = "designationn"
         Me.designationn.Size = New System.Drawing.Size(57, 13)
@@ -242,6 +246,7 @@ Partial Class Form4
         'workingdayy
         '
         Me.workingdayy.AutoSize = True
+        Me.workingdayy.BackColor = System.Drawing.Color.Transparent
         Me.workingdayy.Location = New System.Drawing.Point(39, 273)
         Me.workingdayy.Name = "workingdayy"
         Me.workingdayy.Size = New System.Drawing.Size(69, 13)
@@ -251,6 +256,7 @@ Partial Class Form4
         'overtimee
         '
         Me.overtimee.AutoSize = True
+        Me.overtimee.BackColor = System.Drawing.Color.Transparent
         Me.overtimee.Location = New System.Drawing.Point(33, 318)
         Me.overtimee.Name = "overtimee"
         Me.overtimee.Size = New System.Drawing.Size(84, 13)
@@ -260,6 +266,7 @@ Partial Class Form4
         'overtimeratee
         '
         Me.overtimeratee.AutoSize = True
+        Me.overtimeratee.BackColor = System.Drawing.Color.Transparent
         Me.overtimeratee.Location = New System.Drawing.Point(16, 355)
         Me.overtimeratee.Name = "overtimeratee"
         Me.overtimeratee.Size = New System.Drawing.Size(110, 13)
@@ -269,6 +276,7 @@ Partial Class Form4
         'salaryy
         '
         Me.salaryy.AutoSize = True
+        Me.salaryy.BackColor = System.Drawing.Color.Transparent
         Me.salaryy.Location = New System.Drawing.Point(44, 397)
         Me.salaryy.Name = "salaryy"
         Me.salaryy.Size = New System.Drawing.Size(36, 13)
@@ -278,6 +286,7 @@ Partial Class Form4
         'loanamtt
         '
         Me.loanamtt.AutoSize = True
+        Me.loanamtt.BackColor = System.Drawing.Color.Transparent
         Me.loanamtt.Location = New System.Drawing.Point(30, 434)
         Me.loanamtt.Name = "loanamtt"
         Me.loanamtt.Size = New System.Drawing.Size(78, 13)
@@ -287,6 +296,7 @@ Partial Class Form4
         'basicamtt
         '
         Me.basicamtt.AutoSize = True
+        Me.basicamtt.BackColor = System.Drawing.Color.Transparent
         Me.basicamtt.Location = New System.Drawing.Point(293, 87)
         Me.basicamtt.Name = "basicamtt"
         Me.basicamtt.Size = New System.Drawing.Size(72, 13)
@@ -296,6 +306,7 @@ Partial Class Form4
         'daa
         '
         Me.daa.AutoSize = True
+        Me.daa.BackColor = System.Drawing.Color.Transparent
         Me.daa.Location = New System.Drawing.Point(325, 131)
         Me.daa.Name = "daa"
         Me.daa.Size = New System.Drawing.Size(22, 13)
@@ -305,6 +316,7 @@ Partial Class Form4
         'hraa
         '
         Me.hraa.AutoSize = True
+        Me.hraa.BackColor = System.Drawing.Color.Transparent
         Me.hraa.Location = New System.Drawing.Point(321, 165)
         Me.hraa.Name = "hraa"
         Me.hraa.Size = New System.Drawing.Size(30, 13)
@@ -314,6 +326,7 @@ Partial Class Form4
         'medicall
         '
         Me.medicall.AutoSize = True
+        Me.medicall.BackColor = System.Drawing.Color.Transparent
         Me.medicall.Location = New System.Drawing.Point(297, 199)
         Me.medicall.Name = "medicall"
         Me.medicall.Size = New System.Drawing.Size(54, 13)
@@ -323,6 +336,7 @@ Partial Class Form4
         'ltaa
         '
         Me.ltaa.AutoSize = True
+        Me.ltaa.BackColor = System.Drawing.Color.Transparent
         Me.ltaa.Location = New System.Drawing.Point(324, 245)
         Me.ltaa.Name = "ltaa"
         Me.ltaa.Size = New System.Drawing.Size(27, 13)
@@ -332,6 +346,7 @@ Partial Class Form4
         'esii
         '
         Me.esii.AutoSize = True
+        Me.esii.BackColor = System.Drawing.Color.Transparent
         Me.esii.Location = New System.Drawing.Point(327, 287)
         Me.esii.Name = "esii"
         Me.esii.Size = New System.Drawing.Size(24, 13)
@@ -341,6 +356,7 @@ Partial Class Form4
         'pff
         '
         Me.pff.AutoSize = True
+        Me.pff.BackColor = System.Drawing.Color.Transparent
         Me.pff.Location = New System.Drawing.Point(331, 324)
         Me.pff.Name = "pff"
         Me.pff.Size = New System.Drawing.Size(20, 13)
@@ -350,6 +366,7 @@ Partial Class Form4
         'deductsalaryy
         '
         Me.deductsalaryy.AutoSize = True
+        Me.deductsalaryy.BackColor = System.Drawing.Color.Transparent
         Me.deductsalaryy.Location = New System.Drawing.Point(297, 362)
         Me.deductsalaryy.Name = "deductsalaryy"
         Me.deductsalaryy.Size = New System.Drawing.Size(74, 13)
@@ -359,6 +376,7 @@ Partial Class Form4
         'grossss
         '
         Me.grossss.AutoSize = True
+        Me.grossss.BackColor = System.Drawing.Color.Transparent
         Me.grossss.Location = New System.Drawing.Point(306, 403)
         Me.grossss.Name = "grossss"
         Me.grossss.Size = New System.Drawing.Size(45, 13)
@@ -368,6 +386,7 @@ Partial Class Form4
         'loanadjj
         '
         Me.loanadjj.AutoSize = True
+        Me.loanadjj.BackColor = System.Drawing.Color.Transparent
         Me.loanadjj.Location = New System.Drawing.Point(280, 430)
         Me.loanadjj.Name = "loanadjj"
         Me.loanadjj.Size = New System.Drawing.Size(91, 13)
@@ -377,6 +396,7 @@ Partial Class Form4
         'netpaymentt
         '
         Me.netpaymentt.AutoSize = True
+        Me.netpaymentt.BackColor = System.Drawing.Color.Transparent
         Me.netpaymentt.Location = New System.Drawing.Point(198, 483)
         Me.netpaymentt.Name = "netpaymentt"
         Me.netpaymentt.Size = New System.Drawing.Size(84, 13)
@@ -386,6 +406,7 @@ Partial Class Form4
         'paymentt
         '
         Me.paymentt.AutoSize = True
+        Me.paymentt.BackColor = System.Drawing.Color.Transparent
         Me.paymentt.Font = New System.Drawing.Font("Baskerville Old Face", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.paymentt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.paymentt.Location = New System.Drawing.Point(204, 19)
@@ -404,7 +425,7 @@ Partial Class Form4
         '
         'btnADD
         '
-        Me.btnADD.BackColor = System.Drawing.Color.Teal
+        Me.btnADD.BackColor = System.Drawing.Color.Transparent
         Me.btnADD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnADD.Location = New System.Drawing.Point(525, 339)
         Me.btnADD.Name = "btnADD"
@@ -415,7 +436,7 @@ Partial Class Form4
         '
         'SAVE
         '
-        Me.SAVE.BackColor = System.Drawing.Color.Teal
+        Me.SAVE.BackColor = System.Drawing.Color.Transparent
         Me.SAVE.Location = New System.Drawing.Point(647, 339)
         Me.SAVE.Name = "SAVE"
         Me.SAVE.Size = New System.Drawing.Size(75, 50)
@@ -425,7 +446,7 @@ Partial Class Form4
         '
         'CLEAR
         '
-        Me.CLEAR.BackColor = System.Drawing.Color.Teal
+        Me.CLEAR.BackColor = System.Drawing.Color.Transparent
         Me.CLEAR.Location = New System.Drawing.Point(525, 419)
         Me.CLEAR.Name = "CLEAR"
         Me.CLEAR.Size = New System.Drawing.Size(75, 54)
@@ -435,7 +456,7 @@ Partial Class Form4
         '
         'EXITT
         '
-        Me.EXITT.BackColor = System.Drawing.Color.Teal
+        Me.EXITT.BackColor = System.Drawing.Color.Transparent
         Me.EXITT.Location = New System.Drawing.Point(647, 418)
         Me.EXITT.Name = "EXITT"
         Me.EXITT.Size = New System.Drawing.Size(75, 55)
@@ -453,6 +474,7 @@ Partial Class Form4
         'payementdatee
         '
         Me.payementdatee.AutoSize = True
+        Me.payementdatee.BackColor = System.Drawing.Color.Transparent
         Me.payementdatee.Location = New System.Drawing.Point(586, 9)
         Me.payementdatee.Name = "payementdatee"
         Me.payementdatee.Size = New System.Drawing.Size(74, 13)
@@ -479,6 +501,7 @@ Partial Class Form4
         'branch
         '
         Me.branch.AutoSize = True
+        Me.branch.BackColor = System.Drawing.Color.Transparent
         Me.branch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.branch.Location = New System.Drawing.Point(38, 125)
         Me.branch.Name = "branch"

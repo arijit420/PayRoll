@@ -40,10 +40,10 @@ Partial Class LogPage
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("High Tower Text", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(119, 444)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(44, 546)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(162, 37)
+        Me.Label2.Size = New System.Drawing.Size(81, 17)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Username"
         '
@@ -51,20 +51,20 @@ Partial Class LogPage
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("High Tower Text", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(120, 506)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(47, 599)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(134, 34)
+        Me.Label3.Size = New System.Drawing.Size(77, 17)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Password"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(282, 446)
+        Me.TextBox1.Location = New System.Drawing.Point(168, 526)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(201, 30)
+        Me.TextBox1.Size = New System.Drawing.Size(153, 33)
         Me.TextBox1.TabIndex = 3
         '
         'TextBox2
@@ -72,20 +72,21 @@ Partial Class LogPage
         Me.TextBox2.AcceptsReturn = True
         Me.TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(280, 499)
+        Me.TextBox2.Location = New System.Drawing.Point(168, 579)
+        Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(201, 49)
+        Me.TextBox2.Size = New System.Drawing.Size(153, 33)
         Me.TextBox2.TabIndex = 4
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(282, 318)
+        Me.RadioButton1.Font = New System.Drawing.Font("Modern No. 20", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(168, 466)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(78, 35)
+        Me.RadioButton1.Size = New System.Drawing.Size(49, 20)
         Me.RadioButton1.TabIndex = 5
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "HR"
@@ -95,10 +96,10 @@ Partial Class LogPage
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(406, 318)
+        Me.RadioButton2.Font = New System.Drawing.Font("Modern No. 20", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(218, 466)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(141, 35)
+        Me.RadioButton2.Size = New System.Drawing.Size(82, 20)
         Me.RadioButton2.TabIndex = 6
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Operator"
@@ -108,19 +109,19 @@ Partial Class LogPage
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("High Tower Text", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(120, 319)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(44, 466)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(155, 34)
+        Me.Label4.Size = New System.Drawing.Size(83, 17)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "User Type"
         '
         'login
         '
         Me.login.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.login.Location = New System.Drawing.Point(187, 557)
+        Me.login.Location = New System.Drawing.Point(90, 641)
         Me.login.Name = "login"
-        Me.login.Size = New System.Drawing.Size(75, 23)
+        Me.login.Size = New System.Drawing.Size(75, 26)
         Me.login.TabIndex = 8
         Me.login.Text = "Login"
         Me.login.UseVisualStyleBackColor = True
@@ -128,9 +129,9 @@ Partial Class LogPage
         'reset
         '
         Me.reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reset.Location = New System.Drawing.Point(381, 557)
+        Me.reset.Location = New System.Drawing.Point(213, 641)
         Me.reset.Name = "reset"
-        Me.reset.Size = New System.Drawing.Size(75, 23)
+        Me.reset.Size = New System.Drawing.Size(75, 26)
         Me.reset.TabIndex = 9
         Me.reset.Text = "Reset"
         Me.reset.UseVisualStyleBackColor = True
@@ -139,10 +140,10 @@ Partial Class LogPage
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("High Tower Text", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(119, 386)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(44, 500)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(192, 34)
+        Me.Label1.Size = New System.Drawing.Size(109, 17)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Select Branch"
         '
@@ -150,7 +151,7 @@ Partial Class LogPage
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Kolkata", "Mumbai", "Delhi ", "Hyderabad"})
-        Me.ComboBox1.Location = New System.Drawing.Point(315, 392)
+        Me.ComboBox1.Location = New System.Drawing.Point(168, 490)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox1.TabIndex = 11
