@@ -57,7 +57,7 @@ Partial Class Form1
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.backtoprev = New System.Windows.Forms.Button()
-        Me.update = New System.Windows.Forms.Button()
+        Me.btnupdate = New System.Windows.Forms.Button()
         Me.add = New System.Windows.Forms.Button()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.phoneno = New System.Windows.Forms.Label()
@@ -98,7 +98,7 @@ Partial Class Form1
         '
         'NXT
         '
-        Me.NXT.Location = New System.Drawing.Point(64, 166)
+        Me.NXT.Location = New System.Drawing.Point(15, 232)
         Me.NXT.Name = "NXT"
         Me.NXT.Size = New System.Drawing.Size(94, 98)
         Me.NXT.TabIndex = 1
@@ -107,8 +107,7 @@ Partial Class Form1
         '
         'SplitContainer1
         '
-        Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer1.Location = New System.Drawing.Point(88, 31)
         Me.SplitContainer1.Name = "SplitContainer1"
         '
         'SplitContainer1.Panel1
@@ -124,7 +123,6 @@ Partial Class Form1
         '
         Me.SplitContainer1.Panel2.BackColor = System.Drawing.Color.LightGreen
         Me.SplitContainer1.Panel2.Controls.Add(Me.Panelgreen)
-        Me.SplitContainer1.Panel2.Controls.Add(Me.Panelsky)
         Me.SplitContainer1.Size = New System.Drawing.Size(940, 499)
         Me.SplitContainer1.SplitterDistance = 389
         Me.SplitContainer1.TabIndex = 3
@@ -183,6 +181,7 @@ Partial Class Form1
         '
         Me.Panelgreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panelgreen.Controls.Add(Me.PictureBox2)
+        Me.Panelgreen.Controls.Add(Me.Panelsky)
         Me.Panelgreen.Controls.Add(Me.DateTimePicker2)
         Me.Panelgreen.Controls.Add(Me.backtoprev2)
         Me.Panelgreen.Controls.Add(Me.remove)
@@ -395,7 +394,7 @@ Partial Class Form1
         Me.Panelsky.Controls.Add(Me.DateTimePicker1)
         Me.Panelsky.Controls.Add(Me.PictureBox1)
         Me.Panelsky.Controls.Add(Me.backtoprev)
-        Me.Panelsky.Controls.Add(Me.update)
+        Me.Panelsky.Controls.Add(Me.btnupdate)
         Me.Panelsky.Controls.Add(Me.add)
         Me.Panelsky.Controls.Add(Me.TextBox9)
         Me.Panelsky.Controls.Add(Me.phoneno)
@@ -414,8 +413,7 @@ Partial Class Form1
         Me.Panelsky.Controls.Add(Me.TextBox3)
         Me.Panelsky.Controls.Add(Me.TextBox2)
         Me.Panelsky.Controls.Add(Me.TextBox1)
-        Me.Panelsky.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panelsky.Location = New System.Drawing.Point(0, 0)
+        Me.Panelsky.Location = New System.Drawing.Point(3, 53)
         Me.Panelsky.Name = "Panelsky"
         Me.Panelsky.Size = New System.Drawing.Size(547, 499)
         Me.Panelsky.TabIndex = 0
@@ -444,14 +442,14 @@ Partial Class Form1
         Me.backtoprev.Text = "BACK TO PREVIOUS"
         Me.backtoprev.UseVisualStyleBackColor = True
         '
-        'update
+        'btnupdate
         '
-        Me.update.Location = New System.Drawing.Point(469, 420)
-        Me.update.Name = "update"
-        Me.update.Size = New System.Drawing.Size(75, 43)
-        Me.update.TabIndex = 18
-        Me.update.Text = "UPDATE"
-        Me.update.UseVisualStyleBackColor = True
+        Me.btnupdate.Location = New System.Drawing.Point(469, 420)
+        Me.btnupdate.Name = "btnupdate"
+        Me.btnupdate.Size = New System.Drawing.Size(75, 43)
+        Me.btnupdate.TabIndex = 18
+        Me.btnupdate.Text = "UPDATE"
+        Me.btnupdate.UseVisualStyleBackColor = True
         '
         'add
         '
@@ -651,7 +649,7 @@ Partial Class Form1
     Friend WithEvents branch As Label
     Friend WithEvents employeename As Label
     Friend WithEvents backtoprev As Button
-    Friend WithEvents update As Button
+    Friend WithEvents btnupdate As Button
     Friend WithEvents add As Button
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
