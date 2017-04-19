@@ -22,6 +22,7 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.EmployeeName = New System.Windows.Forms.TextBox()
         Me.MblNo = New System.Windows.Forms.TextBox()
         Me.WorkingDay = New System.Windows.Forms.TextBox()
@@ -404,6 +405,7 @@ Partial Class Form4
         'btnADD
         '
         Me.btnADD.BackColor = System.Drawing.Color.Teal
+        Me.btnADD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnADD.Location = New System.Drawing.Point(525, 339)
         Me.btnADD.Name = "btnADD"
         Me.btnADD.Size = New System.Drawing.Size(75, 50)
@@ -496,6 +498,8 @@ Partial Class Form4
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(747, 523)
         Me.Controls.Add(Me.branh)
         Me.Controls.Add(Me.branch)
@@ -546,6 +550,7 @@ Partial Class Form4
         Me.Controls.Add(Me.WorkingDay)
         Me.Controls.Add(Me.MblNo)
         Me.Controls.Add(Me.EmployeeName)
+        Me.DoubleBuffered = True
         Me.Name = "Form4"
         Me.Text = "Form4"
         Me.ResumeLayout(False)
