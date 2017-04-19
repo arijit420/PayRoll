@@ -39,7 +39,7 @@ Partial Class H_R
         Me.Add_operator.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Add_operator.Font = New System.Drawing.Font("Lucida Sans Typewriter", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Add_operator.ForeColor = System.Drawing.Color.Coral
-        Me.Add_operator.Location = New System.Drawing.Point(529, 442)
+        Me.Add_operator.Location = New System.Drawing.Point(512, 428)
         Me.Add_operator.Name = "Add_operator"
         Me.Add_operator.Size = New System.Drawing.Size(142, 22)
         Me.Add_operator.TabIndex = 1
@@ -65,7 +65,7 @@ Partial Class H_R
         Me.view_expense.Cursor = System.Windows.Forms.Cursors.Hand
         Me.view_expense.Font = New System.Drawing.Font("Lucida Sans Typewriter", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.view_expense.ForeColor = System.Drawing.Color.DarkSeaGreen
-        Me.view_expense.Location = New System.Drawing.Point(199, 373)
+        Me.view_expense.Location = New System.Drawing.Point(138, 366)
         Me.view_expense.Name = "view_expense"
         Me.view_expense.Size = New System.Drawing.Size(142, 22)
         Me.view_expense.TabIndex = 5
@@ -99,7 +99,7 @@ Partial Class H_R
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label1.Font = New System.Drawing.Font("Lucida Sans Typewriter", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(1204, 481)
+        Me.Label1.Location = New System.Drawing.Point(1206, 505)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(76, 22)
         Me.Label1.TabIndex = 9
