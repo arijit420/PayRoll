@@ -9,7 +9,7 @@
     End Sub
 
     Private Sub NXT_Click(sender As Object, e As EventArgs) Handles NXT.Click
-        SplitContainer1.Visible = True
+        '  SplitContainer.vi
     End Sub
 
     Private Sub ADDEmp_Click(sender As Object, e As EventArgs) Handles ADDEmp.Click
