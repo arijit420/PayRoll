@@ -3,6 +3,16 @@ Imports System.Globalization
 Imports System.Text.RegularExpressions
 
 Public Class Form3
+
+    Private Function emailcheck(ByVal emailaddress As String) As Boolean
+        Dim pattern As String = "^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"
+        Dim emailAddressMatch As Match = Regex.Match(emailaddress, pattern)
+        If emailAddressMatch.Success Then
+        Else
+            MsgBox("invalid email")
+            TextBox7.Text = ""
+        End If
+    End Function
     Dim provider As String
     Dim dataFile As String
     Dim connstring As String
@@ -36,6 +46,7 @@ Public Class Form3
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source="
         dataFile = "C:\Users\DELL\Documents\vb_net.accdb"
         connstring = provider & dataFile
@@ -94,5 +105,13 @@ Public Class Form3
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
+    End Sub
+
+
+
+    Private Sub TextBox7_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles TextBox7.Validating
+        Dim Myemail As String = TextBox7.Text
+        emailcheck(Myemail)
+
     End Sub
 End Class
