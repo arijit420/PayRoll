@@ -31,7 +31,7 @@
                 Form1.Show()
             ElseIf (ComboBox1.SelectedIndex = 1 AndAlso TextBox1.Text = "m_operator" AndAlso TextBox2.Text = "1234") Then
                 Me.Hide()
-                Form1.Show()
+                Form4.Show()
             ElseIf (ComboBox1.SelectedIndex = 2 AndAlso TextBox1.Text = "d_operator" AndAlso TextBox2.Text = "1234") Then
                 Me.Hide()
                 Form1.Show()
