@@ -18,8 +18,6 @@ Public Class Form3
         fdlg.Title = "Choose a Profile Photo"
         fdlg.InitialDirectory = "c:\"
         fdlg.Filter = "Picture Files(*.jpg;*.jpeg;*.png;*.bmp;*.gif)|*.jpg;*.jpeg;*.png;*.bmp;*.gif"
-        'fdlg.FilterIndex = 2
-        ' fdlg.
         fdlg.RestoreDirectory = True
         If fdlg.ShowDialog() = DialogResult.OK Then
             If fdlg.CheckFileExists = False Then
@@ -77,12 +75,8 @@ Public Class Form3
     End Sub
 
 
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
-    End Sub
-
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source="
         dataFile = "C:\Users\DELL\Documents\vb_net.accdb"
         connstring = provider & dataFile
@@ -101,44 +95,4 @@ Public Class Form3
             MsgBox(ex.Message)
         End Try
     End Sub
-    Private Sub TextBox7_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles TextBox7.Validating
-        Dim temp As String
-        temp = TextBox7.Text
-        Dim conditon As Boolean
-        emailaddresscheck(temp)
-        If emailaddresscheck(conditon) = False Then
-            MsgBox("Invalid email id!", vbInformation, "Incorrect Email Entry")
-            TextBox7.Text = ""
-        Else
-            TextBox7.BackColor = Color.White
-        End If
-
-    End Sub
-
-
-    Private Function emailaddresscheck(ByVal emailaddress As String) As Boolean
-        Dim pattern As String = "^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"
-        Dim emailAddressMatch As Match = Regex.Match(emailaddress, pattern)
-        If emailAddressMatch.Success Then
-            emailaddresscheck = True
-        Else
-            emailaddresscheck = False
-        End If
-    End Function
-
-    Private Sub TextBox7_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox7.TextChanged
-        TextBox7.BackColor = Color.White
-        Dim temp As String
-        temp = TextBox7.Text
-        Dim conditon As Boolean
-        emailaddresscheck(temp)
-        If emailaddresscheck(conditon) = True Then
-            MessageBox.Show("Invalid email id!", "Incorrect Email Entry")
-            TextBox7.Text = ""
-
-        Else
-            TextBox7.BackColor = Color.White
-        End If
-    End Sub
-
 End Class
