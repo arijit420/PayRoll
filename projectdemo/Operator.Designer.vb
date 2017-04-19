@@ -278,9 +278,10 @@ Partial Class Form3
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(948, 147)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(74, 13)
+        Me.Label11.Size = New System.Drawing.Size(108, 17)
         Me.Label11.TabIndex = 24
         Me.Label11.Text = "Browse Image"
         '
