@@ -22,6 +22,7 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -55,36 +56,43 @@ Partial Class Form3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(387, 9)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 22.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.Location = New System.Drawing.Point(541, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(241, 31)
+        Me.Label1.Size = New System.Drawing.Size(248, 31)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Operator's Details"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 61)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(98, 87)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(62, 13)
+        Me.Label2.Size = New System.Drawing.Size(93, 17)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Operator ID"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(82, 59)
+        Me.TextBox1.Location = New System.Drawing.Point(267, 84)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(120, 20)
         Me.TextBox1.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(16, 100)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.Location = New System.Drawing.Point(101, 135)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(41, 13)
+        Me.Label3.Size = New System.Drawing.Size(59, 17)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Branch"
         '
@@ -92,33 +100,39 @@ Partial Class Form3
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"kolkata", "Delhi", "Mumbai", "Chennai", "Hyderabad"})
-        Me.ComboBox1.Location = New System.Drawing.Point(82, 98)
+        Me.ComboBox1.Location = New System.Drawing.Point(267, 131)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(100, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(120, 21)
         Me.ComboBox1.TabIndex = 4
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(16, 147)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.Location = New System.Drawing.Point(101, 182)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(86, 13)
+        Me.Label4.Size = New System.Drawing.Size(131, 17)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Operator's Name"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(109, 144)
+        Me.TextBox2.Location = New System.Drawing.Point(267, 174)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(193, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(120, 20)
         Me.TextBox2.TabIndex = 6
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(16, 189)
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.Location = New System.Drawing.Point(101, 224)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(65, 13)
+        Me.Label5.Size = New System.Drawing.Size(99, 17)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Qualification"
         '
@@ -126,32 +140,38 @@ Partial Class Form3
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "graduate", "post graduate", "others"})
-        Me.ComboBox2.Location = New System.Drawing.Point(97, 186)
+        Me.ComboBox2.Location = New System.Drawing.Point(267, 215)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(120, 21)
         Me.ComboBox2.TabIndex = 8
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(19, 238)
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.Location = New System.Drawing.Point(104, 273)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(42, 13)
+        Me.Label6.Size = New System.Drawing.Size(62, 17)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Gender"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(16, 291)
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label7.Location = New System.Drawing.Point(101, 326)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(99, 13)
+        Me.Label7.Size = New System.Drawing.Size(150, 17)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Permanent Address"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(122, 287)
+        Me.TextBox3.Location = New System.Drawing.Point(267, 325)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(180, 65)
@@ -160,32 +180,38 @@ Partial Class Form3
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(22, 389)
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label8.Location = New System.Drawing.Point(104, 424)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(24, 13)
+        Me.Label8.Size = New System.Drawing.Size(35, 17)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "City"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(56, 387)
+        Me.TextBox4.Location = New System.Drawing.Point(266, 420)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(126, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(121, 20)
         Me.TextBox4.TabIndex = 15
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(23, 446)
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label9.Location = New System.Drawing.Point(101, 483)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 13)
+        Me.Label9.Size = New System.Drawing.Size(77, 17)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Phone no"
         '
         'TextBox5
         '
         Me.TextBox5.Enabled = False
-        Me.TextBox5.Location = New System.Drawing.Point(82, 445)
+        Me.TextBox5.Location = New System.Drawing.Point(203, 479)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(48, 20)
@@ -194,49 +220,53 @@ Partial Class Form3
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(137, 444)
+        Me.TextBox6.Location = New System.Drawing.Point(266, 479)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(156, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(121, 20)
         Me.TextBox6.TabIndex = 18
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(25, 492)
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label10.Location = New System.Drawing.Point(98, 527)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(46, 13)
+        Me.Label10.Size = New System.Drawing.Size(67, 17)
         Me.Label10.TabIndex = 19
         Me.Label10.Text = "Email ID"
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(77, 490)
+        Me.TextBox7.Location = New System.Drawing.Point(267, 519)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(216, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(180, 20)
         Me.TextBox7.TabIndex = 20
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(19, 535)
+        Me.Button1.Location = New System.Drawing.Point(799, 518)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(76, 34)
         Me.Button1.TabIndex = 21
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(122, 535)
+        Me.btnUpdate.Location = New System.Drawing.Point(926, 518)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.btnUpdate.Size = New System.Drawing.Size(77, 34)
         Me.btnUpdate.TabIndex = 22
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(469, 50)
+        Me.PictureBox1.Location = New System.Drawing.Point(772, 84)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(159, 110)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -246,8 +276,9 @@ Partial Class Form3
         'Label11
         '
         Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label11.Location = New System.Drawing.Point(643, 105)
+        Me.Label11.Location = New System.Drawing.Point(948, 147)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(74, 13)
         Me.Label11.TabIndex = 24
@@ -263,9 +294,9 @@ Partial Class Form3
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(231, 535)
+        Me.Button3.Location = New System.Drawing.Point(1063, 518)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(80, 34)
         Me.Button3.TabIndex = 25
         Me.Button3.Text = "Back"
         Me.Button3.UseVisualStyleBackColor = True
@@ -274,7 +305,7 @@ Partial Class Form3
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
-        Me.ComboBox3.Location = New System.Drawing.Point(109, 238)
+        Me.ComboBox3.Location = New System.Drawing.Point(266, 269)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox3.TabIndex = 26
@@ -284,6 +315,8 @@ Partial Class Form3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1072, 570)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.Button3)
