@@ -127,7 +127,6 @@ Partial Class Form7
         Me.GroupBox1.Size = New System.Drawing.Size(425, 150)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
         '
         'RadioButton4
         '
