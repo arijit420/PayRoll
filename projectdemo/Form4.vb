@@ -48,7 +48,7 @@ Public Class Form4
         con.ConnectionString = s
 
         con.Open()
-        Dim odc As New OleDbDataAdapter(New OleDbCommand("SELECT * FROM employee", con))
+        Dim odc As New OleDbDataAdapter(New OleDbCommand("SELECT * FROM emp", con))
 
         odc.Fill(dt)
         For Each dr As DataRow In dt.Rows
