@@ -63,7 +63,16 @@ Public Class Form5
             cmd.ExecuteNonQuery()
             cmd.Dispose()
             myconnection.Close()
-
+            Idbox.Text = ""
+            TextBox1.Clear()
+            TextBox2.Clear()
+            TextBox5.Clear()
+            TextBox4.Clear()
+            ComboBox4.Text = ""
+            TextBox7.Clear()
+            ComboBox1.Text = ""
+            ComboBox2.Text = ""
+            ComboBox3.Text = ""
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -87,6 +96,16 @@ Public Class Form5
     End Sub
 
     Private Sub DELETE_Click(sender As Object, e As EventArgs) Handles DELETE.Click
+        Dim con As OleDbConnection
+        Dim com As OleDbCommand
+        con = New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DELL\Documents\vb_net.accdb")
+        com = New OleDbCommand("delete from emp where ID =@ID", con)
+        con.Open()
+        com.Parameters.AddWithValue("@ID", TextBox1.Text)
+        com.ExecuteNonQuery()
+        MsgBox("Record Deleted")
+        TextBox1.Text = ""
+        con.Close()
 
     End Sub
 End Class
