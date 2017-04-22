@@ -24,11 +24,8 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -41,9 +38,13 @@ Partial Class Form2
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.ADD = New System.Windows.Forms.Button()
+        Me.btnADD = New System.Windows.Forms.Button()
         Me.RESET = New System.Windows.Forms.Button()
         Me.LOGOUT = New System.Windows.Forms.Button()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -52,20 +53,6 @@ Partial Class Form2
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(141, 20)
         Me.TextBox1.TabIndex = 0
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(203, 105)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox2.TabIndex = 1
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(203, 156)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox3.TabIndex = 2
         '
         'TextBox4
         '
@@ -81,13 +68,6 @@ Partial Class Form2
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(178, 20)
         Me.TextBox5.TabIndex = 4
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(240, 420)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(141, 20)
-        Me.TextBox6.TabIndex = 5
         '
         'TextBox7
         '
@@ -172,7 +152,7 @@ Partial Class Form2
         Me.ComboBox1.Items.AddRange(New Object() {"maneger", "clark", "accountant", "sv"})
         Me.ComboBox1.Location = New System.Drawing.Point(203, 206)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(141, 21)
         Me.ComboBox1.TabIndex = 14
         '
         'Label8
@@ -204,15 +184,15 @@ Partial Class Form2
         Me.TextBox8.TabIndex = 17
         Me.TextBox8.Text = "+91"
         '
-        'ADD
+        'btnADD
         '
-        Me.ADD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ADD.Location = New System.Drawing.Point(540, 344)
-        Me.ADD.Name = "ADD"
-        Me.ADD.Size = New System.Drawing.Size(92, 62)
-        Me.ADD.TabIndex = 18
-        Me.ADD.Text = "ADD"
-        Me.ADD.UseVisualStyleBackColor = True
+        Me.btnADD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnADD.Location = New System.Drawing.Point(540, 344)
+        Me.btnADD.Name = "btnADD"
+        Me.btnADD.Size = New System.Drawing.Size(92, 62)
+        Me.btnADD.TabIndex = 18
+        Me.btnADD.Text = "ADD"
+        Me.btnADD.UseVisualStyleBackColor = True
         '
         'RESET
         '
@@ -231,8 +211,42 @@ Partial Class Form2
         Me.LOGOUT.Name = "LOGOUT"
         Me.LOGOUT.Size = New System.Drawing.Size(104, 50)
         Me.LOGOUT.TabIndex = 20
-        Me.LOGOUT.Text = "LOG OUT"
+        Me.LOGOUT.Text = "Back"
         Me.LOGOUT.UseVisualStyleBackColor = True
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "graduate", "post graduate", "others"})
+        Me.ComboBox2.Location = New System.Drawing.Point(203, 154)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(141, 21)
+        Me.ComboBox2.TabIndex = 21
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
+        Me.ComboBox3.Location = New System.Drawing.Point(206, 247)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(138, 21)
+        Me.ComboBox3.TabIndex = 22
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Kolkata", "Delhi", "Mumbai", "Chennai", "Hyderabad"})
+        Me.ComboBox4.Location = New System.Drawing.Point(205, 109)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(139, 21)
+        Me.ComboBox4.TabIndex = 24
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(253, 419)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(128, 20)
+        Me.TextBox2.TabIndex = 25
         '
         'Form2
         '
@@ -241,9 +255,13 @@ Partial Class Form2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(787, 495)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.ComboBox4)
+        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.LOGOUT)
         Me.Controls.Add(Me.RESET)
-        Me.Controls.Add(Me.ADD)
+        Me.Controls.Add(Me.btnADD)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -256,11 +274,8 @@ Partial Class Form2
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form2"
         Me.Text = "Form2"
@@ -270,11 +285,8 @@ Partial Class Form2
     End Sub
 
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
@@ -287,7 +299,11 @@ Partial Class Form2
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents ADD As Button
+    Friend WithEvents btnADD As Button
     Friend WithEvents RESET As Button
     Friend WithEvents LOGOUT As Button
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
