@@ -4,9 +4,6 @@ Public Class pay_ments
     Dim myconnection As OleDbConnection = New OleDbConnection
     Dim con As New OleDbConnection
     Dim dt As New DataTable()
-
-
-
     Private Sub CLEAR_Click(sender As Object, e As EventArgs) Handles CLEAR.Click
         ComboBox1.Text = " "
         EmployeeName.Text = " "
@@ -27,18 +24,7 @@ Public Class pay_ments
         DeductSalary.Text = " "
         LOANAdj.Text = " "
         NETPAYMENT.Text = " "
-
-
     End Sub
-
-    Private Sub EXITT_Click(sender As Object, e As EventArgs) Handles EXITT.Click
-        End
-    End Sub
-
-    Private Sub GROSS_TextChanged(sender As Object, e As EventArgs) Handles GROSS.TextChanged
-
-    End Sub
-
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.WindowState = FormWindowState.Maximized
