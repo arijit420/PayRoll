@@ -10,7 +10,7 @@ Public Class pay_ments
     Private Sub CLEAR_Click(sender As Object, e As EventArgs) Handles CLEAR.Click
         ComboBox1.Text = " "
         EmployeeName.Text = " "
-        ComboBox2.Text = " "
+        TextBox1.Text = " "
         WorkingDay.Text = " "
         OverTime.Text = " "
         OverTimeRate.Text = " "
@@ -65,6 +65,8 @@ Public Class pay_ments
                 EmployeeName.Text = dr(1)
                 MblNo.Text = dr(7)
                 branh.Text = dr(2)
+                TextBox1.Text = dr(4)
+                Salary.Text = dr(10)
             End If
         Next
     End Sub
@@ -79,19 +81,40 @@ Public Class pay_ments
         con.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DELL\Documents\vb_net.accdb"
         sqlquery.Connection = con
         con.Open()
-        sqlquery.CommandText = "INSERT INTO pay(ID, Branch,empname,designation,salary,loan,netpayment)VALUES(@ID, @Branch,@empname,@designation,@salary,@loan,@netpayment)"
+        sqlquery.CommandText = "INSERT INTO pay(ID, Branch,empname,designation,salary,loan,netpayment,Dates)VALUES(@ID, @Branch,@empname,@designation,@salary,@loan,@netpayment,@Dates)"
         sqlquery.Parameters.AddWithValue("@ID", ComboBox1.Text)
         sqlquery.Parameters.AddWithValue("@Branch", branh.Text)
 
         sqlquery.Parameters.AddWithValue("@empname", EmployeeName.Text)
-        sqlquery.Parameters.AddWithValue("@designation", ComboBox2.Text)
+        sqlquery.Parameters.AddWithValue("@designation", TextBox1.Text)
         sqlquery.Parameters.AddWithValue("@salary", Val(Salary.Text))
         sqlquery.Parameters.AddWithValue("@loan", Val(LOANamt.Text))
         sqlquery.Parameters.AddWithValue("@netpayment", Val(NETPAYMENT.Text))
+        sqlquery.Parameters.AddWithValue("@Dates", Val(DateTimePicker1.Text))
         sqlquery.ExecuteReader()
         MsgBox("Data Saved", vbInformation, "payment successfull")
         con.Close()
-
+        ComboBox1.Text = " "
+        EmployeeName.Text = " "
+        TextBox1.Text = " "
+        WorkingDay.Text = " "
+        OverTime.Text = " "
+        OverTimeRate.Text = " "
+        Salary.Text = " "
+        LOANamt.Text = " "
+        Basicamt.Text = " "
+        DA.Text = " "
+        HRA.Text = " "
+        ESI.Text = " "
+        branh.Text = ""
+        PF.Text = " "
+        MblNo.Text = ""
+        MEDICAL.Text = " "
+        LTA.Text = " "
+        GROSS.Text = " "
+        DeductSalary.Text = " "
+        LOANAdj.Text = " "
+        NETPAYMENT.Text = " "
     End Sub
 
     Private Sub btnADD_Click(sender As Object, e As EventArgs) Handles btnADD.Click

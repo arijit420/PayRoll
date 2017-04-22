@@ -69,9 +69,9 @@ Partial Class pay_ments
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.payementdatee = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.branch = New System.Windows.Forms.Label()
         Me.branh = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'EmployeeName
@@ -489,15 +489,6 @@ Partial Class pay_ments
         Me.ComboBox1.Size = New System.Drawing.Size(128, 21)
         Me.ComboBox1.TabIndex = 49
         '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Manager", "Distributor"})
-        Me.ComboBox2.Location = New System.Drawing.Point(132, 230)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 50
-        '
         'branch
         '
         Me.branch.AutoSize = True
@@ -516,7 +507,14 @@ Partial Class pay_ments
         Me.branh.Size = New System.Drawing.Size(128, 20)
         Me.branh.TabIndex = 52
         '
-        'Form4
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(131, 228)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(129, 20)
+        Me.TextBox1.TabIndex = 53
+        '
+        'pay_ments
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -524,9 +522,9 @@ Partial Class pay_ments
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(747, 523)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.branh)
         Me.Controls.Add(Me.branch)
-        Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.payementdatee)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -574,7 +572,7 @@ Partial Class pay_ments
         Me.Controls.Add(Me.MblNo)
         Me.Controls.Add(Me.EmployeeName)
         Me.DoubleBuffered = True
-        Me.Name = "Form4"
+        Me.Name = "pay_ments"
         Me.Text = "Form4"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -626,7 +624,7 @@ Partial Class pay_ments
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents payementdatee As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents branch As Label
     Friend WithEvents branh As TextBox
+    Friend WithEvents TextBox1 As TextBox
 End Class

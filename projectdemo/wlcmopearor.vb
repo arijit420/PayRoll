@@ -30,4 +30,9 @@
         LogPage.Show()
         Me.Hide()
     End Sub
+
+    Private Sub PAYMENT_Click(sender As Object, e As EventArgs) Handles PAYMENT.Click
+        pay_ments.Show()
+        Me.Hide()
+    End Sub
 End Class
