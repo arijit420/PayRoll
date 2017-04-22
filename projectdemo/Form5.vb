@@ -56,7 +56,7 @@ Public Class Form5
         myconnection.ConnectionString = connstring
         myconnection.Open()
         Dim str As String
-        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualifi]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & TextBox5.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "' where [ID]= " & Idbox.Text & ""
+        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualif]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & TextBox5.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "' where [ID]= " & Idbox.Text & ""
         Dim cmd As OleDbCommand = New OleDbCommand(str, myconnection)
         MsgBox("Record Updated", vbInformation, "Upadate Successfull")
         Try
@@ -84,5 +84,9 @@ Public Class Form5
 
             End If
         Next
+    End Sub
+
+    Private Sub DELETE_Click(sender As Object, e As EventArgs) Handles DELETE.Click
+
     End Sub
 End Class

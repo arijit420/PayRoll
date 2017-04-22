@@ -30,6 +30,9 @@ Partial Class Form5
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Idbox = New System.Windows.Forms.ComboBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.BACK2 = New System.Windows.Forms.Button()
         Me.SAVE = New System.Windows.Forms.Button()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
@@ -51,9 +54,6 @@ Partial Class Form5
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PREV = New System.Windows.Forms.Button()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Idbox = New System.Windows.Forms.ComboBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -157,6 +157,33 @@ Partial Class Form5
         Me.GroupBox2.Size = New System.Drawing.Size(575, 492)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
+        '
+        'Idbox
+        '
+        Me.Idbox.FormattingEnabled = True
+        Me.Idbox.Location = New System.Drawing.Point(153, 17)
+        Me.Idbox.Name = "Idbox"
+        Me.Idbox.Size = New System.Drawing.Size(121, 21)
+        Me.Idbox.TabIndex = 23
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(40, 10)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(19, 15)
+        Me.Label11.TabIndex = 22
+        Me.Label11.Text = "ID"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Kolkata", "Mumbai", "Delhi", "Hyderabad", "Chennai"})
+        Me.ComboBox4.Location = New System.Drawing.Point(151, 76)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(150, 21)
+        Me.ComboBox4.TabIndex = 21
         '
         'BACK2
         '
@@ -349,33 +376,6 @@ Partial Class Form5
         Me.PREV.TabIndex = 4
         Me.PREV.Text = "PREV"
         Me.PREV.UseVisualStyleBackColor = True
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Kolkata", "Mumbai", "Delhi", "Hyderabad", "Chennai"})
-        Me.ComboBox4.Location = New System.Drawing.Point(151, 76)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(150, 21)
-        Me.ComboBox4.TabIndex = 21
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(40, 10)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(19, 15)
-        Me.Label11.TabIndex = 22
-        Me.Label11.Text = "ID"
-        '
-        'Idbox
-        '
-        Me.Idbox.FormattingEnabled = True
-        Me.Idbox.Location = New System.Drawing.Point(153, 17)
-        Me.Idbox.Name = "Idbox"
-        Me.Idbox.Size = New System.Drawing.Size(121, 21)
-        Me.Idbox.TabIndex = 23
         '
         'Form5
         '
