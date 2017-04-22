@@ -54,6 +54,8 @@ Partial Class edtemplye
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PREV = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -129,6 +131,8 @@ Partial Class edtemplye
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Controls.Add(Me.Idbox)
         Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.ComboBox4)
@@ -377,7 +381,24 @@ Partial Class edtemplye
         Me.PREV.Text = "PREV"
         Me.PREV.UseVisualStyleBackColor = True
         '
-        'Form5
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(50, 467)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(47, 16)
+        Me.Label12.TabIndex = 24
+        Me.Label12.Text = "Salary"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(150, 467)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(151, 20)
+        Me.TextBox3.TabIndex = 25
+        '
+        'edtemplye
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -387,7 +408,7 @@ Partial Class edtemplye
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.REMOVEEMPLOYEE)
-        Me.Name = "Form5"
+        Me.Name = "edtemplye"
         Me.Text = "Form5"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -429,4 +450,6 @@ Partial Class edtemplye
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents Idbox As ComboBox
     Friend WithEvents Label11 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label12 As Label
 End Class

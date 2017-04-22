@@ -45,18 +45,20 @@ Partial Class emplye
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(203, 67)
+        Me.TextBox1.Location = New System.Drawing.Point(203, 32)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(141, 20)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(203, 278)
+        Me.TextBox4.Location = New System.Drawing.Point(203, 243)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(178, 79)
@@ -64,14 +66,14 @@ Partial Class emplye
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(203, 380)
+        Me.TextBox5.Location = New System.Drawing.Point(203, 345)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(178, 20)
         Me.TextBox5.TabIndex = 4
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(203, 460)
+        Me.TextBox7.Location = New System.Drawing.Point(203, 425)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(178, 20)
         Me.TextBox7.TabIndex = 6
@@ -80,7 +82,7 @@ Partial Class emplye
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(58, 68)
+        Me.Label1.Location = New System.Drawing.Point(58, 33)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 16)
         Me.Label1.TabIndex = 7
@@ -90,7 +92,7 @@ Partial Class emplye
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(118, 109)
+        Me.Label2.Location = New System.Drawing.Point(118, 74)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(50, 16)
         Me.Label2.TabIndex = 8
@@ -100,7 +102,7 @@ Partial Class emplye
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(87, 160)
+        Me.Label3.Location = New System.Drawing.Point(87, 125)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(81, 16)
         Me.Label3.TabIndex = 9
@@ -110,7 +112,7 @@ Partial Class emplye
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(88, 207)
+        Me.Label4.Location = New System.Drawing.Point(88, 172)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(80, 16)
         Me.Label4.TabIndex = 10
@@ -120,7 +122,7 @@ Partial Class emplye
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(115, 249)
+        Me.Label5.Location = New System.Drawing.Point(115, 214)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 16)
         Me.Label5.TabIndex = 11
@@ -130,7 +132,7 @@ Partial Class emplye
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(41, 292)
+        Me.Label6.Location = New System.Drawing.Point(41, 257)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(127, 16)
         Me.Label6.TabIndex = 12
@@ -140,7 +142,7 @@ Partial Class emplye
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(115, 383)
+        Me.Label7.Location = New System.Drawing.Point(115, 348)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(30, 16)
         Me.Label7.TabIndex = 13
@@ -150,7 +152,7 @@ Partial Class emplye
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"maneger", "clark", "accountant", "sv"})
-        Me.ComboBox1.Location = New System.Drawing.Point(203, 206)
+        Me.ComboBox1.Location = New System.Drawing.Point(203, 171)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(141, 21)
         Me.ComboBox1.TabIndex = 14
@@ -159,7 +161,7 @@ Partial Class emplye
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(98, 420)
+        Me.Label8.Location = New System.Drawing.Point(98, 385)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(70, 16)
         Me.Label8.TabIndex = 15
@@ -169,7 +171,7 @@ Partial Class emplye
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(121, 466)
+        Me.Label9.Location = New System.Drawing.Point(121, 431)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(58, 16)
         Me.Label9.TabIndex = 16
@@ -178,7 +180,7 @@ Partial Class emplye
         'TextBox8
         '
         Me.TextBox8.Enabled = False
-        Me.TextBox8.Location = New System.Drawing.Point(203, 420)
+        Me.TextBox8.Location = New System.Drawing.Point(203, 385)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(43, 20)
         Me.TextBox8.TabIndex = 17
@@ -218,7 +220,7 @@ Partial Class emplye
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "graduate", "post graduate", "others"})
-        Me.ComboBox2.Location = New System.Drawing.Point(203, 154)
+        Me.ComboBox2.Location = New System.Drawing.Point(203, 119)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(141, 21)
         Me.ComboBox2.TabIndex = 21
@@ -227,7 +229,7 @@ Partial Class emplye
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
-        Me.ComboBox3.Location = New System.Drawing.Point(206, 247)
+        Me.ComboBox3.Location = New System.Drawing.Point(206, 212)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(138, 21)
         Me.ComboBox3.TabIndex = 22
@@ -236,25 +238,44 @@ Partial Class emplye
         '
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Kolkata", "Delhi", "Mumbai", "Chennai", "Hyderabad"})
-        Me.ComboBox4.Location = New System.Drawing.Point(205, 109)
+        Me.ComboBox4.Location = New System.Drawing.Point(205, 74)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(139, 21)
         Me.ComboBox4.TabIndex = 24
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(253, 419)
+        Me.TextBox2.Location = New System.Drawing.Point(253, 384)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(128, 20)
         Me.TextBox2.TabIndex = 25
         '
-        'Form2
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(129, 467)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(41, 15)
+        Me.Label10.TabIndex = 26
+        Me.Label10.Text = "Salary"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(211, 462)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(170, 20)
+        Me.TextBox3.TabIndex = 28
+        '
+        'emplye
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(787, 495)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ComboBox3)
@@ -277,7 +298,7 @@ Partial Class emplye
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox1)
-        Me.Name = "Form2"
+        Me.Name = "emplye"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -306,4 +327,6 @@ Partial Class emplye
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents TextBox3 As TextBox
 End Class

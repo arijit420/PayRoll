@@ -30,6 +30,9 @@ Partial Class l_o_a_n_page
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
@@ -45,6 +48,7 @@ Partial Class l_o_a_n_page
         Me.Label7 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -102,10 +106,10 @@ Partial Class l_o_a_n_page
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(17, 119)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 17)
+        Me.Label6.Size = New System.Drawing.Size(48, 16)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Total "
         '
@@ -113,6 +117,9 @@ Partial Class l_o_a_n_page
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.Button4)
         Me.GroupBox1.Controls.Add(Me.RadioButton4)
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
@@ -124,9 +131,36 @@ Partial Class l_o_a_n_page
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Location = New System.Drawing.Point(40, 239)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(425, 150)
+        Me.GroupBox1.Size = New System.Drawing.Size(478, 174)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Enabled = False
+        Me.TextBox6.Location = New System.Drawing.Point(134, 150)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(137, 20)
+        Me.TextBox6.TabIndex = 22
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(17, 153)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(108, 16)
+        Me.Label9.TabIndex = 21
+        Me.Label9.Text = "Per Month Pay"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(329, 116)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 20
+        Me.Button4.Text = "Calculate"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'RadioButton4
         '
@@ -174,22 +208,27 @@ Partial Class l_o_a_n_page
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(117, 34)
+        Me.TextBox4.Location = New System.Drawing.Point(129, 34)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(138, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(142, 20)
         Me.TextBox4.TabIndex = 10
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(117, 116)
+        Me.TextBox5.Enabled = False
+        Me.TextBox5.Location = New System.Drawing.Point(133, 116)
         Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(138, 20)
         Me.TextBox5.TabIndex = 15
         '
         'TextBox3
         '
+        Me.TextBox3.Cursor = System.Windows.Forms.Cursors.No
+        Me.TextBox3.Enabled = False
         Me.TextBox3.Location = New System.Drawing.Point(135, 194)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 9
         '
@@ -258,17 +297,27 @@ Partial Class l_o_a_n_page
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Location = New System.Drawing.Point(38, 201)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(30, 13)
+        Me.Label8.Size = New System.Drawing.Size(58, 13)
         Me.Label8.TabIndex = 14
-        Me.Label8.Text = "Rate"
+        Me.Label8.Text = "Rate( in %)"
         '
-        'Form7
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(353, 212)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 15
+        Me.Button5.Text = "Load"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'l_o_a_n_page
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(763, 466)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.ComboBox1)
@@ -282,7 +331,7 @@ Partial Class l_o_a_n_page
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form7"
+        Me.Name = "l_o_a_n_page"
         Me.Text = "Form7"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -313,4 +362,8 @@ Partial Class l_o_a_n_page
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label9 As Label
 End Class
