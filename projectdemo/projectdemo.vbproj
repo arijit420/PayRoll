@@ -72,28 +72,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="wlcmopearor.Designer.vb">
+      <DependentUpon>wlcmopearor.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="wlcmopearor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="emplye.Designer.vb">
+      <DependentUpon>emplye.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="emplye.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="edtemplye.Designer.vb">
+      <DependentUpon>edtemplye.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="edtemplye.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.designer.vb">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <Compile Include="l_o_a_n_page.designer.vb">
+      <DependentUpon>l_o_a_n_page.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form7.vb">
+    <Compile Include="l_o_a_n_page.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogPage.vb">
@@ -115,10 +115,10 @@
     <Compile Include="Operator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="pay_ments.Designer.vb">
+      <DependentUpon>pay_ments.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="pay_ments.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -143,17 +143,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="wlcmopearor.resx">
+      <DependentUpon>wlcmopearor.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="emplye.resx">
+      <DependentUpon>emplye.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="edtemplye.resx">
+      <DependentUpon>edtemplye.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <EmbeddedResource Include="l_o_a_n_page.resx">
+      <DependentUpon>l_o_a_n_page.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogPage.resx">
       <DependentUpon>LogPage.vb</DependentUpon>
@@ -164,8 +164,8 @@
     <EmbeddedResource Include="Operator.resx">
       <DependentUpon>Operator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="pay_ments.resx">
+      <DependentUpon>pay_ments.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

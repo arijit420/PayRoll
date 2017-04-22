@@ -1,5 +1,5 @@
 ﻿Imports System.Data.OleDb
-Public Class Form4
+Public Class pay_ments
     Dim connstring As String
     Dim myconnection As OleDbConnection = New OleDbConnection
     Dim con As New OleDbConnection

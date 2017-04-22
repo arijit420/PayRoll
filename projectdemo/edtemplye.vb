@@ -1,5 +1,5 @@
 ﻿Imports System.Data.OleDb
-Public Class Form5
+Public Class edtemplye
     Dim provider As String
     Dim dataFile As String
     Dim connstring As String
@@ -45,7 +45,7 @@ Public Class Form5
     End Sub
     Private Sub PREV_Click(sender As Object, e As EventArgs) Handles PREV.Click
         Me.Hide()
-        Form1.Show()
+        wlcmopearor.Show()
 
     End Sub
 

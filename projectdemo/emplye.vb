@@ -2,7 +2,7 @@
 Imports System.Globalization
 Imports System.Text.RegularExpressions
 
-Public Class Form2
+Public Class emplye
     Private Function emailcheck(ByVal emailaddress As String) As Boolean
         Dim pattern As String = "^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"
         Dim emailAddressMatch As Match = Regex.Match(emailaddress, pattern)
@@ -19,7 +19,7 @@ Public Class Form2
 
     Private Sub LOGOUT_Click(sender As Object, e As EventArgs) Handles LOGOUT.Click
         Me.Hide()
-        Form1.Show()
+        wlcmopearor.Show()
 
     End Sub
 
