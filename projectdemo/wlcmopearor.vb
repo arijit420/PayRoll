@@ -25,4 +25,9 @@
         edtemplye.Show()
 
     End Sub
+
+    Private Sub LOGOUT_Click(sender As Object, e As EventArgs) Handles LOGOUT.Click
+        LogPage.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -13,5 +13,8 @@
         Form3.Show()
     End Sub
 
-
+    Private Sub Emp_details_Click(sender As Object, e As EventArgs) Handles Emp_details.Click
+        Me.Hide()
+        emp_dtls.Show()
+    End Sub
 End Class
