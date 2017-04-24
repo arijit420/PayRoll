@@ -81,6 +81,7 @@ Partial Class emplye
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(58, 33)
         Me.Label1.Name = "Label1"
@@ -91,6 +92,7 @@ Partial Class emplye
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(118, 74)
         Me.Label2.Name = "Label2"
@@ -101,6 +103,7 @@ Partial Class emplye
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(87, 125)
         Me.Label3.Name = "Label3"
@@ -111,6 +114,7 @@ Partial Class emplye
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(88, 172)
         Me.Label4.Name = "Label4"
@@ -121,6 +125,7 @@ Partial Class emplye
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(115, 214)
         Me.Label5.Name = "Label5"
@@ -131,6 +136,7 @@ Partial Class emplye
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(41, 257)
         Me.Label6.Name = "Label6"
@@ -141,6 +147,7 @@ Partial Class emplye
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(115, 348)
         Me.Label7.Name = "Label7"
@@ -160,6 +167,7 @@ Partial Class emplye
         'Label8
         '
         Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(98, 385)
         Me.Label8.Name = "Label8"
@@ -170,6 +178,7 @@ Partial Class emplye
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(121, 431)
         Me.Label9.Name = "Label9"
@@ -189,7 +198,7 @@ Partial Class emplye
         'btnADD
         '
         Me.btnADD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnADD.Location = New System.Drawing.Point(540, 344)
+        Me.btnADD.Location = New System.Drawing.Point(276, 524)
         Me.btnADD.Name = "btnADD"
         Me.btnADD.Size = New System.Drawing.Size(92, 62)
         Me.btnADD.TabIndex = 18
@@ -199,7 +208,7 @@ Partial Class emplye
         'RESET
         '
         Me.RESET.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RESET.Location = New System.Drawing.Point(665, 344)
+        Me.RESET.Location = New System.Drawing.Point(427, 524)
         Me.RESET.Name = "RESET"
         Me.RESET.Size = New System.Drawing.Size(92, 62)
         Me.RESET.TabIndex = 19
@@ -209,9 +218,9 @@ Partial Class emplye
         'LOGOUT
         '
         Me.LOGOUT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LOGOUT.Location = New System.Drawing.Point(597, 430)
+        Me.LOGOUT.Location = New System.Drawing.Point(101, 524)
         Me.LOGOUT.Name = "LOGOUT"
-        Me.LOGOUT.Size = New System.Drawing.Size(104, 50)
+        Me.LOGOUT.Size = New System.Drawing.Size(93, 62)
         Me.LOGOUT.TabIndex = 20
         Me.LOGOUT.Text = "Back"
         Me.LOGOUT.UseVisualStyleBackColor = True
@@ -253,6 +262,7 @@ Partial Class emplye
         'Label10
         '
         Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(129, 467)
         Me.Label10.Name = "Label10"
@@ -273,7 +283,7 @@ Partial Class emplye
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(787, 495)
+        Me.ClientSize = New System.Drawing.Size(1068, 607)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.TextBox2)

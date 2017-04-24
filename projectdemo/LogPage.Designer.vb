@@ -129,7 +129,7 @@ Partial Class LogPage
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(53, 499)
+        Me.Label1.Location = New System.Drawing.Point(53, 493)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(109, 17)
         Me.Label1.TabIndex = 10
