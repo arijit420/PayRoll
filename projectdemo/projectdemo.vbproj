@@ -72,10 +72,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="emp_dtls.Designer.vb">
       <DependentUpon>emp_dtls.vb</DependentUpon>
     </Compile>
     <Compile Include="emp_dtls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="wlcmopearor.Designer.vb">
@@ -151,6 +158,9 @@
   <ItemGroup>
     <EmbeddedResource Include="emp_dtls.resx">
       <DependentUpon>emp_dtls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wlcmopearor.resx">
       <DependentUpon>wlcmopearor.vb</DependentUpon>

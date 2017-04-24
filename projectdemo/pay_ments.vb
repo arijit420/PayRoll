@@ -76,7 +76,7 @@ Public Class pay_ments
         sqlquery.Parameters.AddWithValue("@salary", Val(Salary.Text))
         sqlquery.Parameters.AddWithValue("@loan", Val(LOANamt.Text))
         sqlquery.Parameters.AddWithValue("@netpayment", Val(NETPAYMENT.Text))
-        sqlquery.Parameters.AddWithValue("@Dates", Val(DateTimePicker1.Text))
+        sqlquery.Parameters.AddWithValue("@Dates", (DateTimePicker1.Value).ToShortDateString)
         sqlquery.ExecuteReader()
         MsgBox("Data Saved", vbInformation, "payment successfull")
         con.Close()
@@ -119,5 +119,13 @@ Public Class pay_ments
         End If
         NETPAYMENT.Text = (Val(GROSS.Text) - Val(DeductSalary.Text) - Val(LOANAdj.Text))
 
+    End Sub
+    Public Sub AutoNumber_Check(TableName As String, connectionString As String)
+        Dim connection As New OleDbConnection(connectionString)
+        Dim query As String = "DBCC CHECKIDENT ('" & TableName & "',RESEED, 0)"
+        Dim command As New OleDbCommand(query, connection)
+        connection.Open()
+        command.ExecuteNonQuery()
+        connection.Close()
     End Sub
 End Class
