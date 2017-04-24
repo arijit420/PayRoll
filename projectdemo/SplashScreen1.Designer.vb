@@ -74,12 +74,13 @@ Partial Class SplashScreen1
         '
         Me.Version.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Version.BackColor = System.Drawing.Color.Transparent
-        Me.Version.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Version.Location = New System.Drawing.Point(3, 9)
+        Me.Version.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Version.ForeColor = System.Drawing.Color.White
+        Me.Version.Location = New System.Drawing.Point(3, 0)
         Me.Version.Name = "Version"
-        Me.Version.Size = New System.Drawing.Size(241, 20)
+        Me.Version.Size = New System.Drawing.Size(241, 39)
         Me.Version.TabIndex = 1
-        Me.Version.Text = "Version {0}.{1:00}"
+        Me.Version.Text = "Neotia Institute Of Technology Management And Science"
         '
         'Copyright
         '
@@ -90,18 +91,18 @@ Partial Class SplashScreen1
         Me.Copyright.Name = "Copyright"
         Me.Copyright.Size = New System.Drawing.Size(241, 40)
         Me.Copyright.TabIndex = 2
-        Me.Copyright.Text = "Copyright"
         '
         'ApplicationTitle
         '
         Me.ApplicationTitle.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ApplicationTitle.BackColor = System.Drawing.Color.Transparent
-        Me.ApplicationTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ApplicationTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ApplicationTitle.ForeColor = System.Drawing.Color.White
         Me.ApplicationTitle.Location = New System.Drawing.Point(246, 3)
         Me.ApplicationTitle.Name = "ApplicationTitle"
         Me.ApplicationTitle.Size = New System.Drawing.Size(247, 212)
         Me.ApplicationTitle.TabIndex = 0
-        Me.ApplicationTitle.Text = "Application Title"
+        Me.ApplicationTitle.Text = "Payroll Accounting System"
         Me.ApplicationTitle.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'SplashScreen1
