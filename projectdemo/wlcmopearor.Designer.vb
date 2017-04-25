@@ -36,7 +36,8 @@ Partial Class wlcmopearor
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(522, 41)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label1.Location = New System.Drawing.Point(462, 42)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(262, 34)
         Me.Label1.TabIndex = 0
@@ -48,7 +49,8 @@ Partial Class wlcmopearor
         Me.ADDEMPLOYEE.BackColor = System.Drawing.Color.Transparent
         Me.ADDEMPLOYEE.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ADDEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ADDEMPLOYEE.Location = New System.Drawing.Point(125, 118)
+        Me.ADDEMPLOYEE.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ADDEMPLOYEE.Location = New System.Drawing.Point(102, 443)
         Me.ADDEMPLOYEE.Name = "ADDEMPLOYEE"
         Me.ADDEMPLOYEE.Size = New System.Drawing.Size(111, 17)
         Me.ADDEMPLOYEE.TabIndex = 1
@@ -60,7 +62,8 @@ Partial Class wlcmopearor
         Me.EDIT.BackColor = System.Drawing.Color.Transparent
         Me.EDIT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.EDIT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EDIT.Location = New System.Drawing.Point(338, 118)
+        Me.EDIT.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.EDIT.Location = New System.Drawing.Point(102, 492)
         Me.EDIT.Name = "EDIT"
         Me.EDIT.Size = New System.Drawing.Size(111, 17)
         Me.EDIT.TabIndex = 2
@@ -72,7 +75,8 @@ Partial Class wlcmopearor
         Me.LOAN.BackColor = System.Drawing.Color.Transparent
         Me.LOAN.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LOAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LOAN.Location = New System.Drawing.Point(792, 118)
+        Me.LOAN.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.LOAN.Location = New System.Drawing.Point(102, 588)
         Me.LOAN.Name = "LOAN"
         Me.LOAN.Size = New System.Drawing.Size(44, 17)
         Me.LOAN.TabIndex = 3
@@ -84,7 +88,8 @@ Partial Class wlcmopearor
         Me.PAYMENT.BackColor = System.Drawing.Color.Transparent
         Me.PAYMENT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PAYMENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PAYMENT.Location = New System.Drawing.Point(957, 118)
+        Me.PAYMENT.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.PAYMENT.Location = New System.Drawing.Point(102, 538)
         Me.PAYMENT.Name = "PAYMENT"
         Me.PAYMENT.Size = New System.Drawing.Size(70, 17)
         Me.PAYMENT.TabIndex = 4
@@ -96,7 +101,8 @@ Partial Class wlcmopearor
         Me.LOGOUT.BackColor = System.Drawing.Color.Transparent
         Me.LOGOUT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LOGOUT.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LOGOUT.Location = New System.Drawing.Point(1157, 23)
+        Me.LOGOUT.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.LOGOUT.Location = New System.Drawing.Point(1214, 42)
         Me.LOGOUT.Name = "LOGOUT"
         Me.LOGOUT.Size = New System.Drawing.Size(62, 13)
         Me.LOGOUT.TabIndex = 5
@@ -108,7 +114,7 @@ Partial Class wlcmopearor
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1177, 429)
+        Me.ClientSize = New System.Drawing.Size(1370, 661)
         Me.Controls.Add(Me.LOGOUT)
         Me.Controls.Add(Me.PAYMENT)
         Me.Controls.Add(Me.LOAN)
