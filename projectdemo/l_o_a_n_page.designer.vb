@@ -56,10 +56,10 @@ Partial Class l_o_a_n_page
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(348, 9)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(565, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 31)
+        Me.Label1.Size = New System.Drawing.Size(113, 46)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Loan"
         '
@@ -67,9 +67,10 @@ Partial Class l_o_a_n_page
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(37, 81)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.Size = New System.Drawing.Size(79, 17)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Emloyee ID"
         '
@@ -77,39 +78,40 @@ Partial Class l_o_a_n_page
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(38, 118)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(35, 13)
+        Me.Label3.Size = New System.Drawing.Size(45, 17)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Name"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(17, 34)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(62, 17)
+        Me.Label4.Size = New System.Drawing.Size(53, 16)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Amount"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(17, 75)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(43, 17)
+        Me.Label5.Size = New System.Drawing.Size(39, 16)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Time"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(17, 119)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(48, 16)
+        Me.Label6.Size = New System.Drawing.Size(42, 16)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Total "
         '
@@ -129,16 +131,16 @@ Partial Class l_o_a_n_page
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Location = New System.Drawing.Point(40, 239)
+        Me.GroupBox1.Location = New System.Drawing.Point(41, 287)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(478, 174)
+        Me.GroupBox1.Size = New System.Drawing.Size(489, 222)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         '
         'TextBox6
         '
         Me.TextBox6.Enabled = False
-        Me.TextBox6.Location = New System.Drawing.Point(134, 150)
+        Me.TextBox6.Location = New System.Drawing.Point(115, 149)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(137, 20)
         Me.TextBox6.TabIndex = 22
@@ -146,16 +148,16 @@ Partial Class l_o_a_n_page
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(17, 153)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(108, 16)
+        Me.Label9.Size = New System.Drawing.Size(95, 16)
         Me.Label9.TabIndex = 21
         Me.Label9.Text = "Per Month Pay"
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(329, 116)
+        Me.Button4.Location = New System.Drawing.Point(328, 119)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 20
@@ -165,9 +167,10 @@ Partial Class l_o_a_n_page
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(351, 75)
+        Me.RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton4.Location = New System.Drawing.Point(385, 73)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton4.Size = New System.Drawing.Size(92, 21)
         Me.RadioButton4.TabIndex = 19
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "36 months"
@@ -176,9 +179,10 @@ Partial Class l_o_a_n_page
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(271, 73)
+        Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton3.Location = New System.Drawing.Point(287, 72)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(92, 21)
         Me.RadioButton3.TabIndex = 18
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "24 months"
@@ -187,9 +191,10 @@ Partial Class l_o_a_n_page
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(191, 72)
+        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(195, 72)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton2.Size = New System.Drawing.Size(92, 21)
         Me.RadioButton2.TabIndex = 17
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "12 months"
@@ -198,9 +203,10 @@ Partial Class l_o_a_n_page
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(117, 72)
+        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(110, 72)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(68, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(84, 21)
         Me.RadioButton1.TabIndex = 16
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "6 months"
@@ -208,7 +214,7 @@ Partial Class l_o_a_n_page
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(129, 34)
+        Me.TextBox4.Location = New System.Drawing.Point(110, 34)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(142, 20)
         Me.TextBox4.TabIndex = 10
@@ -216,7 +222,7 @@ Partial Class l_o_a_n_page
         'TextBox5
         '
         Me.TextBox5.Enabled = False
-        Me.TextBox5.Location = New System.Drawing.Point(133, 116)
+        Me.TextBox5.Location = New System.Drawing.Point(115, 116)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(138, 20)
@@ -248,7 +254,7 @@ Partial Class l_o_a_n_page
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(40, 419)
+        Me.Button1.Location = New System.Drawing.Point(40, 576)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 9
@@ -257,7 +263,7 @@ Partial Class l_o_a_n_page
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(273, 419)
+        Me.Button2.Location = New System.Drawing.Point(236, 576)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 10
@@ -266,7 +272,7 @@ Partial Class l_o_a_n_page
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(503, 419)
+        Me.Button3.Location = New System.Drawing.Point(443, 576)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 11
@@ -277,9 +283,10 @@ Partial Class l_o_a_n_page
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(38, 159)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(36, 13)
+        Me.Label7.Size = New System.Drawing.Size(48, 17)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Salary"
         '
@@ -295,9 +302,10 @@ Partial Class l_o_a_n_page
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(38, 201)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(58, 13)
+        Me.Label8.Size = New System.Drawing.Size(79, 17)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Rate( in %)"
         '
@@ -316,7 +324,7 @@ Partial Class l_o_a_n_page
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(763, 466)
+        Me.ClientSize = New System.Drawing.Size(1072, 644)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label8)
