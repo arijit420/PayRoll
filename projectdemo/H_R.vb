@@ -17,4 +17,9 @@
         Me.Hide()
         emp_dtls.Show()
     End Sub
+
+    Private Sub view_expense_Click(sender As Object, e As EventArgs) Handles view_expense.Click
+        monthlyexpenses.Show()
+        Me.Hide()
+    End Sub
 End Class
