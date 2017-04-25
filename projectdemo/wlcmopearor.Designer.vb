@@ -36,7 +36,7 @@ Partial Class wlcmopearor
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(522, 41)
+        Me.Label1.Location = New System.Drawing.Point(511, 12)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(262, 34)
         Me.Label1.TabIndex = 0
@@ -47,10 +47,10 @@ Partial Class wlcmopearor
         Me.ADDEMPLOYEE.AutoSize = True
         Me.ADDEMPLOYEE.BackColor = System.Drawing.Color.Transparent
         Me.ADDEMPLOYEE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ADDEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ADDEMPLOYEE.Location = New System.Drawing.Point(125, 118)
+        Me.ADDEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ADDEMPLOYEE.Location = New System.Drawing.Point(96, 118)
         Me.ADDEMPLOYEE.Name = "ADDEMPLOYEE"
-        Me.ADDEMPLOYEE.Size = New System.Drawing.Size(111, 17)
+        Me.ADDEMPLOYEE.Size = New System.Drawing.Size(124, 20)
         Me.ADDEMPLOYEE.TabIndex = 1
         Me.ADDEMPLOYEE.Text = "Add Employee"
         '
@@ -59,10 +59,10 @@ Partial Class wlcmopearor
         Me.EDIT.AutoSize = True
         Me.EDIT.BackColor = System.Drawing.Color.Transparent
         Me.EDIT.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.EDIT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EDIT.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EDIT.Location = New System.Drawing.Point(338, 118)
         Me.EDIT.Name = "EDIT"
-        Me.EDIT.Size = New System.Drawing.Size(111, 17)
+        Me.EDIT.Size = New System.Drawing.Size(124, 20)
         Me.EDIT.TabIndex = 2
         Me.EDIT.Text = "Edit Employee"
         '
@@ -71,10 +71,10 @@ Partial Class wlcmopearor
         Me.LOAN.AutoSize = True
         Me.LOAN.BackColor = System.Drawing.Color.Transparent
         Me.LOAN.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LOAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LOAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LOAN.Location = New System.Drawing.Point(792, 118)
         Me.LOAN.Name = "LOAN"
-        Me.LOAN.Size = New System.Drawing.Size(44, 17)
+        Me.LOAN.Size = New System.Drawing.Size(49, 20)
         Me.LOAN.TabIndex = 3
         Me.LOAN.Text = "Loan"
         '
@@ -83,10 +83,10 @@ Partial Class wlcmopearor
         Me.PAYMENT.AutoSize = True
         Me.PAYMENT.BackColor = System.Drawing.Color.Transparent
         Me.PAYMENT.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PAYMENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PAYMENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYMENT.Location = New System.Drawing.Point(957, 118)
         Me.PAYMENT.Name = "PAYMENT"
-        Me.PAYMENT.Size = New System.Drawing.Size(70, 17)
+        Me.PAYMENT.Size = New System.Drawing.Size(78, 20)
         Me.PAYMENT.TabIndex = 4
         Me.PAYMENT.Text = "Payment"
         '

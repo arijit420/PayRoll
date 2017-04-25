@@ -22,6 +22,7 @@ Partial Class edtemplye
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(edtemplye))
         Me.REMOVEEMPLOYEE = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -63,7 +64,7 @@ Partial Class edtemplye
         'REMOVEEMPLOYEE
         '
         Me.REMOVEEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.REMOVEEMPLOYEE.Location = New System.Drawing.Point(9, 11)
+        Me.REMOVEEMPLOYEE.Location = New System.Drawing.Point(9, 71)
         Me.REMOVEEMPLOYEE.Name = "REMOVEEMPLOYEE"
         Me.REMOVEEMPLOYEE.Size = New System.Drawing.Size(117, 41)
         Me.REMOVEEMPLOYEE.TabIndex = 0
@@ -73,7 +74,7 @@ Partial Class edtemplye
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(164, 11)
+        Me.Button2.Location = New System.Drawing.Point(8, 204)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 41)
         Me.Button2.TabIndex = 1
@@ -82,6 +83,7 @@ Partial Class edtemplye
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.BACK)
         Me.GroupBox1.Controls.Add(Me.DELETE)
         Me.GroupBox1.Controls.Add(Me.Label1)
@@ -132,6 +134,7 @@ Partial Class edtemplye
         '
         'GroupBox2
         '
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.TextBox3)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Controls.Add(Me.Idbox)
@@ -159,7 +162,7 @@ Partial Class edtemplye
         Me.GroupBox2.Controls.Add(Me.TextBox2)
         Me.GroupBox2.Location = New System.Drawing.Point(479, 3)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(575, 492)
+        Me.GroupBox2.Size = New System.Drawing.Size(631, 537)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         '
@@ -210,7 +213,7 @@ Partial Class edtemplye
         'BACK2
         '
         Me.BACK2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BACK2.Location = New System.Drawing.Point(443, 407)
+        Me.BACK2.Location = New System.Drawing.Point(226, 511)
         Me.BACK2.Name = "BACK2"
         Me.BACK2.Size = New System.Drawing.Size(75, 25)
         Me.BACK2.TabIndex = 20
@@ -220,7 +223,7 @@ Partial Class edtemplye
         'SAVE
         '
         Me.SAVE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SAVE.Location = New System.Drawing.Point(342, 406)
+        Me.SAVE.Location = New System.Drawing.Point(33, 511)
         Me.SAVE.Name = "SAVE"
         Me.SAVE.Size = New System.Drawing.Size(75, 26)
         Me.SAVE.TabIndex = 19
@@ -392,9 +395,9 @@ Partial Class edtemplye
         'PREV
         '
         Me.PREV.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PREV.Location = New System.Drawing.Point(325, 13)
+        Me.PREV.Location = New System.Drawing.Point(12, 329)
         Me.PREV.Name = "PREV"
-        Me.PREV.Size = New System.Drawing.Size(88, 39)
+        Me.PREV.Size = New System.Drawing.Size(109, 39)
         Me.PREV.TabIndex = 4
         Me.PREV.Text = "Back"
         Me.PREV.UseVisualStyleBackColor = True
@@ -403,7 +406,9 @@ Partial Class edtemplye
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1057, 494)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1266, 545)
         Me.Controls.Add(Me.PREV)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
