@@ -46,6 +46,7 @@ Partial Class wlcmopearor
         '
         Me.ADDEMPLOYEE.AutoSize = True
         Me.ADDEMPLOYEE.BackColor = System.Drawing.Color.Transparent
+        Me.ADDEMPLOYEE.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ADDEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ADDEMPLOYEE.Location = New System.Drawing.Point(125, 118)
         Me.ADDEMPLOYEE.Name = "ADDEMPLOYEE"
@@ -57,6 +58,7 @@ Partial Class wlcmopearor
         '
         Me.EDIT.AutoSize = True
         Me.EDIT.BackColor = System.Drawing.Color.Transparent
+        Me.EDIT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.EDIT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EDIT.Location = New System.Drawing.Point(338, 118)
         Me.EDIT.Name = "EDIT"
@@ -68,6 +70,7 @@ Partial Class wlcmopearor
         '
         Me.LOAN.AutoSize = True
         Me.LOAN.BackColor = System.Drawing.Color.Transparent
+        Me.LOAN.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LOAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LOAN.Location = New System.Drawing.Point(792, 118)
         Me.LOAN.Name = "LOAN"
@@ -79,6 +82,7 @@ Partial Class wlcmopearor
         '
         Me.PAYMENT.AutoSize = True
         Me.PAYMENT.BackColor = System.Drawing.Color.Transparent
+        Me.PAYMENT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PAYMENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYMENT.Location = New System.Drawing.Point(957, 118)
         Me.PAYMENT.Name = "PAYMENT"
@@ -90,6 +94,7 @@ Partial Class wlcmopearor
         '
         Me.LOGOUT.AutoSize = True
         Me.LOGOUT.BackColor = System.Drawing.Color.Transparent
+        Me.LOGOUT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LOGOUT.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LOGOUT.Location = New System.Drawing.Point(1157, 23)
         Me.LOGOUT.Name = "LOGOUT"

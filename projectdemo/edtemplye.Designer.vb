@@ -30,6 +30,8 @@ Partial Class edtemplye
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Idbox = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
@@ -54,28 +56,26 @@ Partial Class edtemplye
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PREV = New System.Windows.Forms.Button()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'REMOVEEMPLOYEE
         '
-        Me.REMOVEEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.REMOVEEMPLOYEE.Location = New System.Drawing.Point(21, 79)
+        Me.REMOVEEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.REMOVEEMPLOYEE.Location = New System.Drawing.Point(9, 11)
         Me.REMOVEEMPLOYEE.Name = "REMOVEEMPLOYEE"
-        Me.REMOVEEMPLOYEE.Size = New System.Drawing.Size(114, 44)
+        Me.REMOVEEMPLOYEE.Size = New System.Drawing.Size(117, 41)
         Me.REMOVEEMPLOYEE.TabIndex = 0
-        Me.REMOVEEMPLOYEE.Text = "REMOVE EMPLOYEE"
+        Me.REMOVEEMPLOYEE.Text = "Remove Employee"
         Me.REMOVEEMPLOYEE.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(21, 185)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(164, 11)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 44)
+        Me.Button2.Size = New System.Drawing.Size(113, 41)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "UPDATE"
         Me.Button2.UseVisualStyleBackColor = True
@@ -94,19 +94,20 @@ Partial Class edtemplye
         '
         'BACK
         '
-        Me.BACK.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BACK.Location = New System.Drawing.Point(208, 272)
+        Me.BACK.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BACK.Location = New System.Drawing.Point(184, 175)
         Me.BACK.Name = "BACK"
-        Me.BACK.Size = New System.Drawing.Size(75, 23)
+        Me.BACK.Size = New System.Drawing.Size(99, 31)
         Me.BACK.TabIndex = 3
         Me.BACK.Text = "BACK"
         Me.BACK.UseVisualStyleBackColor = True
         '
         'DELETE
         '
-        Me.DELETE.Location = New System.Drawing.Point(135, 187)
+        Me.DELETE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DELETE.Location = New System.Drawing.Point(20, 175)
         Me.DELETE.Name = "DELETE"
-        Me.DELETE.Size = New System.Drawing.Size(109, 33)
+        Me.DELETE.Size = New System.Drawing.Size(113, 31)
         Me.DELETE.TabIndex = 2
         Me.DELETE.Text = "DELETE"
         Me.DELETE.UseVisualStyleBackColor = True
@@ -114,19 +115,19 @@ Partial Class edtemplye
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(22, 122)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(34, 122)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 15)
+        Me.Label1.Size = New System.Drawing.Size(97, 16)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Employee ID"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(121, 106)
+        Me.TextBox1.Location = New System.Drawing.Point(136, 119)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(128, 46)
+        Me.TextBox1.Size = New System.Drawing.Size(128, 22)
         Me.TextBox1.TabIndex = 0
         '
         'GroupBox2
@@ -162,49 +163,66 @@ Partial Class edtemplye
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(148, 467)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(153, 20)
+        Me.TextBox3.TabIndex = 25
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(41, 467)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(53, 16)
+        Me.Label12.TabIndex = 24
+        Me.Label12.Text = "Salary"
+        '
         'Idbox
         '
         Me.Idbox.FormattingEnabled = True
-        Me.Idbox.Location = New System.Drawing.Point(153, 17)
+        Me.Idbox.Location = New System.Drawing.Point(148, 17)
         Me.Idbox.Name = "Idbox"
-        Me.Idbox.Size = New System.Drawing.Size(121, 21)
+        Me.Idbox.Size = New System.Drawing.Size(153, 21)
         Me.Idbox.TabIndex = 23
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(40, 10)
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(20, 17)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(19, 15)
+        Me.Label11.Size = New System.Drawing.Size(101, 16)
         Me.Label11.TabIndex = 22
-        Me.Label11.Text = "ID"
+        Me.Label11.Text = " Employee ID"
         '
         'ComboBox4
         '
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Kolkata", "Mumbai", "Delhi", "Hyderabad", "Chennai"})
-        Me.ComboBox4.Location = New System.Drawing.Point(151, 76)
+        Me.ComboBox4.Location = New System.Drawing.Point(148, 86)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(150, 21)
+        Me.ComboBox4.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox4.TabIndex = 21
         '
         'BACK2
         '
-        Me.BACK2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BACK2.Location = New System.Drawing.Point(435, 388)
+        Me.BACK2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BACK2.Location = New System.Drawing.Point(443, 407)
         Me.BACK2.Name = "BACK2"
-        Me.BACK2.Size = New System.Drawing.Size(75, 44)
+        Me.BACK2.Size = New System.Drawing.Size(75, 25)
         Me.BACK2.TabIndex = 20
         Me.BACK2.Text = "BACK"
         Me.BACK2.UseVisualStyleBackColor = True
         '
         'SAVE
         '
-        Me.SAVE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SAVE.Location = New System.Drawing.Point(342, 373)
+        Me.SAVE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SAVE.Location = New System.Drawing.Point(342, 406)
         Me.SAVE.Name = "SAVE"
-        Me.SAVE.Size = New System.Drawing.Size(75, 59)
+        Me.SAVE.Size = New System.Drawing.Size(75, 26)
         Me.SAVE.TabIndex = 19
         Me.SAVE.Text = "SAVE"
         Me.SAVE.UseVisualStyleBackColor = True
@@ -222,7 +240,7 @@ Partial Class edtemplye
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
-        Me.ComboBox3.Location = New System.Drawing.Point(148, 201)
+        Me.ComboBox3.Location = New System.Drawing.Point(148, 211)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox3.TabIndex = 17
@@ -231,7 +249,7 @@ Partial Class edtemplye
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Manager", "Clark", "Accountant"})
-        Me.ComboBox2.Location = New System.Drawing.Point(148, 157)
+        Me.ComboBox2.Location = New System.Drawing.Point(148, 167)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox2.TabIndex = 16
@@ -240,7 +258,7 @@ Partial Class edtemplye
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"10 pass", "12 pass", "Graguate", "Post graduate", "others"})
-        Me.ComboBox1.Location = New System.Drawing.Point(148, 117)
+        Me.ComboBox1.Location = New System.Drawing.Point(148, 127)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(153, 21)
         Me.ComboBox1.TabIndex = 15
@@ -248,90 +266,90 @@ Partial Class edtemplye
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(47, 431)
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(38, 431)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(58, 16)
+        Me.Label10.Size = New System.Drawing.Size(66, 16)
         Me.Label10.TabIndex = 14
         Me.Label10.Text = "Email ID"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(47, 392)
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(37, 392)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 16)
+        Me.Label9.Size = New System.Drawing.Size(34, 16)
         Me.Label9.TabIndex = 13
         Me.Label9.Text = "City"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(43, 349)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(34, 349)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(70, 16)
+        Me.Label8.Size = New System.Drawing.Size(78, 16)
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Phone NO"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(13, 271)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(3, 271)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(127, 16)
+        Me.Label7.Size = New System.Drawing.Size(144, 16)
         Me.Label7.TabIndex = 11
         Me.Label7.Text = "Parmanent Address"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(35, 202)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(30, 212)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(53, 16)
+        Me.Label6.Size = New System.Drawing.Size(59, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Gender"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(32, 162)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(26, 172)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(80, 16)
+        Me.Label5.Size = New System.Drawing.Size(91, 16)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Designation"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(31, 117)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(23, 127)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(81, 16)
+        Me.Label4.Size = New System.Drawing.Size(94, 16)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Qualification"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(33, 76)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(26, 86)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(50, 16)
+        Me.Label3.Size = New System.Drawing.Size(56, 16)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Branch"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(31, 46)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(24, 54)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 16)
+        Me.Label2.Size = New System.Drawing.Size(123, 16)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Employee Name"
         '
@@ -358,7 +376,7 @@ Partial Class edtemplye
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(148, 245)
+        Me.TextBox4.Location = New System.Drawing.Point(149, 245)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(153, 76)
@@ -366,37 +384,20 @@ Partial Class edtemplye
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(151, 44)
+        Me.TextBox2.Location = New System.Drawing.Point(148, 52)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(153, 20)
         Me.TextBox2.TabIndex = 0
         '
         'PREV
         '
-        Me.PREV.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PREV.Location = New System.Drawing.Point(38, 436)
+        Me.PREV.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PREV.Location = New System.Drawing.Point(325, 13)
         Me.PREV.Name = "PREV"
-        Me.PREV.Size = New System.Drawing.Size(75, 23)
+        Me.PREV.Size = New System.Drawing.Size(88, 39)
         Me.PREV.TabIndex = 4
-        Me.PREV.Text = "PREV"
+        Me.PREV.Text = "Back"
         Me.PREV.UseVisualStyleBackColor = True
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(50, 467)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(47, 16)
-        Me.Label12.TabIndex = 24
-        Me.Label12.Text = "Salary"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(150, 467)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(151, 20)
-        Me.TextBox3.TabIndex = 25
         '
         'edtemplye
         '
