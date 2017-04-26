@@ -76,138 +76,138 @@ Partial Class pay_ments
         '
         'EmployeeName
         '
-        Me.EmployeeName.Location = New System.Drawing.Point(132, 156)
+        Me.EmployeeName.Location = New System.Drawing.Point(621, 222)
         Me.EmployeeName.Name = "EmployeeName"
-        Me.EmployeeName.Size = New System.Drawing.Size(150, 20)
+        Me.EmployeeName.Size = New System.Drawing.Size(128, 20)
         Me.EmployeeName.TabIndex = 1
         '
         'MblNo
         '
-        Me.MblNo.Location = New System.Drawing.Point(132, 189)
+        Me.MblNo.Location = New System.Drawing.Point(621, 255)
         Me.MblNo.Name = "MblNo"
         Me.MblNo.Size = New System.Drawing.Size(128, 20)
         Me.MblNo.TabIndex = 2
         '
         'WorkingDay
         '
-        Me.WorkingDay.Location = New System.Drawing.Point(132, 270)
+        Me.WorkingDay.Location = New System.Drawing.Point(621, 325)
         Me.WorkingDay.Name = "WorkingDay"
-        Me.WorkingDay.Size = New System.Drawing.Size(100, 20)
+        Me.WorkingDay.Size = New System.Drawing.Size(128, 20)
         Me.WorkingDay.TabIndex = 4
         '
         'OverTime
         '
-        Me.OverTime.Location = New System.Drawing.Point(132, 311)
+        Me.OverTime.Location = New System.Drawing.Point(621, 366)
         Me.OverTime.Name = "OverTime"
-        Me.OverTime.Size = New System.Drawing.Size(100, 20)
+        Me.OverTime.Size = New System.Drawing.Size(128, 20)
         Me.OverTime.TabIndex = 5
         '
         'OverTimeRate
         '
-        Me.OverTimeRate.Location = New System.Drawing.Point(132, 352)
+        Me.OverTimeRate.Location = New System.Drawing.Point(621, 407)
         Me.OverTimeRate.Name = "OverTimeRate"
-        Me.OverTimeRate.Size = New System.Drawing.Size(100, 20)
+        Me.OverTimeRate.Size = New System.Drawing.Size(128, 20)
         Me.OverTimeRate.TabIndex = 6
         '
         'Salary
         '
-        Me.Salary.Location = New System.Drawing.Point(132, 390)
+        Me.Salary.Location = New System.Drawing.Point(621, 451)
         Me.Salary.Name = "Salary"
-        Me.Salary.Size = New System.Drawing.Size(100, 20)
+        Me.Salary.Size = New System.Drawing.Size(128, 20)
         Me.Salary.TabIndex = 7
         '
         'LOANamt
         '
-        Me.LOANamt.Location = New System.Drawing.Point(132, 431)
+        Me.LOANamt.Location = New System.Drawing.Point(621, 488)
         Me.LOANamt.Name = "LOANamt"
-        Me.LOANamt.Size = New System.Drawing.Size(100, 20)
+        Me.LOANamt.Size = New System.Drawing.Size(128, 20)
         Me.LOANamt.TabIndex = 8
         '
         'Basicamt
         '
         Me.Basicamt.Enabled = False
-        Me.Basicamt.Location = New System.Drawing.Point(382, 84)
+        Me.Basicamt.Location = New System.Drawing.Point(1013, 143)
         Me.Basicamt.Name = "Basicamt"
-        Me.Basicamt.Size = New System.Drawing.Size(100, 20)
+        Me.Basicamt.Size = New System.Drawing.Size(128, 20)
         Me.Basicamt.TabIndex = 9
         '
         'DA
         '
         Me.DA.Enabled = False
-        Me.DA.Location = New System.Drawing.Point(382, 125)
+        Me.DA.Location = New System.Drawing.Point(1013, 184)
         Me.DA.Name = "DA"
-        Me.DA.Size = New System.Drawing.Size(100, 20)
+        Me.DA.Size = New System.Drawing.Size(128, 20)
         Me.DA.TabIndex = 10
         '
         'HRA
         '
         Me.HRA.Enabled = False
-        Me.HRA.Location = New System.Drawing.Point(382, 162)
+        Me.HRA.Location = New System.Drawing.Point(1013, 220)
         Me.HRA.Name = "HRA"
-        Me.HRA.Size = New System.Drawing.Size(100, 20)
+        Me.HRA.Size = New System.Drawing.Size(128, 20)
         Me.HRA.TabIndex = 11
         '
         'MEDICAL
         '
         Me.MEDICAL.Enabled = False
-        Me.MEDICAL.Location = New System.Drawing.Point(382, 199)
+        Me.MEDICAL.Location = New System.Drawing.Point(1013, 254)
         Me.MEDICAL.Name = "MEDICAL"
-        Me.MEDICAL.Size = New System.Drawing.Size(100, 20)
+        Me.MEDICAL.Size = New System.Drawing.Size(128, 20)
         Me.MEDICAL.TabIndex = 12
         '
         'LTA
         '
         Me.LTA.Enabled = False
-        Me.LTA.Location = New System.Drawing.Point(382, 239)
+        Me.LTA.Location = New System.Drawing.Point(1013, 286)
         Me.LTA.Name = "LTA"
-        Me.LTA.Size = New System.Drawing.Size(100, 20)
+        Me.LTA.Size = New System.Drawing.Size(128, 20)
         Me.LTA.TabIndex = 13
         '
         'ESI
         '
         Me.ESI.Enabled = False
-        Me.ESI.Location = New System.Drawing.Point(382, 280)
+        Me.ESI.Location = New System.Drawing.Point(1013, 324)
         Me.ESI.Name = "ESI"
-        Me.ESI.Size = New System.Drawing.Size(100, 20)
+        Me.ESI.Size = New System.Drawing.Size(128, 20)
         Me.ESI.TabIndex = 14
         '
         'PF
         '
         Me.PF.Enabled = False
-        Me.PF.Location = New System.Drawing.Point(382, 321)
+        Me.PF.Location = New System.Drawing.Point(1013, 365)
         Me.PF.Name = "PF"
-        Me.PF.Size = New System.Drawing.Size(100, 20)
+        Me.PF.Size = New System.Drawing.Size(128, 20)
         Me.PF.TabIndex = 15
         '
         'DeductSalary
         '
         Me.DeductSalary.Enabled = False
-        Me.DeductSalary.Location = New System.Drawing.Point(382, 359)
+        Me.DeductSalary.Location = New System.Drawing.Point(1013, 406)
         Me.DeductSalary.Name = "DeductSalary"
-        Me.DeductSalary.Size = New System.Drawing.Size(100, 20)
+        Me.DeductSalary.Size = New System.Drawing.Size(128, 20)
         Me.DeductSalary.TabIndex = 16
         '
         'GROSS
         '
         Me.GROSS.Enabled = False
-        Me.GROSS.Location = New System.Drawing.Point(382, 396)
+        Me.GROSS.Location = New System.Drawing.Point(1013, 450)
         Me.GROSS.Name = "GROSS"
-        Me.GROSS.Size = New System.Drawing.Size(100, 20)
+        Me.GROSS.Size = New System.Drawing.Size(128, 20)
         Me.GROSS.TabIndex = 17
         '
         'LOANAdj
         '
         Me.LOANAdj.Enabled = False
-        Me.LOANAdj.Location = New System.Drawing.Point(382, 426)
+        Me.LOANAdj.Location = New System.Drawing.Point(1013, 484)
         Me.LOANAdj.Name = "LOANAdj"
-        Me.LOANAdj.Size = New System.Drawing.Size(100, 20)
+        Me.LOANAdj.Size = New System.Drawing.Size(128, 20)
         Me.LOANAdj.TabIndex = 18
         '
         'employeeidd
         '
         Me.employeeidd.AutoSize = True
         Me.employeeidd.BackColor = System.Drawing.Color.Transparent
-        Me.employeeidd.Location = New System.Drawing.Point(33, 91)
+        Me.employeeidd.Location = New System.Drawing.Point(497, 151)
         Me.employeeidd.Name = "employeeidd"
         Me.employeeidd.Size = New System.Drawing.Size(67, 13)
         Me.employeeidd.TabIndex = 19
@@ -217,7 +217,7 @@ Partial Class pay_ments
         '
         Me.employeenamee.AutoSize = True
         Me.employeenamee.BackColor = System.Drawing.Color.Transparent
-        Me.employeenamee.Location = New System.Drawing.Point(33, 163)
+        Me.employeenamee.Location = New System.Drawing.Point(497, 224)
         Me.employeenamee.Name = "employeenamee"
         Me.employeenamee.Size = New System.Drawing.Size(84, 13)
         Me.employeenamee.TabIndex = 20
@@ -227,7 +227,7 @@ Partial Class pay_ments
         '
         Me.mblnoo.AutoSize = True
         Me.mblnoo.BackColor = System.Drawing.Color.Transparent
-        Me.mblnoo.Location = New System.Drawing.Point(39, 200)
+        Me.mblnoo.Location = New System.Drawing.Point(497, 258)
         Me.mblnoo.Name = "mblnoo"
         Me.mblnoo.Size = New System.Drawing.Size(41, 13)
         Me.mblnoo.TabIndex = 21
@@ -237,17 +237,17 @@ Partial Class pay_ments
         '
         Me.designationn.AutoSize = True
         Me.designationn.BackColor = System.Drawing.Color.Transparent
-        Me.designationn.Location = New System.Drawing.Point(39, 230)
+        Me.designationn.Location = New System.Drawing.Point(497, 290)
         Me.designationn.Name = "designationn"
-        Me.designationn.Size = New System.Drawing.Size(57, 13)
+        Me.designationn.Size = New System.Drawing.Size(63, 13)
         Me.designationn.TabIndex = 22
-        Me.designationn.Text = "Dsignation"
+        Me.designationn.Text = "Designation"
         '
         'workingdayy
         '
         Me.workingdayy.AutoSize = True
         Me.workingdayy.BackColor = System.Drawing.Color.Transparent
-        Me.workingdayy.Location = New System.Drawing.Point(39, 273)
+        Me.workingdayy.Location = New System.Drawing.Point(497, 325)
         Me.workingdayy.Name = "workingdayy"
         Me.workingdayy.Size = New System.Drawing.Size(69, 13)
         Me.workingdayy.TabIndex = 23
@@ -257,7 +257,7 @@ Partial Class pay_ments
         '
         Me.overtimee.AutoSize = True
         Me.overtimee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimee.Location = New System.Drawing.Point(33, 318)
+        Me.overtimee.Location = New System.Drawing.Point(497, 366)
         Me.overtimee.Name = "overtimee"
         Me.overtimee.Size = New System.Drawing.Size(84, 13)
         Me.overtimee.TabIndex = 24
@@ -267,7 +267,7 @@ Partial Class pay_ments
         '
         Me.overtimeratee.AutoSize = True
         Me.overtimeratee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimeratee.Location = New System.Drawing.Point(16, 355)
+        Me.overtimeratee.Location = New System.Drawing.Point(497, 414)
         Me.overtimeratee.Name = "overtimeratee"
         Me.overtimeratee.Size = New System.Drawing.Size(110, 13)
         Me.overtimeratee.TabIndex = 25
@@ -277,7 +277,7 @@ Partial Class pay_ments
         '
         Me.salaryy.AutoSize = True
         Me.salaryy.BackColor = System.Drawing.Color.Transparent
-        Me.salaryy.Location = New System.Drawing.Point(44, 397)
+        Me.salaryy.Location = New System.Drawing.Point(497, 454)
         Me.salaryy.Name = "salaryy"
         Me.salaryy.Size = New System.Drawing.Size(36, 13)
         Me.salaryy.TabIndex = 26
@@ -287,7 +287,7 @@ Partial Class pay_ments
         '
         Me.loanamtt.AutoSize = True
         Me.loanamtt.BackColor = System.Drawing.Color.Transparent
-        Me.loanamtt.Location = New System.Drawing.Point(30, 434)
+        Me.loanamtt.Location = New System.Drawing.Point(497, 488)
         Me.loanamtt.Name = "loanamtt"
         Me.loanamtt.Size = New System.Drawing.Size(78, 13)
         Me.loanamtt.TabIndex = 27
@@ -297,7 +297,7 @@ Partial Class pay_ments
         '
         Me.basicamtt.AutoSize = True
         Me.basicamtt.BackColor = System.Drawing.Color.Transparent
-        Me.basicamtt.Location = New System.Drawing.Point(293, 87)
+        Me.basicamtt.Location = New System.Drawing.Point(909, 150)
         Me.basicamtt.Name = "basicamtt"
         Me.basicamtt.Size = New System.Drawing.Size(72, 13)
         Me.basicamtt.TabIndex = 28
@@ -307,7 +307,7 @@ Partial Class pay_ments
         '
         Me.daa.AutoSize = True
         Me.daa.BackColor = System.Drawing.Color.Transparent
-        Me.daa.Location = New System.Drawing.Point(325, 131)
+        Me.daa.Location = New System.Drawing.Point(909, 186)
         Me.daa.Name = "daa"
         Me.daa.Size = New System.Drawing.Size(22, 13)
         Me.daa.TabIndex = 29
@@ -317,7 +317,7 @@ Partial Class pay_ments
         '
         Me.hraa.AutoSize = True
         Me.hraa.BackColor = System.Drawing.Color.Transparent
-        Me.hraa.Location = New System.Drawing.Point(321, 165)
+        Me.hraa.Location = New System.Drawing.Point(909, 223)
         Me.hraa.Name = "hraa"
         Me.hraa.Size = New System.Drawing.Size(30, 13)
         Me.hraa.TabIndex = 30
@@ -327,7 +327,7 @@ Partial Class pay_ments
         '
         Me.medicall.AutoSize = True
         Me.medicall.BackColor = System.Drawing.Color.Transparent
-        Me.medicall.Location = New System.Drawing.Point(297, 199)
+        Me.medicall.Location = New System.Drawing.Point(909, 257)
         Me.medicall.Name = "medicall"
         Me.medicall.Size = New System.Drawing.Size(54, 13)
         Me.medicall.TabIndex = 31
@@ -337,7 +337,7 @@ Partial Class pay_ments
         '
         Me.ltaa.AutoSize = True
         Me.ltaa.BackColor = System.Drawing.Color.Transparent
-        Me.ltaa.Location = New System.Drawing.Point(324, 245)
+        Me.ltaa.Location = New System.Drawing.Point(909, 293)
         Me.ltaa.Name = "ltaa"
         Me.ltaa.Size = New System.Drawing.Size(27, 13)
         Me.ltaa.TabIndex = 32
@@ -347,7 +347,7 @@ Partial Class pay_ments
         '
         Me.esii.AutoSize = True
         Me.esii.BackColor = System.Drawing.Color.Transparent
-        Me.esii.Location = New System.Drawing.Point(327, 287)
+        Me.esii.Location = New System.Drawing.Point(909, 331)
         Me.esii.Name = "esii"
         Me.esii.Size = New System.Drawing.Size(24, 13)
         Me.esii.TabIndex = 33
@@ -357,7 +357,7 @@ Partial Class pay_ments
         '
         Me.pff.AutoSize = True
         Me.pff.BackColor = System.Drawing.Color.Transparent
-        Me.pff.Location = New System.Drawing.Point(331, 324)
+        Me.pff.Location = New System.Drawing.Point(909, 372)
         Me.pff.Name = "pff"
         Me.pff.Size = New System.Drawing.Size(20, 13)
         Me.pff.TabIndex = 34
@@ -367,7 +367,7 @@ Partial Class pay_ments
         '
         Me.deductsalaryy.AutoSize = True
         Me.deductsalaryy.BackColor = System.Drawing.Color.Transparent
-        Me.deductsalaryy.Location = New System.Drawing.Point(297, 362)
+        Me.deductsalaryy.Location = New System.Drawing.Point(909, 413)
         Me.deductsalaryy.Name = "deductsalaryy"
         Me.deductsalaryy.Size = New System.Drawing.Size(74, 13)
         Me.deductsalaryy.TabIndex = 35
@@ -377,7 +377,7 @@ Partial Class pay_ments
         '
         Me.grossss.AutoSize = True
         Me.grossss.BackColor = System.Drawing.Color.Transparent
-        Me.grossss.Location = New System.Drawing.Point(306, 403)
+        Me.grossss.Location = New System.Drawing.Point(909, 457)
         Me.grossss.Name = "grossss"
         Me.grossss.Size = New System.Drawing.Size(45, 13)
         Me.grossss.TabIndex = 36
@@ -387,7 +387,7 @@ Partial Class pay_ments
         '
         Me.loanadjj.AutoSize = True
         Me.loanadjj.BackColor = System.Drawing.Color.Transparent
-        Me.loanadjj.Location = New System.Drawing.Point(280, 430)
+        Me.loanadjj.Location = New System.Drawing.Point(909, 490)
         Me.loanadjj.Name = "loanadjj"
         Me.loanadjj.Size = New System.Drawing.Size(91, 13)
         Me.loanadjj.TabIndex = 37
@@ -397,7 +397,7 @@ Partial Class pay_ments
         '
         Me.netpaymentt.AutoSize = True
         Me.netpaymentt.BackColor = System.Drawing.Color.Transparent
-        Me.netpaymentt.Location = New System.Drawing.Point(198, 483)
+        Me.netpaymentt.Location = New System.Drawing.Point(715, 553)
         Me.netpaymentt.Name = "netpaymentt"
         Me.netpaymentt.Size = New System.Drawing.Size(84, 13)
         Me.netpaymentt.TabIndex = 38
@@ -408,8 +408,8 @@ Partial Class pay_ments
         Me.paymentt.AutoSize = True
         Me.paymentt.BackColor = System.Drawing.Color.Transparent
         Me.paymentt.Font = New System.Drawing.Font("Baskerville Old Face", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.paymentt.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.paymentt.Location = New System.Drawing.Point(204, 19)
+        Me.paymentt.ForeColor = System.Drawing.Color.Black
+        Me.paymentt.Location = New System.Drawing.Point(732, 35)
         Me.paymentt.Name = "paymentt"
         Me.paymentt.Size = New System.Drawing.Size(206, 43)
         Me.paymentt.TabIndex = 39
@@ -418,55 +418,55 @@ Partial Class pay_ments
         'NETPAYMENT
         '
         Me.NETPAYMENT.Enabled = False
-        Me.NETPAYMENT.Location = New System.Drawing.Point(309, 480)
+        Me.NETPAYMENT.Location = New System.Drawing.Point(826, 546)
         Me.NETPAYMENT.Name = "NETPAYMENT"
-        Me.NETPAYMENT.Size = New System.Drawing.Size(134, 20)
+        Me.NETPAYMENT.Size = New System.Drawing.Size(128, 20)
         Me.NETPAYMENT.TabIndex = 40
         '
         'btnADD
         '
         Me.btnADD.BackColor = System.Drawing.Color.Transparent
         Me.btnADD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnADD.Location = New System.Drawing.Point(525, 339)
+        Me.btnADD.Location = New System.Drawing.Point(740, 638)
         Me.btnADD.Name = "btnADD"
-        Me.btnADD.Size = New System.Drawing.Size(75, 50)
+        Me.btnADD.Size = New System.Drawing.Size(75, 23)
         Me.btnADD.TabIndex = 42
-        Me.btnADD.Text = "ADD"
+        Me.btnADD.Text = "Load"
         Me.btnADD.UseVisualStyleBackColor = False
         '
         'SAVE
         '
         Me.SAVE.BackColor = System.Drawing.Color.Transparent
-        Me.SAVE.Location = New System.Drawing.Point(647, 339)
+        Me.SAVE.Location = New System.Drawing.Point(855, 638)
         Me.SAVE.Name = "SAVE"
-        Me.SAVE.Size = New System.Drawing.Size(75, 50)
+        Me.SAVE.Size = New System.Drawing.Size(75, 23)
         Me.SAVE.TabIndex = 43
-        Me.SAVE.Text = "SAVE"
+        Me.SAVE.Text = "Save"
         Me.SAVE.UseVisualStyleBackColor = False
         '
         'CLEAR
         '
         Me.CLEAR.BackColor = System.Drawing.Color.Transparent
-        Me.CLEAR.Location = New System.Drawing.Point(525, 419)
+        Me.CLEAR.Location = New System.Drawing.Point(962, 638)
         Me.CLEAR.Name = "CLEAR"
-        Me.CLEAR.Size = New System.Drawing.Size(75, 54)
+        Me.CLEAR.Size = New System.Drawing.Size(75, 23)
         Me.CLEAR.TabIndex = 44
-        Me.CLEAR.Text = "CLEAR"
+        Me.CLEAR.Text = "Reset"
         Me.CLEAR.UseVisualStyleBackColor = False
         '
         'EXITT
         '
         Me.EXITT.BackColor = System.Drawing.Color.Transparent
-        Me.EXITT.Location = New System.Drawing.Point(647, 418)
+        Me.EXITT.Location = New System.Drawing.Point(620, 638)
         Me.EXITT.Name = "EXITT"
-        Me.EXITT.Size = New System.Drawing.Size(75, 55)
+        Me.EXITT.Size = New System.Drawing.Size(75, 23)
         Me.EXITT.TabIndex = 45
-        Me.EXITT.Text = "EXIT"
+        Me.EXITT.Text = "Back"
         Me.EXITT.UseVisualStyleBackColor = False
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(589, 25)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(1120, 12)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(149, 20)
         Me.DateTimePicker1.TabIndex = 46
@@ -484,7 +484,7 @@ Partial Class pay_ments
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(132, 84)
+        Me.ComboBox1.Location = New System.Drawing.Point(621, 150)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(128, 21)
         Me.ComboBox1.TabIndex = 49
@@ -494,7 +494,7 @@ Partial Class pay_ments
         Me.branch.AutoSize = True
         Me.branch.BackColor = System.Drawing.Color.Transparent
         Me.branch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.branch.Location = New System.Drawing.Point(38, 125)
+        Me.branch.Location = New System.Drawing.Point(497, 185)
         Me.branch.Name = "branch"
         Me.branch.Size = New System.Drawing.Size(46, 15)
         Me.branch.TabIndex = 51
@@ -502,14 +502,14 @@ Partial Class pay_ments
         '
         'branh
         '
-        Me.branh.Location = New System.Drawing.Point(132, 119)
+        Me.branh.Location = New System.Drawing.Point(621, 185)
         Me.branh.Name = "branh"
         Me.branh.Size = New System.Drawing.Size(128, 20)
         Me.branh.TabIndex = 52
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(131, 228)
+        Me.TextBox1.Location = New System.Drawing.Point(620, 287)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(129, 20)
         Me.TextBox1.TabIndex = 53
@@ -521,7 +521,7 @@ Partial Class pay_ments
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(747, 523)
+        Me.ClientSize = New System.Drawing.Size(1356, 750)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.branh)
         Me.Controls.Add(Me.branch)
