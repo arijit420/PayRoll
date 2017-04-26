@@ -31,10 +31,11 @@ Partial Class monthlyexpenses
         '
         'DataGridView1
         '
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(27, 109)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(908, 184)
+        Me.DataGridView1.Size = New System.Drawing.Size(863, 131)
         Me.DataGridView1.TabIndex = 0
         '
         'Button1

@@ -128,4 +128,9 @@ Public Class pay_ments
         command.ExecuteNonQuery()
         connection.Close()
     End Sub
+
+    Private Sub EXITT_Click(sender As Object, e As EventArgs) Handles EXITT.Click
+        Me.Hide()
+        wlcmopearor.Show()
+    End Sub
 End Class
