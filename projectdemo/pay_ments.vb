@@ -131,6 +131,6 @@ Public Class pay_ments
 
     Private Sub EXITT_Click(sender As Object, e As EventArgs) Handles EXITT.Click
         Me.Hide()
-        wlcmopearor.Show()
+        wlcmopearor.show()
     End Sub
 End Class

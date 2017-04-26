@@ -12,7 +12,7 @@ Public Class monthlyexpenses
         MyConn.ConnectionString = connString
         ds = New DataSet
         tables = ds.Tables
-        da = New OleDbDataAdapter("Select * from [pay]", MyConn)
+        da = New OleDbDataAdapter("Select * from [pay] where Dates <='" & Format(DateTimePicker1.Value, "dd-mm-yyyy") & "'And dates>='" & Format(DateTimePicker2.Value, "dd-mm-yyyy") & "'", MyConn)
         da.Fill(ds, "pay")
         Dim view As New DataView(tables(0))
         source1.DataSource = view
