@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,12 +20,10 @@ Partial Class Form3
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -43,7 +41,7 @@ Partial Class Form3
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.btnReset = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
@@ -65,32 +63,13 @@ Partial Class Form3
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Operator's Details"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(98, 87)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(93, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Operator ID"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(267, 84)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(120, 20)
-        Me.TextBox1.TabIndex = 2
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label3.Location = New System.Drawing.Point(101, 135)
+        Me.Label3.Location = New System.Drawing.Point(101, 145)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(59, 17)
         Me.Label3.TabIndex = 3
@@ -100,7 +79,7 @@ Partial Class Form3
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"kolkata", "Delhi", "Mumbai", "Chennai", "Hyderabad"})
-        Me.ComboBox1.Location = New System.Drawing.Point(267, 131)
+        Me.ComboBox1.Location = New System.Drawing.Point(267, 141)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(120, 21)
         Me.ComboBox1.TabIndex = 4
@@ -111,7 +90,7 @@ Partial Class Form3
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label4.Location = New System.Drawing.Point(101, 182)
+        Me.Label4.Location = New System.Drawing.Point(101, 92)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(131, 17)
         Me.Label4.TabIndex = 5
@@ -119,7 +98,7 @@ Partial Class Form3
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(267, 174)
+        Me.TextBox2.Location = New System.Drawing.Point(267, 84)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(120, 20)
         Me.TextBox2.TabIndex = 6
@@ -130,7 +109,7 @@ Partial Class Form3
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label5.Location = New System.Drawing.Point(101, 224)
+        Me.Label5.Location = New System.Drawing.Point(101, 204)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(99, 17)
         Me.Label5.TabIndex = 7
@@ -139,8 +118,8 @@ Partial Class Form3
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "graduate", "post graduate", "others"})
-        Me.ComboBox2.Location = New System.Drawing.Point(267, 215)
+        Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "Graduate", "Post graduate", "Others"})
+        Me.ComboBox2.Location = New System.Drawing.Point(267, 199)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(120, 21)
         Me.ComboBox2.TabIndex = 8
@@ -151,7 +130,7 @@ Partial Class Form3
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label6.Location = New System.Drawing.Point(104, 273)
+        Me.Label6.Location = New System.Drawing.Point(104, 266)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(62, 17)
         Me.Label6.TabIndex = 9
@@ -253,14 +232,14 @@ Partial Class Form3
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'btnUpdate
+        'btnReset
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(926, 518)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(77, 34)
-        Me.btnUpdate.TabIndex = 22
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
+        Me.btnReset.Location = New System.Drawing.Point(926, 518)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(77, 34)
+        Me.btnReset.TabIndex = 22
+        Me.btnReset.Text = "Reset"
+        Me.btnReset.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -306,7 +285,7 @@ Partial Class Form3
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
-        Me.ComboBox3.Location = New System.Drawing.Point(266, 269)
+        Me.ComboBox3.Location = New System.Drawing.Point(266, 264)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox3.TabIndex = 26
@@ -323,7 +302,7 @@ Partial Class Form3
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.btnUpdate)
+        Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.Label10)
@@ -341,8 +320,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form3"
         Me.Text = "Form3"
@@ -353,8 +330,6 @@ Partial Class Form3
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label4 As Label
@@ -372,7 +347,7 @@ Partial Class Form3
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents btnUpdate As Button
+    Friend WithEvents btnReset As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label11 As Label
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
