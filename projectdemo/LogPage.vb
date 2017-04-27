@@ -10,18 +10,8 @@
         Label1.Visible = False
         ComboBox1.Visible = False
         Me.WindowState = FormWindowState.Maximized
-        Me.Visible = False
 
-        Dim s = New SplashScreen1()
-        s.Show()
-        'Do processing here or thread.sleep to illustrate the concept
-        System.Threading.Thread.Sleep(5000)
-        s.Close()
 
-        Me.Visible = True
-
-        ' Dim payments As New pay_ments
-        ' payments.AutoNumber_Check("emp", "provider = Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DELL\Documents\vb_net.accdb")
     End Sub
 
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged

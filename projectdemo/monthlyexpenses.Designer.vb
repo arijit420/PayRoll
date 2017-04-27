@@ -28,21 +28,24 @@ Partial Class monthlyexpenses
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(27, 109)
+        Me.DataGridView1.Location = New System.Drawing.Point(330, 40)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(863, 131)
+        Me.DataGridView1.Size = New System.Drawing.Size(857, 131)
         Me.DataGridView1.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(618, 80)
+        Me.Button1.Location = New System.Drawing.Point(582, 244)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
@@ -51,7 +54,7 @@ Partial Class monthlyexpenses
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(752, 80)
+        Me.Button2.Location = New System.Drawing.Point(706, 244)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
@@ -60,17 +63,40 @@ Partial Class monthlyexpenses
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(250, 40)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(391, 12)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 2
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(616, 40)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(752, 14)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker2.TabIndex = 3
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(305, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(85, 16)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Start Date :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(669, 17)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(80, 16)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "End Date :"
         '
         'monthlyexpenses
         '
@@ -78,7 +104,9 @@ Partial Class monthlyexpenses
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(962, 328)
+        Me.ClientSize = New System.Drawing.Size(1210, 433)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Button2)
@@ -88,6 +116,7 @@ Partial Class monthlyexpenses
         Me.Text = "Form1"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -96,4 +125,6 @@ Partial Class monthlyexpenses
     Friend WithEvents Button2 As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
