@@ -79,6 +79,12 @@
     <Compile Include="emp_dtls.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="monthlyexpenses.Designer.vb">
       <DependentUpon>monthlyexpenses.vb</DependentUpon>
     </Compile>
@@ -158,6 +164,9 @@
   <ItemGroup>
     <EmbeddedResource Include="emp_dtls.resx">
       <DependentUpon>emp_dtls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="monthlyexpenses.resx">
       <DependentUpon>monthlyexpenses.vb</DependentUpon>

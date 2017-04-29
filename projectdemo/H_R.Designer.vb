@@ -88,9 +88,9 @@ Partial Class H_R
         Me.reset.ForeColor = System.Drawing.Color.DarkCyan
         Me.reset.Location = New System.Drawing.Point(599, 217)
         Me.reset.Name = "reset"
-        Me.reset.Size = New System.Drawing.Size(164, 22)
+        Me.reset.Size = New System.Drawing.Size(153, 22)
         Me.reset.TabIndex = 8
-        Me.reset.Text = "Reset Password"
+        Me.reset.Text = "Edit Operator"
         '
         'Label1
         '
