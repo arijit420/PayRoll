@@ -49,7 +49,7 @@ Partial Class wlcmopearor
         Me.ADDEMPLOYEE.BackColor = System.Drawing.Color.Transparent
         Me.ADDEMPLOYEE.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ADDEMPLOYEE.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ADDEMPLOYEE.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ADDEMPLOYEE.ForeColor = System.Drawing.Color.Black
         Me.ADDEMPLOYEE.Location = New System.Drawing.Point(102, 443)
         Me.ADDEMPLOYEE.Name = "ADDEMPLOYEE"
         Me.ADDEMPLOYEE.Size = New System.Drawing.Size(111, 17)
@@ -62,7 +62,7 @@ Partial Class wlcmopearor
         Me.EDIT.BackColor = System.Drawing.Color.Transparent
         Me.EDIT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.EDIT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EDIT.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.EDIT.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.EDIT.Location = New System.Drawing.Point(102, 492)
         Me.EDIT.Name = "EDIT"
         Me.EDIT.Size = New System.Drawing.Size(111, 17)
@@ -75,7 +75,7 @@ Partial Class wlcmopearor
         Me.LOAN.BackColor = System.Drawing.Color.Transparent
         Me.LOAN.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LOAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LOAN.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.LOAN.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.LOAN.Location = New System.Drawing.Point(102, 588)
         Me.LOAN.Name = "LOAN"
         Me.LOAN.Size = New System.Drawing.Size(44, 17)
@@ -88,7 +88,7 @@ Partial Class wlcmopearor
         Me.PAYMENT.BackColor = System.Drawing.Color.Transparent
         Me.PAYMENT.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PAYMENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PAYMENT.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.PAYMENT.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.PAYMENT.Location = New System.Drawing.Point(102, 538)
         Me.PAYMENT.Name = "PAYMENT"
         Me.PAYMENT.Size = New System.Drawing.Size(70, 17)
@@ -114,13 +114,14 @@ Partial Class wlcmopearor
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1370, 661)
+        Me.ClientSize = New System.Drawing.Size(1362, 661)
         Me.Controls.Add(Me.LOGOUT)
         Me.Controls.Add(Me.PAYMENT)
         Me.Controls.Add(Me.LOAN)
         Me.Controls.Add(Me.EDIT)
         Me.Controls.Add(Me.ADDEMPLOYEE)
         Me.Controls.Add(Me.Label1)
+        Me.DoubleBuffered = True
         Me.Name = "wlcmopearor"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
