@@ -79,10 +79,10 @@
     <Compile Include="emp_dtls.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="editoperators.Designer.vb">
+      <DependentUpon>editoperators.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="editoperators.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="monthlyexpenses.Designer.vb">
@@ -162,11 +162,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="editoperators.resx">
+      <DependentUpon>editoperators.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="emp_dtls.resx">
       <DependentUpon>emp_dtls.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="monthlyexpenses.resx">
       <DependentUpon>monthlyexpenses.vb</DependentUpon>

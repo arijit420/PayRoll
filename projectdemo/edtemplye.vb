@@ -105,7 +105,7 @@ Public Class edtemplye
         con.Open()
         com.Parameters.AddWithValue("@ID", TextBox1.Text)
         com.ExecuteNonQuery()
-        MsgBox("Record Deleted")
+        MsgBox("Record Deleted", vbInformation, "Delete Successfull")
         TextBox1.Text = ""
         con.Close()
 

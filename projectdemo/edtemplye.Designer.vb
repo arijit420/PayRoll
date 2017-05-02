@@ -395,7 +395,7 @@ Partial Class edtemplye
         'PREV
         '
         Me.PREV.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PREV.Location = New System.Drawing.Point(12, 329)
+        Me.PREV.Location = New System.Drawing.Point(10, 329)
         Me.PREV.Name = "PREV"
         Me.PREV.Size = New System.Drawing.Size(109, 39)
         Me.PREV.TabIndex = 4
@@ -415,7 +415,7 @@ Partial Class edtemplye
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.REMOVEEMPLOYEE)
         Me.Name = "edtemplye"
-        Me.Text = "Form5"
+        Me.Text = "Editemployee"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

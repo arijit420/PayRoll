@@ -25,7 +25,6 @@
 
     Private Sub reset_Click(sender As Object, e As EventArgs) Handles reset.Click
         Me.Hide()
-        Form1.Show()
-
+        editoperators.Show()
     End Sub
 End Class
