@@ -104,13 +104,13 @@ Public Class pay_ments
     End Sub
 
     Private Sub btnADD_Click(sender As Object, e As EventArgs) Handles btnADD.Click
-        Basicamt.Text = Val(Salary.Text) * (40 / 100)
+        Basicamt.Text = Val(Salary.Text)
         DA.Text = Val(Basicamt.Text) * (30 / 100)
-        HRA.Text = Val(Basicamt.Text) * (15 / 100)
+        HRA.Text = Val(Basicamt.Text) * (40 / 100)
         ESI.Text = Val(Salary.Text) * (4.75 / 100)
-        PF.Text = (Val(Basicamt.Text) + Val(DA.Text)) * (12 / 100)
-        MEDICAL.Text = (Val(Salary.Text) + Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (30 / 100)
-        LTA.Text = (Val(Salary.Text) + Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (35 / 100)
+        PF.Text = Val(Basicamt.Text) * (12 / 100)
+        MEDICAL.Text = (Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (30 / 100)
+        LTA.Text = (Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (35 / 100)
         GROSS.Text = Val(Basicamt.Text) + Val(DA.Text) + Val(HRA.Text) + Val(ESI.Text) + Val(PF.Text) + Val(MEDICAL.Text)
         If (Val(WorkingDay.Text < 26)) Then
             DeductSalary.Text = Val(Salary.Text) * (10 / 100)

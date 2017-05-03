@@ -27,6 +27,7 @@ Public Class editoperators
 
     Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
         GroupBox1.Visible = True
+        GroupBox2.Visible = False
     End Sub
 
     Private Sub extbutton_Click(sender As Object, e As EventArgs) Handles extbutton.Click
@@ -35,6 +36,7 @@ Public Class editoperators
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         GroupBox2.Visible = True
+        GroupBox1.Visible = False
     End Sub
 
     Private Sub extbttn_Click(sender As Object, e As EventArgs) Handles extbttn.Click

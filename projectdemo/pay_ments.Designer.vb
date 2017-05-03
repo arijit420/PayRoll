@@ -389,9 +389,9 @@ Partial Class pay_ments
         Me.loanadjj.BackColor = System.Drawing.Color.Transparent
         Me.loanadjj.Location = New System.Drawing.Point(909, 490)
         Me.loanadjj.Name = "loanadjj"
-        Me.loanadjj.Size = New System.Drawing.Size(91, 13)
+        Me.loanadjj.Size = New System.Drawing.Size(88, 13)
         Me.loanadjj.TabIndex = 37
-        Me.loanadjj.Text = "LOAN Adjustment"
+        Me.loanadjj.Text = "LOAN Deduction"
         '
         'netpaymentt
         '
@@ -521,7 +521,7 @@ Partial Class pay_ments
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1356, 750)
+        Me.ClientSize = New System.Drawing.Size(1356, 741)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.branh)
         Me.Controls.Add(Me.branch)
