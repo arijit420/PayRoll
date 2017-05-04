@@ -40,12 +40,12 @@ Partial Class monthlyexpenses
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(330, 40)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(857, 131)
+        Me.DataGridView1.Size = New System.Drawing.Size(857, 286)
         Me.DataGridView1.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(582, 244)
+        Me.Button1.Location = New System.Drawing.Point(466, 398)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class monthlyexpenses
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(706, 244)
+        Me.Button2.Location = New System.Drawing.Point(718, 398)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
