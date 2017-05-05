@@ -161,7 +161,7 @@ Partial Class LogPage
         Me.BackColor = System.Drawing.Color.SteelBlue
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(940, 579)
+        Me.ClientSize = New System.Drawing.Size(1246, 737)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)

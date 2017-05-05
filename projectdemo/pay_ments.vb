@@ -8,10 +8,10 @@ Public Class pay_ments
         ComboBox1.Text = " "
         EmployeeName.Text = " "
         TextBox1.Text = " "
-        WorkingDay.Text = " "
+
         OverTime.Text = " "
         OverTimeRate.Text = " "
-        Salary.Text = " "
+
         LOANamt.Text = " "
         Basicamt.Text = " "
         DA.Text = " "
@@ -52,7 +52,7 @@ Public Class pay_ments
                 MblNo.Text = dr(7)
                 branh.Text = dr(2)
                 TextBox1.Text = dr(4)
-                Salary.Text = dr(10)
+                Basicamt.Text = dr(10)
             End If
         Next
     End Sub
@@ -67,13 +67,13 @@ Public Class pay_ments
         con.ConnectionString = "provider = Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DELL\Documents\vb_net.accdb"
         sqlquery.Connection = con
         con.Open()
-        sqlquery.CommandText = "INSERT INTO pay(ID, Branch,empname,designation,salary,loan,netpayment,Dates)VALUES(@ID, @Branch,@empname,@designation,@salary,@loan,@netpayment,@Dates)"
+        sqlquery.CommandText = "INSERT INTO pay(ID, Branch,empname,designation,Basic,loan,netpayment,Dates)VALUES(@ID, @Branch,@empname,@designation,@Basic,@loan,@netpayment,@Dates)"
         sqlquery.Parameters.AddWithValue("@ID", ComboBox1.Text)
         sqlquery.Parameters.AddWithValue("@Branch", branh.Text)
 
         sqlquery.Parameters.AddWithValue("@empname", EmployeeName.Text)
         sqlquery.Parameters.AddWithValue("@designation", TextBox1.Text)
-        sqlquery.Parameters.AddWithValue("@salary", Val(Salary.Text))
+        sqlquery.Parameters.AddWithValue("@Basic", Val(Basicamt.Text))
         sqlquery.Parameters.AddWithValue("@loan", Val(LOANamt.Text))
         sqlquery.Parameters.AddWithValue("@netpayment", Val(NETPAYMENT.Text))
         sqlquery.Parameters.AddWithValue("@Dates", (DateTimePicker1.Value).ToShortDateString)
@@ -83,10 +83,9 @@ Public Class pay_ments
         ComboBox1.Text = " "
         EmployeeName.Text = " "
         TextBox1.Text = " "
-        WorkingDay.Text = " "
+
         OverTime.Text = " "
         OverTimeRate.Text = " "
-        Salary.Text = " "
         LOANamt.Text = " "
         Basicamt.Text = " "
         DA.Text = " "
@@ -104,19 +103,14 @@ Public Class pay_ments
     End Sub
 
     Private Sub btnADD_Click(sender As Object, e As EventArgs) Handles btnADD.Click
-        Basicamt.Text = Val(Salary.Text)
         DA.Text = Val(Basicamt.Text) * (30 / 100)
         HRA.Text = Val(Basicamt.Text) * (40 / 100)
-        ESI.Text = Val(Salary.Text) * (4.75 / 100)
+        ESI.Text = Val(Basicamt.Text) * (4.75 / 100)
         PF.Text = Val(Basicamt.Text) * (12 / 100)
         MEDICAL.Text = (Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (30 / 100)
         LTA.Text = (Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (35 / 100)
         GROSS.Text = Val(Basicamt.Text) + Val(DA.Text) + Val(HRA.Text) + Val(ESI.Text) + Val(PF.Text) + Val(MEDICAL.Text)
-        If (Val(WorkingDay.Text < 26)) Then
-            DeductSalary.Text = Val(Salary.Text) * (10 / 100)
-        Else
-            DeductSalary.Text = 0
-        End If
+
         NETPAYMENT.Text = (Val(GROSS.Text) - Val(DeductSalary.Text) - Val(LOANAdj.Text))
 
     End Sub

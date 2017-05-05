@@ -56,7 +56,7 @@ Public Class edtemplye
         myconnection.ConnectionString = connstring
         myconnection.Open()
         Dim str As String
-        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualif]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & TextBox5.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "',[Salary]='" & TextBox3.Text & "' where [ID]= " & Idbox.Text & ""
+        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualif]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & TextBox5.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "',[Basic]='" & TextBox3.Text & "' where [ID]= " & Idbox.Text & ""
         Dim cmd As OleDbCommand = New OleDbCommand(str, myconnection)
         MsgBox("Record Updated", vbInformation, "Upadate Successfull")
         Try

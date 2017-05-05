@@ -25,10 +25,8 @@ Partial Class pay_ments
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pay_ments))
         Me.EmployeeName = New System.Windows.Forms.TextBox()
         Me.MblNo = New System.Windows.Forms.TextBox()
-        Me.WorkingDay = New System.Windows.Forms.TextBox()
         Me.OverTime = New System.Windows.Forms.TextBox()
         Me.OverTimeRate = New System.Windows.Forms.TextBox()
-        Me.Salary = New System.Windows.Forms.TextBox()
         Me.LOANamt = New System.Windows.Forms.TextBox()
         Me.Basicamt = New System.Windows.Forms.TextBox()
         Me.DA = New System.Windows.Forms.TextBox()
@@ -44,10 +42,8 @@ Partial Class pay_ments
         Me.employeenamee = New System.Windows.Forms.Label()
         Me.mblnoo = New System.Windows.Forms.Label()
         Me.designationn = New System.Windows.Forms.Label()
-        Me.workingdayy = New System.Windows.Forms.Label()
         Me.overtimee = New System.Windows.Forms.Label()
         Me.overtimeratee = New System.Windows.Forms.Label()
-        Me.salaryy = New System.Windows.Forms.Label()
         Me.loanamtt = New System.Windows.Forms.Label()
         Me.basicamtt = New System.Windows.Forms.Label()
         Me.daa = New System.Windows.Forms.Label()
@@ -88,37 +84,24 @@ Partial Class pay_ments
         Me.MblNo.Size = New System.Drawing.Size(128, 20)
         Me.MblNo.TabIndex = 2
         '
-        'WorkingDay
-        '
-        Me.WorkingDay.Location = New System.Drawing.Point(621, 325)
-        Me.WorkingDay.Name = "WorkingDay"
-        Me.WorkingDay.Size = New System.Drawing.Size(128, 20)
-        Me.WorkingDay.TabIndex = 4
-        '
         'OverTime
         '
-        Me.OverTime.Location = New System.Drawing.Point(621, 366)
+        Me.OverTime.Location = New System.Drawing.Point(621, 325)
         Me.OverTime.Name = "OverTime"
         Me.OverTime.Size = New System.Drawing.Size(128, 20)
         Me.OverTime.TabIndex = 5
         '
         'OverTimeRate
         '
-        Me.OverTimeRate.Location = New System.Drawing.Point(621, 407)
+        Me.OverTimeRate.Location = New System.Drawing.Point(621, 366)
         Me.OverTimeRate.Name = "OverTimeRate"
         Me.OverTimeRate.Size = New System.Drawing.Size(128, 20)
         Me.OverTimeRate.TabIndex = 6
         '
-        'Salary
-        '
-        Me.Salary.Location = New System.Drawing.Point(621, 451)
-        Me.Salary.Name = "Salary"
-        Me.Salary.Size = New System.Drawing.Size(128, 20)
-        Me.Salary.TabIndex = 7
-        '
         'LOANamt
         '
-        Me.LOANamt.Location = New System.Drawing.Point(621, 488)
+        Me.LOANamt.Enabled = False
+        Me.LOANamt.Location = New System.Drawing.Point(621, 408)
         Me.LOANamt.Name = "LOANamt"
         Me.LOANamt.Size = New System.Drawing.Size(128, 20)
         Me.LOANamt.TabIndex = 8
@@ -181,7 +164,6 @@ Partial Class pay_ments
         '
         'DeductSalary
         '
-        Me.DeductSalary.Enabled = False
         Me.DeductSalary.Location = New System.Drawing.Point(1013, 406)
         Me.DeductSalary.Name = "DeductSalary"
         Me.DeductSalary.Size = New System.Drawing.Size(128, 20)
@@ -198,7 +180,7 @@ Partial Class pay_ments
         'LOANAdj
         '
         Me.LOANAdj.Enabled = False
-        Me.LOANAdj.Location = New System.Drawing.Point(1013, 484)
+        Me.LOANAdj.Location = New System.Drawing.Point(621, 444)
         Me.LOANAdj.Name = "LOANAdj"
         Me.LOANAdj.Size = New System.Drawing.Size(128, 20)
         Me.LOANAdj.TabIndex = 18
@@ -243,21 +225,11 @@ Partial Class pay_ments
         Me.designationn.TabIndex = 22
         Me.designationn.Text = "Designation"
         '
-        'workingdayy
-        '
-        Me.workingdayy.AutoSize = True
-        Me.workingdayy.BackColor = System.Drawing.Color.Transparent
-        Me.workingdayy.Location = New System.Drawing.Point(497, 325)
-        Me.workingdayy.Name = "workingdayy"
-        Me.workingdayy.Size = New System.Drawing.Size(69, 13)
-        Me.workingdayy.TabIndex = 23
-        Me.workingdayy.Text = "Working Day"
-        '
         'overtimee
         '
         Me.overtimee.AutoSize = True
         Me.overtimee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimee.Location = New System.Drawing.Point(497, 366)
+        Me.overtimee.Location = New System.Drawing.Point(497, 325)
         Me.overtimee.Name = "overtimee"
         Me.overtimee.Size = New System.Drawing.Size(84, 13)
         Me.overtimee.TabIndex = 24
@@ -267,27 +239,17 @@ Partial Class pay_ments
         '
         Me.overtimeratee.AutoSize = True
         Me.overtimeratee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimeratee.Location = New System.Drawing.Point(497, 414)
+        Me.overtimeratee.Location = New System.Drawing.Point(497, 373)
         Me.overtimeratee.Name = "overtimeratee"
         Me.overtimeratee.Size = New System.Drawing.Size(110, 13)
         Me.overtimeratee.TabIndex = 25
         Me.overtimeratee.Text = "Over Time Rate/Hour"
         '
-        'salaryy
-        '
-        Me.salaryy.AutoSize = True
-        Me.salaryy.BackColor = System.Drawing.Color.Transparent
-        Me.salaryy.Location = New System.Drawing.Point(497, 454)
-        Me.salaryy.Name = "salaryy"
-        Me.salaryy.Size = New System.Drawing.Size(36, 13)
-        Me.salaryy.TabIndex = 26
-        Me.salaryy.Text = "Salary"
-        '
         'loanamtt
         '
         Me.loanamtt.AutoSize = True
         Me.loanamtt.BackColor = System.Drawing.Color.Transparent
-        Me.loanamtt.Location = New System.Drawing.Point(497, 488)
+        Me.loanamtt.Location = New System.Drawing.Point(497, 408)
         Me.loanamtt.Name = "loanamtt"
         Me.loanamtt.Size = New System.Drawing.Size(78, 13)
         Me.loanamtt.TabIndex = 27
@@ -387,7 +349,7 @@ Partial Class pay_ments
         '
         Me.loanadjj.AutoSize = True
         Me.loanadjj.BackColor = System.Drawing.Color.Transparent
-        Me.loanadjj.Location = New System.Drawing.Point(909, 490)
+        Me.loanadjj.Location = New System.Drawing.Point(498, 450)
         Me.loanadjj.Name = "loanadjj"
         Me.loanadjj.Size = New System.Drawing.Size(88, 13)
         Me.loanadjj.TabIndex = 37
@@ -546,10 +508,8 @@ Partial Class pay_ments
         Me.Controls.Add(Me.daa)
         Me.Controls.Add(Me.basicamtt)
         Me.Controls.Add(Me.loanamtt)
-        Me.Controls.Add(Me.salaryy)
         Me.Controls.Add(Me.overtimeratee)
         Me.Controls.Add(Me.overtimee)
-        Me.Controls.Add(Me.workingdayy)
         Me.Controls.Add(Me.designationn)
         Me.Controls.Add(Me.mblnoo)
         Me.Controls.Add(Me.employeenamee)
@@ -565,10 +525,8 @@ Partial Class pay_ments
         Me.Controls.Add(Me.DA)
         Me.Controls.Add(Me.Basicamt)
         Me.Controls.Add(Me.LOANamt)
-        Me.Controls.Add(Me.Salary)
         Me.Controls.Add(Me.OverTimeRate)
         Me.Controls.Add(Me.OverTime)
-        Me.Controls.Add(Me.WorkingDay)
         Me.Controls.Add(Me.MblNo)
         Me.Controls.Add(Me.EmployeeName)
         Me.DoubleBuffered = True
@@ -580,10 +538,8 @@ Partial Class pay_ments
     End Sub
     Friend WithEvents EmployeeName As TextBox
     Friend WithEvents MblNo As TextBox
-    Friend WithEvents WorkingDay As TextBox
     Friend WithEvents OverTime As TextBox
     Friend WithEvents OverTimeRate As TextBox
-    Friend WithEvents Salary As TextBox
     Friend WithEvents LOANamt As TextBox
     Friend WithEvents Basicamt As TextBox
     Friend WithEvents DA As TextBox
@@ -599,10 +555,8 @@ Partial Class pay_ments
     Friend WithEvents employeenamee As Label
     Friend WithEvents mblnoo As Label
     Friend WithEvents designationn As Label
-    Friend WithEvents workingdayy As Label
     Friend WithEvents overtimee As Label
     Friend WithEvents overtimeratee As Label
-    Friend WithEvents salaryy As Label
     Friend WithEvents loanamtt As Label
     Friend WithEvents basicamtt As Label
     Friend WithEvents daa As Label

@@ -34,7 +34,7 @@ Public Class emplye
         myconnection.ConnectionString = connstring
         myconnection.Open()
         Dim str As String
-        str = "Insert into emp([empname],[branch],[qualif],[desig],[gender],[city],[ph],[mail],[add],[Salary]) values(?,?,?,?,?,?,?,?,?,?)"
+        str = "Insert into emp([empname],[branch],[qualif],[desig],[gender],[city],[ph],[mail],[add],[Basic]) values(?,?,?,?,?,?,?,?,?,?)"
         Dim cmd As OleDbCommand = New OleDbCommand(str, myconnection)
         cmd.Parameters.Add(New OleDbParameter("empname", CType(TextBox1.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("branch", CType(ComboBox4.Text, String)))
@@ -45,9 +45,8 @@ Public Class emplye
         cmd.Parameters.Add(New OleDbParameter("ph ", CType(TextBox2.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("mail", CType(TextBox7.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("add", CType(TextBox4.Text, String)))
-        cmd.Parameters.Add(New OleDbParameter("Salary", CType(TextBox3.Text, String)))
+        cmd.Parameters.Add(New OleDbParameter("Basic", CType(TextBox3.Text, String)))
         MsgBox("Record added", vbInformation, "Employee Added")
-
         Try
             cmd.ExecuteNonQuery()
             cmd.Dispose()

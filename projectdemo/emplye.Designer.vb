@@ -277,9 +277,9 @@ Partial Class emplye
         Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label10.Location = New System.Drawing.Point(59, 544)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(48, 17)
+        Me.Label10.Size = New System.Drawing.Size(42, 17)
         Me.Label10.TabIndex = 26
-        Me.Label10.Text = "Salary"
+        Me.Label10.Text = "Basic"
         '
         'TextBox3
         '

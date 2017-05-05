@@ -179,9 +179,9 @@ Partial Class edtemplye
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(41, 467)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(53, 16)
+        Me.Label12.Size = New System.Drawing.Size(47, 16)
         Me.Label12.TabIndex = 24
-        Me.Label12.Text = "Salary"
+        Me.Label12.Text = "Basic"
         '
         'Idbox
         '
@@ -372,7 +372,7 @@ Partial Class edtemplye
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(177, 345)
+        Me.TextBox5.Location = New System.Drawing.Point(188, 345)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(131, 20)
         Me.TextBox5.TabIndex = 3
