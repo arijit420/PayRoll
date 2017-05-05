@@ -42,7 +42,7 @@ Partial Class LogPage
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(53, 545)
+        Me.Label2.Location = New System.Drawing.Point(56, 534)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(81, 17)
         Me.Label2.TabIndex = 1
@@ -53,7 +53,7 @@ Partial Class LogPage
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(56, 598)
+        Me.Label3.Location = New System.Drawing.Point(59, 592)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(77, 17)
         Me.Label3.TabIndex = 2
@@ -112,7 +112,7 @@ Partial Class LogPage
         Me.reset.Name = "reset"
         Me.reset.Size = New System.Drawing.Size(75, 26)
         Me.reset.TabIndex = 9
-        Me.reset.Text = "Reset"
+        Me.reset.Text = "Exit"
         Me.reset.UseVisualStyleBackColor = True
         '
         'Label1
@@ -159,6 +159,7 @@ Partial Class LogPage
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(376, 645)
@@ -188,7 +189,7 @@ Partial Class LogPage
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Cursor = System.Windows.Forms.Cursors.Default
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "LogPage"
         Me.Text = "Welcome"
         Me.ResumeLayout(False)

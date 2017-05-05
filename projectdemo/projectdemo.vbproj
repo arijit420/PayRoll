@@ -85,6 +85,12 @@
     <Compile Include="editoperators.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="passwordrecovery.Designer.vb">
+      <DependentUpon>passwordrecovery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="passwordrecovery.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="monthlyexpenses.Designer.vb">
       <DependentUpon>monthlyexpenses.vb</DependentUpon>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="emp_dtls.resx">
       <DependentUpon>emp_dtls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passwordrecovery.resx">
+      <DependentUpon>passwordrecovery.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="monthlyexpenses.resx">
       <DependentUpon>monthlyexpenses.vb</DependentUpon>

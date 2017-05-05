@@ -332,6 +332,7 @@ Partial Class emplye
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "emplye"
         Me.Text = "Form2"
         Me.ResumeLayout(False)

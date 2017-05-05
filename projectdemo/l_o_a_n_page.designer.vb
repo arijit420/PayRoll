@@ -339,6 +339,7 @@ Partial Class l_o_a_n_page
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "l_o_a_n_page"
         Me.Text = "Form7"
         Me.GroupBox1.ResumeLayout(False)

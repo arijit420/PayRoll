@@ -1,9 +1,6 @@
 ﻿Public Class LogPage
     Private Sub reset_Click(sender As Object, e As EventArgs) Handles reset.Click
-        TextBox1.Text = ""
-        TextBox2.Text = ""
-        RadioButton1.Checked = False
-        RadioButton2.Checked = False
+        End
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -79,5 +76,10 @@
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+        Me.Hide()
+        passwordrecovery.Show()
     End Sub
 End Class

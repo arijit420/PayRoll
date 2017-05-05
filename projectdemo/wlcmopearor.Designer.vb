@@ -122,6 +122,7 @@ Partial Class wlcmopearor
         Me.Controls.Add(Me.ADDEMPLOYEE)
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "wlcmopearor"
         Me.Text = "Form1"
         Me.ResumeLayout(False)

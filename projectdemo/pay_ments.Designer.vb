@@ -530,6 +530,7 @@ Partial Class pay_ments
         Me.Controls.Add(Me.MblNo)
         Me.Controls.Add(Me.EmployeeName)
         Me.DoubleBuffered = True
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "pay_ments"
         Me.Text = "Form4"
         Me.ResumeLayout(False)

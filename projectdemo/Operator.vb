@@ -21,23 +21,6 @@ Public Class Form3
         Me.WindowState = FormWindowState.Maximized
     End Sub
 
-    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
-        Dim fdlg As OpenFileDialog = New OpenFileDialog()
-        fdlg.Title = "Choose a Profile Photo"
-        fdlg.InitialDirectory = "c:\"
-        fdlg.Filter = "Picture Files(*.jpg;*.jpeg;*.png;*.bmp;*.gif)|*.jpg;*.jpeg;*.png;*.bmp;*.gif"
-        fdlg.RestoreDirectory = True
-        If fdlg.ShowDialog() = DialogResult.OK Then
-            If fdlg.CheckFileExists = False Then
-                MessageBox.Show("Sorry, The File You Specified Does Not Exist.")
-            Else
-                PictureBox1.ImageLocation = fdlg.FileName
-
-            End If
-
-        End If
-    End Sub
-
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
         H_R.Show()
@@ -98,4 +81,20 @@ Public Class Form3
         ComboBox3.Text = ""
     End Sub
 
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+        Dim fdlg As OpenFileDialog = New OpenFileDialog()
+        fdlg.Title = "Choose a Profile Photo"
+        fdlg.InitialDirectory = "c:\"
+        fdlg.Filter = "Picture Files(*.jpg;*.jpeg;*.png;*.bmp;*.gif)|*.jpg;*.jpeg;*.png;*.bmp;*.gif"
+        fdlg.RestoreDirectory = True
+        If fdlg.ShowDialog() = DialogResult.OK Then
+            If fdlg.CheckFileExists = False Then
+                MessageBox.Show("Sorry, The File You Specified Does Not Exist.")
+            Else
+                PictureBox1.ImageLocation = fdlg.FileName
+
+            End If
+
+        End If
+    End Sub
 End Class

@@ -414,6 +414,7 @@ Partial Class edtemplye
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.REMOVEEMPLOYEE)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "edtemplye"
         Me.Text = "Editemployee"
         Me.GroupBox1.ResumeLayout(False)

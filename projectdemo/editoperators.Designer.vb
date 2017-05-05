@@ -59,6 +59,7 @@ Partial Class editoperators
         '
         'btnRemove
         '
+        Me.btnRemove.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRemove.Location = New System.Drawing.Point(12, 145)
         Me.btnRemove.Name = "btnRemove"
         Me.btnRemove.Size = New System.Drawing.Size(105, 41)
@@ -68,15 +69,17 @@ Partial Class editoperators
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(12, 248)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(105, 38)
+        Me.Button2.Size = New System.Drawing.Size(105, 47)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Update Operator"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Buttonback
         '
+        Me.Buttonback.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Buttonback.Location = New System.Drawing.Point(12, 345)
         Me.Buttonback.Name = "Buttonback"
         Me.Buttonback.Size = New System.Drawing.Size(105, 38)
@@ -99,6 +102,7 @@ Partial Class editoperators
         '
         'extbutton
         '
+        Me.extbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.extbutton.Location = New System.Drawing.Point(163, 110)
         Me.extbutton.Name = "extbutton"
         Me.extbutton.Size = New System.Drawing.Size(100, 43)
@@ -108,6 +112,7 @@ Partial Class editoperators
         '
         'btndlt
         '
+        Me.btndlt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndlt.Location = New System.Drawing.Point(16, 110)
         Me.btndlt.Name = "btndlt"
         Me.btndlt.Size = New System.Drawing.Size(98, 43)
@@ -134,6 +139,7 @@ Partial Class editoperators
         '
         'btnsve
         '
+        Me.btnsve.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnsve.Location = New System.Drawing.Point(396, 456)
         Me.btnsve.Name = "btnsve"
         Me.btnsve.Size = New System.Drawing.Size(87, 36)
@@ -240,6 +246,7 @@ Partial Class editoperators
         '
         'extbttn
         '
+        Me.extbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.extbttn.Location = New System.Drawing.Point(544, 456)
         Me.extbttn.Name = "extbttn"
         Me.extbttn.Size = New System.Drawing.Size(83, 36)
@@ -373,6 +380,7 @@ Partial Class editoperators
         Me.Controls.Add(Me.Buttonback)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnRemove)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "editoperators"
         Me.Text = "Editoperator"
         Me.GroupBox1.ResumeLayout(False)

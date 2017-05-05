@@ -99,7 +99,7 @@ Partial Class H_R
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label1.Font = New System.Drawing.Font("Lucida Sans Typewriter", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(1206, 505)
+        Me.Label1.Location = New System.Drawing.Point(1219, 545)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(76, 22)
         Me.Label1.TabIndex = 9
@@ -112,13 +112,14 @@ Partial Class H_R
         Me.BackColor = System.Drawing.Color.PaleTurquoise
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1223, 733)
+        Me.ClientSize = New System.Drawing.Size(1319, 733)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.reset)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.view_expense)
         Me.Controls.Add(Me.Emp_details)
         Me.Controls.Add(Me.Add_operator)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "H_R"
         Me.Text = "Welcome HR"
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
