@@ -44,18 +44,30 @@ Public Class l_o_a_n_page
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
-        If (RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False) Then
-            MsgBox("Please select a Range", vbCritical, "Loan error")
-        End If
-        If (RadioButton1.Checked = True) Then
-            TextBox6.Text = Val(TextBox5.Text) / 6
-        ElseIf (RadioButton2.Checked = True) Then
-            TextBox6.Text = Val(TextBox5.Text) / 12
-        ElseIf (RadioButton3.Checked = True) Then
-            TextBox6.Text = Val(TextBox5.Text) / 24
-        ElseIf (RadioButton4.Checked = True) Then
-            TextBox6.Text = Val(TextBox5.Text) / 36
+        If (TextBox4.Text = "") Then
+            MsgBox("Please Enter an amount", vbInformation, "Loan Page")
+
+        ElseIf (Val(TextBox4.Text) > 200000) Then
+            MsgBox("Maximum Loan Amount is 2 lacks", vbInformation, "loan")
+            TextBox4.Clear()
+        ElseIf ((Val(TextBox4.Text) < 200000)) Then
+
+            If (RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False) Then
+                MsgBox("Please select a Range", vbCritical, "Loan error")
+            End If
+            If (RadioButton1.Checked = True) Then
+                TextBox6.Text = Val(TextBox5.Text) / 6
+                TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
+            ElseIf (RadioButton2.Checked = True) Then
+                TextBox6.Text = Val(TextBox5.Text) / 12
+                TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
+            ElseIf (RadioButton3.Checked = True) Then
+                TextBox6.Text = Val(TextBox5.Text) / 24
+                TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
+            ElseIf (RadioButton4.Checked = True) Then
+                TextBox6.Text = Val(TextBox5.Text) / 36
+                TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
+            End If
         End If
     End Sub
 
