@@ -140,8 +140,9 @@ Partial Class l_o_a_n_page
         'TextBox6
         '
         Me.TextBox6.Enabled = False
-        Me.TextBox6.Location = New System.Drawing.Point(125, 149)
+        Me.TextBox6.Location = New System.Drawing.Point(124, 149)
         Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(137, 20)
         Me.TextBox6.TabIndex = 22
         '
