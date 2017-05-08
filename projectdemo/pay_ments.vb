@@ -33,7 +33,6 @@ Public Class pay_ments
         Dim s As String
         s = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\DELL\Documents\vb_net.accdb"
         con.ConnectionString = s
-
         con.Open()
         Dim odc As New OleDbDataAdapter(New OleDbCommand("SELECT * FROM emp", con))
 
