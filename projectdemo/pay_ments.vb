@@ -4,6 +4,7 @@ Public Class pay_ments
     Dim myconnection As OleDbConnection = New OleDbConnection
     Dim con As New OleDbConnection
     Dim dt As New DataTable()
+    Dim dt1 As New DataTable()
     Private Sub CLEAR_Click(sender As Object, e As EventArgs) Handles CLEAR.Click
         ComboBox1.Text = " "
         EmployeeName.Text = " "
@@ -42,7 +43,12 @@ Public Class pay_ments
         Next
         con.Close()
         odc.Dispose()
-
+        con = New OleDbConnection(s)
+        odc = New OleDbDataAdapter(New OleDbCommand("SELECT * FROM loans", con))
+        odc.Fill(dt1)
+        odc.Dispose()
+        con.Close()
+        ComboBox1.Focus()
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -53,6 +59,12 @@ Public Class pay_ments
                 branh.Text = dr(2)
                 TextBox1.Text = dr(4)
                 Basicamt.Text = dr(10)
+            End If
+        Next
+        For Each dr As DataRow In dt1.Rows
+            If dr(0) = ComboBox1.Text Then
+                LOANamt.Text = dr(3)
+                LOANAdj.Text = dr(5)
             End If
         Next
     End Sub
