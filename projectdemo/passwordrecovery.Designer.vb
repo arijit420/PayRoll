@@ -37,11 +37,11 @@ Partial Class passwordrecovery
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(781, 259)
+        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(72, 490)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(184, 20)
+        Me.Label1.Size = New System.Drawing.Size(216, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter your User name"
         '
@@ -49,18 +49,19 @@ Partial Class passwordrecovery
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(782, 353)
+        Me.Label2.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label2.Location = New System.Drawing.Point(72, 609)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(135, 20)
+        Me.Label2.Size = New System.Drawing.Size(204, 24)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Enter Password"
+        Me.Label2.Text = "Enter New Password"
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(999, 262)
+        Me.TextBox1.Location = New System.Drawing.Point(294, 490)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(152, 26)
         Me.TextBox1.TabIndex = 2
@@ -68,14 +69,14 @@ Partial Class passwordrecovery
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(999, 351)
+        Me.TextBox2.Location = New System.Drawing.Point(294, 607)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(152, 26)
         Me.TextBox2.TabIndex = 2
         '
         'btnupdate
         '
-        Me.btnupdate.Location = New System.Drawing.Point(841, 434)
+        Me.btnupdate.Location = New System.Drawing.Point(415, 682)
         Me.btnupdate.Name = "btnupdate"
         Me.btnupdate.Size = New System.Drawing.Size(83, 29)
         Me.btnupdate.TabIndex = 3
@@ -84,7 +85,7 @@ Partial Class passwordrecovery
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(991, 434)
+        Me.Button2.Location = New System.Drawing.Point(538, 682)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(83, 29)
         Me.Button2.TabIndex = 3
@@ -95,11 +96,11 @@ Partial Class passwordrecovery
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(782, 305)
+        Me.Label4.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label4.Location = New System.Drawing.Point(72, 547)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 20)
+        Me.Label4.Size = New System.Drawing.Size(80, 24)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Branch"
         '
@@ -108,7 +109,7 @@ Partial Class passwordrecovery
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Kolkata", "Delhi", "Mumbai", "Hyderabad"})
-        Me.ComboBox1.Location = New System.Drawing.Point(999, 307)
+        Me.ComboBox1.Location = New System.Drawing.Point(294, 543)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(152, 28)
         Me.ComboBox1.TabIndex = 5
@@ -119,7 +120,7 @@ Partial Class passwordrecovery
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1277, 548)
+        Me.ClientSize = New System.Drawing.Size(1326, 718)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button2)
