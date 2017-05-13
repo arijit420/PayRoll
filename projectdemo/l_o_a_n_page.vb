@@ -40,7 +40,12 @@ Public Class l_o_a_n_page
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        GroupBox1.Visible = True
+        If (ComboBox1.Text = "") Then
+            MsgBox("Please select Employee Id", vbInformation, "Loan Error")
+        Else
+            GroupBox1.Visible = True
+
+        End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
