@@ -72,36 +72,39 @@ Partial Class pay_ments
         '
         'EmployeeName
         '
-        Me.EmployeeName.Location = New System.Drawing.Point(621, 222)
+        Me.EmployeeName.Location = New System.Drawing.Point(659, 222)
         Me.EmployeeName.Name = "EmployeeName"
         Me.EmployeeName.Size = New System.Drawing.Size(128, 20)
         Me.EmployeeName.TabIndex = 1
         '
         'MblNo
         '
-        Me.MblNo.Location = New System.Drawing.Point(621, 255)
+        Me.MblNo.Location = New System.Drawing.Point(659, 255)
         Me.MblNo.Name = "MblNo"
         Me.MblNo.Size = New System.Drawing.Size(128, 20)
         Me.MblNo.TabIndex = 2
         '
         'OverTime
         '
-        Me.OverTime.Location = New System.Drawing.Point(621, 325)
+        Me.OverTime.Location = New System.Drawing.Point(659, 325)
         Me.OverTime.Name = "OverTime"
         Me.OverTime.Size = New System.Drawing.Size(128, 20)
         Me.OverTime.TabIndex = 5
         '
         'OverTimeRate
         '
-        Me.OverTimeRate.Location = New System.Drawing.Point(621, 366)
+        Me.OverTimeRate.Enabled = False
+        Me.OverTimeRate.Location = New System.Drawing.Point(659, 366)
         Me.OverTimeRate.Name = "OverTimeRate"
+        Me.OverTimeRate.ReadOnly = True
         Me.OverTimeRate.Size = New System.Drawing.Size(128, 20)
         Me.OverTimeRate.TabIndex = 6
+        Me.OverTimeRate.Text = "20"
         '
         'LOANamt
         '
         Me.LOANamt.Enabled = False
-        Me.LOANamt.Location = New System.Drawing.Point(621, 408)
+        Me.LOANamt.Location = New System.Drawing.Point(659, 408)
         Me.LOANamt.Name = "LOANamt"
         Me.LOANamt.Size = New System.Drawing.Size(128, 20)
         Me.LOANamt.TabIndex = 8
@@ -180,7 +183,7 @@ Partial Class pay_ments
         'LOANAdj
         '
         Me.LOANAdj.Enabled = False
-        Me.LOANAdj.Location = New System.Drawing.Point(621, 444)
+        Me.LOANAdj.Location = New System.Drawing.Point(659, 444)
         Me.LOANAdj.Name = "LOANAdj"
         Me.LOANAdj.Size = New System.Drawing.Size(128, 20)
         Me.LOANAdj.TabIndex = 18
@@ -189,9 +192,10 @@ Partial Class pay_ments
         '
         Me.employeeidd.AutoSize = True
         Me.employeeidd.BackColor = System.Drawing.Color.Transparent
-        Me.employeeidd.Location = New System.Drawing.Point(497, 151)
+        Me.employeeidd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.employeeidd.Location = New System.Drawing.Point(497, 152)
         Me.employeeidd.Name = "employeeidd"
-        Me.employeeidd.Size = New System.Drawing.Size(67, 13)
+        Me.employeeidd.Size = New System.Drawing.Size(97, 16)
         Me.employeeidd.TabIndex = 19
         Me.employeeidd.Text = "Employee ID"
         '
@@ -199,9 +203,10 @@ Partial Class pay_ments
         '
         Me.employeenamee.AutoSize = True
         Me.employeenamee.BackColor = System.Drawing.Color.Transparent
+        Me.employeenamee.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.employeenamee.Location = New System.Drawing.Point(497, 224)
         Me.employeenamee.Name = "employeenamee"
-        Me.employeenamee.Size = New System.Drawing.Size(84, 13)
+        Me.employeenamee.Size = New System.Drawing.Size(123, 16)
         Me.employeenamee.TabIndex = 20
         Me.employeenamee.Text = "Employee Name"
         '
@@ -209,19 +214,21 @@ Partial Class pay_ments
         '
         Me.mblnoo.AutoSize = True
         Me.mblnoo.BackColor = System.Drawing.Color.Transparent
+        Me.mblnoo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mblnoo.Location = New System.Drawing.Point(497, 258)
         Me.mblnoo.Name = "mblnoo"
-        Me.mblnoo.Size = New System.Drawing.Size(41, 13)
+        Me.mblnoo.Size = New System.Drawing.Size(84, 16)
         Me.mblnoo.TabIndex = 21
-        Me.mblnoo.Text = "Mbl No"
+        Me.mblnoo.Text = "Contact No"
         '
         'designationn
         '
         Me.designationn.AutoSize = True
         Me.designationn.BackColor = System.Drawing.Color.Transparent
+        Me.designationn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.designationn.Location = New System.Drawing.Point(497, 290)
         Me.designationn.Name = "designationn"
-        Me.designationn.Size = New System.Drawing.Size(63, 13)
+        Me.designationn.Size = New System.Drawing.Size(91, 16)
         Me.designationn.TabIndex = 22
         Me.designationn.Text = "Designation"
         '
@@ -229,9 +236,10 @@ Partial Class pay_ments
         '
         Me.overtimee.AutoSize = True
         Me.overtimee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimee.Location = New System.Drawing.Point(497, 325)
+        Me.overtimee.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.overtimee.Location = New System.Drawing.Point(497, 328)
         Me.overtimee.Name = "overtimee"
-        Me.overtimee.Size = New System.Drawing.Size(84, 13)
+        Me.overtimee.Size = New System.Drawing.Size(118, 16)
         Me.overtimee.TabIndex = 24
         Me.overtimee.Text = "Over Time/Hour"
         '
@@ -239,9 +247,10 @@ Partial Class pay_ments
         '
         Me.overtimeratee.AutoSize = True
         Me.overtimeratee.BackColor = System.Drawing.Color.Transparent
-        Me.overtimeratee.Location = New System.Drawing.Point(497, 373)
+        Me.overtimeratee.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.overtimeratee.Location = New System.Drawing.Point(497, 369)
         Me.overtimeratee.Name = "overtimeratee"
-        Me.overtimeratee.Size = New System.Drawing.Size(110, 13)
+        Me.overtimeratee.Size = New System.Drawing.Size(155, 16)
         Me.overtimeratee.TabIndex = 25
         Me.overtimeratee.Text = "Over Time Rate/Hour"
         '
@@ -249,19 +258,21 @@ Partial Class pay_ments
         '
         Me.loanamtt.AutoSize = True
         Me.loanamtt.BackColor = System.Drawing.Color.Transparent
+        Me.loanamtt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.loanamtt.Location = New System.Drawing.Point(497, 408)
         Me.loanamtt.Name = "loanamtt"
-        Me.loanamtt.Size = New System.Drawing.Size(78, 13)
+        Me.loanamtt.Size = New System.Drawing.Size(97, 16)
         Me.loanamtt.TabIndex = 27
-        Me.loanamtt.Text = "LOAN  Amount"
+        Me.loanamtt.Text = "Loan Amount"
         '
         'basicamtt
         '
         Me.basicamtt.AutoSize = True
         Me.basicamtt.BackColor = System.Drawing.Color.Transparent
-        Me.basicamtt.Location = New System.Drawing.Point(909, 150)
+        Me.basicamtt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.basicamtt.Location = New System.Drawing.Point(907, 145)
         Me.basicamtt.Name = "basicamtt"
-        Me.basicamtt.Size = New System.Drawing.Size(72, 13)
+        Me.basicamtt.Size = New System.Drawing.Size(102, 16)
         Me.basicamtt.TabIndex = 28
         Me.basicamtt.Text = "Basic Amount"
         '
@@ -269,9 +280,10 @@ Partial Class pay_ments
         '
         Me.daa.AutoSize = True
         Me.daa.BackColor = System.Drawing.Color.Transparent
+        Me.daa.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.daa.Location = New System.Drawing.Point(909, 186)
         Me.daa.Name = "daa"
-        Me.daa.Size = New System.Drawing.Size(22, 13)
+        Me.daa.Size = New System.Drawing.Size(29, 16)
         Me.daa.TabIndex = 29
         Me.daa.Text = "DA"
         '
@@ -279,9 +291,10 @@ Partial Class pay_ments
         '
         Me.hraa.AutoSize = True
         Me.hraa.BackColor = System.Drawing.Color.Transparent
+        Me.hraa.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hraa.Location = New System.Drawing.Point(909, 223)
         Me.hraa.Name = "hraa"
-        Me.hraa.Size = New System.Drawing.Size(30, 13)
+        Me.hraa.Size = New System.Drawing.Size(40, 16)
         Me.hraa.TabIndex = 30
         Me.hraa.Text = "HRA"
         '
@@ -289,9 +302,10 @@ Partial Class pay_ments
         '
         Me.medicall.AutoSize = True
         Me.medicall.BackColor = System.Drawing.Color.Transparent
+        Me.medicall.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.medicall.Location = New System.Drawing.Point(909, 257)
         Me.medicall.Name = "medicall"
-        Me.medicall.Size = New System.Drawing.Size(54, 13)
+        Me.medicall.Size = New System.Drawing.Size(73, 16)
         Me.medicall.TabIndex = 31
         Me.medicall.Text = "MEDICAL"
         '
@@ -299,9 +313,10 @@ Partial Class pay_ments
         '
         Me.ltaa.AutoSize = True
         Me.ltaa.BackColor = System.Drawing.Color.Transparent
+        Me.ltaa.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ltaa.Location = New System.Drawing.Point(909, 293)
         Me.ltaa.Name = "ltaa"
-        Me.ltaa.Size = New System.Drawing.Size(27, 13)
+        Me.ltaa.Size = New System.Drawing.Size(36, 16)
         Me.ltaa.TabIndex = 32
         Me.ltaa.Text = "LTA"
         '
@@ -309,9 +324,10 @@ Partial Class pay_ments
         '
         Me.esii.AutoSize = True
         Me.esii.BackColor = System.Drawing.Color.Transparent
+        Me.esii.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.esii.Location = New System.Drawing.Point(909, 331)
         Me.esii.Name = "esii"
-        Me.esii.Size = New System.Drawing.Size(24, 13)
+        Me.esii.Size = New System.Drawing.Size(32, 16)
         Me.esii.TabIndex = 33
         Me.esii.Text = "ESI"
         '
@@ -319,9 +335,10 @@ Partial Class pay_ments
         '
         Me.pff.AutoSize = True
         Me.pff.BackColor = System.Drawing.Color.Transparent
+        Me.pff.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pff.Location = New System.Drawing.Point(909, 372)
         Me.pff.Name = "pff"
-        Me.pff.Size = New System.Drawing.Size(20, 13)
+        Me.pff.Size = New System.Drawing.Size(27, 16)
         Me.pff.TabIndex = 34
         Me.pff.Text = "PF"
         '
@@ -329,9 +346,10 @@ Partial Class pay_ments
         '
         Me.deductsalaryy.AutoSize = True
         Me.deductsalaryy.BackColor = System.Drawing.Color.Transparent
+        Me.deductsalaryy.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.deductsalaryy.Location = New System.Drawing.Point(909, 413)
         Me.deductsalaryy.Name = "deductsalaryy"
-        Me.deductsalaryy.Size = New System.Drawing.Size(74, 13)
+        Me.deductsalaryy.Size = New System.Drawing.Size(106, 16)
         Me.deductsalaryy.TabIndex = 35
         Me.deductsalaryy.Text = "Deduct Salary"
         '
@@ -339,9 +357,10 @@ Partial Class pay_ments
         '
         Me.grossss.AutoSize = True
         Me.grossss.BackColor = System.Drawing.Color.Transparent
+        Me.grossss.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grossss.Location = New System.Drawing.Point(909, 457)
         Me.grossss.Name = "grossss"
-        Me.grossss.Size = New System.Drawing.Size(45, 13)
+        Me.grossss.Size = New System.Drawing.Size(61, 16)
         Me.grossss.TabIndex = 36
         Me.grossss.Text = "GROSS"
         '
@@ -349,19 +368,21 @@ Partial Class pay_ments
         '
         Me.loanadjj.AutoSize = True
         Me.loanadjj.BackColor = System.Drawing.Color.Transparent
+        Me.loanadjj.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.loanadjj.Location = New System.Drawing.Point(498, 450)
         Me.loanadjj.Name = "loanadjj"
-        Me.loanadjj.Size = New System.Drawing.Size(88, 13)
+        Me.loanadjj.Size = New System.Drawing.Size(116, 16)
         Me.loanadjj.TabIndex = 37
-        Me.loanadjj.Text = "LOAN Deduction"
+        Me.loanadjj.Text = "Loan Deduction"
         '
         'netpaymentt
         '
         Me.netpaymentt.AutoSize = True
         Me.netpaymentt.BackColor = System.Drawing.Color.Transparent
-        Me.netpaymentt.Location = New System.Drawing.Point(715, 553)
+        Me.netpaymentt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.netpaymentt.Location = New System.Drawing.Point(711, 549)
         Me.netpaymentt.Name = "netpaymentt"
-        Me.netpaymentt.Size = New System.Drawing.Size(84, 13)
+        Me.netpaymentt.Size = New System.Drawing.Size(116, 16)
         Me.netpaymentt.TabIndex = 38
         Me.netpaymentt.Text = "NET PAYMENT"
         '
@@ -446,7 +467,7 @@ Partial Class pay_ments
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(621, 150)
+        Me.ComboBox1.Location = New System.Drawing.Point(659, 150)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(128, 21)
         Me.ComboBox1.TabIndex = 49
@@ -455,23 +476,23 @@ Partial Class pay_ments
         '
         Me.branch.AutoSize = True
         Me.branch.BackColor = System.Drawing.Color.Transparent
-        Me.branch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.branch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.branch.Location = New System.Drawing.Point(497, 185)
         Me.branch.Name = "branch"
-        Me.branch.Size = New System.Drawing.Size(46, 15)
+        Me.branch.Size = New System.Drawing.Size(56, 16)
         Me.branch.TabIndex = 51
         Me.branch.Text = "Branch"
         '
         'branh
         '
-        Me.branh.Location = New System.Drawing.Point(621, 185)
+        Me.branh.Location = New System.Drawing.Point(659, 185)
         Me.branh.Name = "branh"
         Me.branh.Size = New System.Drawing.Size(128, 20)
         Me.branh.TabIndex = 52
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(620, 287)
+        Me.TextBox1.Location = New System.Drawing.Point(658, 287)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(129, 20)
         Me.TextBox1.TabIndex = 53

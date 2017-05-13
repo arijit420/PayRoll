@@ -122,7 +122,7 @@ Public Class pay_ments
         LTA.Text = (Val(Basicamt.Text) - Val(DA.Text) - Val(HRA.Text)) * (35 / 100)
         GROSS.Text = Val(Basicamt.Text) + Val(DA.Text) + Val(HRA.Text) + Val(ESI.Text) + Val(PF.Text) + Val(MEDICAL.Text)
 
-        NETPAYMENT.Text = (Val(GROSS.Text) - Val(DeductSalary.Text) - Val(LOANAdj.Text))
+        NETPAYMENT.Text = (Val(GROSS.Text) - Val(DeductSalary.Text) - Val(LOANAdj.Text) + (Val(OverTime) * Val(OverTimeRate)))
 
     End Sub
     Public Sub AutoNumber_Check(TableName As String, connectionString As String)
