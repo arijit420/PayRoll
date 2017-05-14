@@ -44,10 +44,10 @@ Partial Class emplye
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -201,6 +201,7 @@ Partial Class emplye
         Me.TextBox8.Enabled = False
         Me.TextBox8.Location = New System.Drawing.Point(204, 467)
         Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
         Me.TextBox8.Size = New System.Drawing.Size(43, 20)
         Me.TextBox8.TabIndex = 17
         Me.TextBox8.Text = "+91"
@@ -262,13 +263,6 @@ Partial Class emplye
         Me.ComboBox4.Size = New System.Drawing.Size(178, 21)
         Me.ComboBox4.TabIndex = 24
         '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(254, 467)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(128, 20)
-        Me.TextBox2.TabIndex = 25
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -300,6 +294,14 @@ Partial Class emplye
         Me.Label11.TabIndex = 29
         Me.Label11.Text = "Employee Details"
         '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(253, 468)
+        Me.MaskedTextBox1.Mask = "9990000000"
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(129, 20)
+        Me.MaskedTextBox1.TabIndex = 30
+        '
         'emplye
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -307,10 +309,10 @@ Partial Class emplye
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1219, 681)
+        Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.ComboBox2)
@@ -361,8 +363,8 @@ Partial Class emplye
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label11 As Label
+    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class

@@ -53,10 +53,10 @@ Partial Class edtemplye
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PREV = New System.Windows.Forms.Button()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -135,6 +135,7 @@ Partial Class edtemplye
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.MaskedTextBox1)
         Me.GroupBox2.Controls.Add(Me.TextBox3)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Controls.Add(Me.Idbox)
@@ -157,7 +158,6 @@ Partial Class edtemplye
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Controls.Add(Me.TextBox7)
         Me.GroupBox2.Controls.Add(Me.TextBox6)
-        Me.GroupBox2.Controls.Add(Me.TextBox5)
         Me.GroupBox2.Controls.Add(Me.TextBox4)
         Me.GroupBox2.Controls.Add(Me.TextBox2)
         Me.GroupBox2.Location = New System.Drawing.Point(479, 3)
@@ -235,6 +235,7 @@ Partial Class edtemplye
         Me.TextBox8.Enabled = False
         Me.TextBox8.Location = New System.Drawing.Point(148, 345)
         Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
         Me.TextBox8.Size = New System.Drawing.Size(38, 20)
         Me.TextBox8.TabIndex = 18
         Me.TextBox8.Text = "+91"
@@ -370,13 +371,6 @@ Partial Class edtemplye
         Me.TextBox6.Size = New System.Drawing.Size(153, 20)
         Me.TextBox6.TabIndex = 4
         '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(188, 345)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(131, 20)
-        Me.TextBox5.TabIndex = 3
-        '
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(149, 245)
@@ -401,6 +395,14 @@ Partial Class edtemplye
         Me.PREV.TabIndex = 4
         Me.PREV.Text = "Back"
         Me.PREV.UseVisualStyleBackColor = True
+        '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(189, 345)
+        Me.MaskedTextBox1.Mask = "9990000000"
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(112, 20)
+        Me.MaskedTextBox1.TabIndex = 26
         '
         'edtemplye
         '
@@ -444,7 +446,6 @@ Partial Class edtemplye
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents BACK2 As Button
@@ -459,4 +460,5 @@ Partial Class edtemplye
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class

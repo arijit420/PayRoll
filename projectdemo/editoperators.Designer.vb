@@ -34,7 +34,6 @@ Partial Class editoperators
         Me.btnsve = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -53,6 +52,7 @@ Partial Class editoperators
         Me.Label4 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -150,8 +150,8 @@ Partial Class editoperators
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.MaskedTextBox1)
         Me.GroupBox2.Controls.Add(Me.TextBox9)
-        Me.GroupBox2.Controls.Add(Me.TextBox10)
         Me.GroupBox2.Controls.Add(Me.TextBox8)
         Me.GroupBox2.Controls.Add(Me.TextBox7)
         Me.GroupBox2.Controls.Add(Me.TextBox6)
@@ -183,13 +183,6 @@ Partial Class editoperators
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(181, 20)
         Me.TextBox9.TabIndex = 21
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(221, 348)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(143, 20)
-        Me.TextBox10.TabIndex = 21
         '
         'TextBox8
         '
@@ -368,6 +361,13 @@ Partial Class editoperators
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Operator Id"
         '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(215, 348)
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(149, 20)
+        Me.MaskedTextBox1.TabIndex = 22
+        '
         'editoperators
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -413,7 +413,6 @@ Partial Class editoperators
     Friend WithEvents extbttn As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents TextBox6 As TextBox
@@ -421,4 +420,5 @@ Partial Class editoperators
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class

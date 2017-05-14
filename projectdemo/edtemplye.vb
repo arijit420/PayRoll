@@ -56,7 +56,7 @@ Public Class edtemplye
         myconnection.ConnectionString = connstring
         myconnection.Open()
         Dim str As String
-        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualif]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & TextBox5.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "',[Basic]='" & TextBox3.Text & "' where [ID]= " & Idbox.Text & ""
+        str = "Update [emp] set [empname]='" & TextBox2.Text & "',[branch]='" & ComboBox4.Text & "',[qualif]='" & ComboBox1.Text & "',[desig]='" & ComboBox2.Text & "',[gender]='" & ComboBox3.Text & "',[city]='" & TextBox6.Text & "',[ph]='" & MaskedTextBox1.Text & "',[mail]='" & TextBox7.Text & "',[add]='" & TextBox4.Text & "',[Basic]='" & TextBox3.Text & "' where [ID]= " & Idbox.Text & ""
         Dim cmd As OleDbCommand = New OleDbCommand(str, myconnection)
         MsgBox("Record Updated", vbInformation, "Upadate Successfull")
         Try
@@ -67,7 +67,7 @@ Public Class edtemplye
             TextBox1.Clear()
             TextBox2.Clear()
             TextBox3.Clear()
-            TextBox5.Clear()
+            MaskedTextBox1.Clear()
             TextBox6.Clear()
             TextBox4.Clear()
             ComboBox4.Text = ""
@@ -89,7 +89,7 @@ Public Class edtemplye
                 ComboBox2.Text = dr(4)
                 ComboBox3.Text = dr(5)
                 TextBox6.Text = dr(6)
-                TextBox5.Text = dr(7)
+                MaskedTextBox1.Text = dr(7)
                 TextBox7.Text = dr(8)
                 TextBox4.Text = dr(9)
                 TextBox3.Text = dr(10)

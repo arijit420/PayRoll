@@ -37,7 +37,6 @@ Partial Class Form3
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -48,6 +47,7 @@ Partial Class Form3
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -81,7 +81,7 @@ Partial Class Form3
         Me.ComboBox1.Items.AddRange(New Object() {"kolkata", "Delhi", "Mumbai", "Chennai", "Hyderabad"})
         Me.ComboBox1.Location = New System.Drawing.Point(267, 141)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(120, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(180, 21)
         Me.ComboBox1.TabIndex = 4
         '
         'Label4
@@ -100,7 +100,7 @@ Partial Class Form3
         '
         Me.TextBox2.Location = New System.Drawing.Point(267, 84)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(120, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(180, 20)
         Me.TextBox2.TabIndex = 6
         '
         'Label5
@@ -121,7 +121,7 @@ Partial Class Form3
         Me.ComboBox2.Items.AddRange(New Object() {"10 pass", "12 pass", "Graduate", "Post graduate", "Others"})
         Me.ComboBox2.Location = New System.Drawing.Point(267, 199)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(120, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(180, 21)
         Me.ComboBox2.TabIndex = 8
         '
         'Label6
@@ -172,7 +172,7 @@ Partial Class Form3
         '
         Me.TextBox4.Location = New System.Drawing.Point(266, 420)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(121, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(181, 20)
         Me.TextBox4.TabIndex = 15
         '
         'Label9
@@ -190,19 +190,12 @@ Partial Class Form3
         'TextBox5
         '
         Me.TextBox5.Enabled = False
-        Me.TextBox5.Location = New System.Drawing.Point(203, 479)
+        Me.TextBox5.Location = New System.Drawing.Point(267, 479)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(48, 20)
         Me.TextBox5.TabIndex = 17
         Me.TextBox5.Text = "+91"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(266, 479)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox6.TabIndex = 18
         '
         'Label10
         '
@@ -264,7 +257,7 @@ Partial Class Form3
         Me.ComboBox3.Items.AddRange(New Object() {"Male", "Female", "Trans"})
         Me.ComboBox3.Location = New System.Drawing.Point(266, 264)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(181, 21)
         Me.ComboBox3.TabIndex = 26
         '
         'PictureBox1
@@ -290,6 +283,14 @@ Partial Class Form3
         Me.Label2.TabIndex = 28
         Me.Label2.Text = "Browse Image"
         '
+        'MaskedTextBox1
+        '
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(322, 480)
+        Me.MaskedTextBox1.Mask = "9990000000"
+        Me.MaskedTextBox1.Name = "MaskedTextBox1"
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(125, 20)
+        Me.MaskedTextBox1.TabIndex = 29
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -298,6 +299,7 @@ Partial Class Form3
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1072, 570)
+        Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ComboBox3)
@@ -306,7 +308,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.TextBox4)
@@ -344,7 +345,6 @@ Partial Class Form3
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Button1 As Button
@@ -355,4 +355,5 @@ Partial Class Form3
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents MaskedTextBox1 As MaskedTextBox
 End Class

@@ -42,19 +42,18 @@ Public Class Form3
         cmd.Parameters.Add(New OleDbParameter("gender", CType(ComboBox3.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("address", CType(TextBox3.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("city", CType(TextBox4.Text, String)))
-        cmd.Parameters.Add(New OleDbParameter("phone ", CType(TextBox6.Text, String)))
+        cmd.Parameters.Add(New OleDbParameter("phone ", CType(MaskedTextBox1.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("email", CType(TextBox7.Text, String)))
         MsgBox("Record added", vbInformation, "Operator Added")
         Refresh()
         Try
             cmd.ExecuteNonQuery()
             cmd.Dispose()
-
             myconnection.Close()
             TextBox2.Clear()
             TextBox3.Clear()
             TextBox4.Clear()
-            TextBox6.Clear()
+            MaskedTextBox1.Clear()
             TextBox7.Clear()
             ComboBox1.Text = ""
             ComboBox2.Text = ""
@@ -74,7 +73,7 @@ Public Class Form3
         TextBox2.Clear()
         TextBox3.Clear()
         TextBox4.Clear()
-        TextBox6.Clear()
+        MaskedTextBox1.Clear()
         TextBox7.Clear()
         ComboBox1.Text = ""
         ComboBox2.Text = ""

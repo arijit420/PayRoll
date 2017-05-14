@@ -25,9 +25,8 @@ Public Class l_o_a_n_page
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Hide()
         wlcmopearor.Show()
-
+        Me.Hide()
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -59,8 +58,8 @@ Public Class l_o_a_n_page
 
             If (RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False) Then
                 MsgBox("Please select a Range", vbCritical, "Loan error")
-            End If
-            If (RadioButton1.Checked = True) Then
+
+            ElseIf (RadioButton1.Checked = True) Then
                 TextBox6.Text = Val(TextBox5.Text) / 6
                 TextBox5.Text = Val(TextBox4.Text) + (Val(TextBox4.Text) * (Val(TextBox3.Text) / 100))
             ElseIf (RadioButton2.Checked = True) Then

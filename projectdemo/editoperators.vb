@@ -44,8 +44,8 @@ Public Class editoperators
     End Sub
 
     Private Sub Buttonback_Click(sender As Object, e As EventArgs) Handles Buttonback.Click
-        Me.Hide()
         H_R.Show()
+        Me.Hide()
     End Sub
 
     Private Sub btndlt_Click(sender As Object, e As EventArgs) Handles btndlt.Click
@@ -65,7 +65,7 @@ Public Class editoperators
         For Each dr As DataRow In dt.Rows
             If dr(0) = ComboBox1.Text Then
                 TextBox2.Text = dr(1)
-                TextBox10.Text = dr(7)
+                MaskedTextBox1.Text = dr(7)
                 TextBox6.Text = dr(5)
                 TextBox5.Text = dr(4)
                 TextBox7.Text = dr(6)
@@ -83,7 +83,7 @@ Public Class editoperators
         myconnection.ConnectionString = connstring
         myconnection.Open()
         Dim str As String
-        str = "Update [operator] set [empname]='" & TextBox2.Text & "',[branch]='" & TextBox3.Text & "',[qualification]='" & TextBox4.Text & "',[gender]='" & TextBox5.Text & "',[address]='" & TextBox6.Text & "',[city]='" & TextBox7.Text & "',[phone]='" & TextBox10.Text & "',[email]='" & TextBox9.Text & "' where [ID]= " & ComboBox1.Text & ""
+        str = "Update [operator] set [empname]='" & TextBox2.Text & "',[branch]='" & TextBox3.Text & "',[qualification]='" & TextBox4.Text & "',[gender]='" & TextBox5.Text & "',[address]='" & TextBox6.Text & "',[city]='" & TextBox7.Text & "',[phone]='" & MaskedTextBox1.Text & "',[email]='" & TextBox9.Text & "' where [ID]= " & ComboBox1.Text & ""
         Dim cmd As OleDbCommand = New OleDbCommand(str, myconnection)
         MsgBox("Record Updated", vbInformation, "Upadate Successfull")
         Try
@@ -97,7 +97,7 @@ Public Class editoperators
             TextBox5.Clear()
             TextBox6.Clear()
             TextBox4.Clear()
-            TextBox10.Clear()
+            MaskedTextBox1.Clear()
             TextBox7.Clear()
             TextBox9.Clear()
         Catch ex As Exception

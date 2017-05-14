@@ -42,7 +42,7 @@ Public Class emplye
         cmd.Parameters.Add(New OleDbParameter("desig", CType(ComboBox1.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("gender", CType(ComboBox3.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("city", CType(TextBox5.Text, String)))
-        cmd.Parameters.Add(New OleDbParameter("ph ", CType(TextBox2.Text, String)))
+        cmd.Parameters.Add(New OleDbParameter("ph ", CType(MaskedTextBox1.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("mail", CType(TextBox7.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("add", CType(TextBox4.Text, String)))
         cmd.Parameters.Add(New OleDbParameter("Basic", CType(TextBox3.Text, String)))
@@ -52,7 +52,7 @@ Public Class emplye
             cmd.Dispose()
             myconnection.Close()
             TextBox1.Clear()
-            TextBox2.Clear()
+            MaskedTextBox1.Clear()
             TextBox3.Clear()
             TextBox5.Clear()
             TextBox4.Clear()
@@ -74,7 +74,7 @@ Public Class emplye
 
     Private Sub RESET_Click(sender As Object, e As EventArgs) Handles RESET.Click
         TextBox1.Clear()
-        TextBox2.Clear()
+        MaskedTextBox1.Clear()
         TextBox5.Clear()
         TextBox4.Clear()
         ComboBox4.Text = ""
